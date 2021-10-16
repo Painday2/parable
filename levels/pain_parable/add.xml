@@ -2290,10 +2290,969 @@
 		<unit path="units/world/architecture/apartment/door/apartment_door_04" unload="true"/>
 	</add>
 	<add from_db="true" path="units/world/props/office/computer/computer_monitor" type="unit">
-		<unit path="units/world/props/office/computer/computer_monitor" unload="true"/>
-		<object path="units/world/props/office/computer/computer_monitor" unload="true"/>
 		<material_config path="units/world/props/display/display" unload="true"/>
+		<object path="units/world/props/office/computer/computer_monitor" unload="true"/>
 		<sequence_manager path="units/world/props/office/computer/computer_monitor" unload="true"/>
+		<unit path="units/world/props/office/computer/computer_monitor" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_bedstand" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_set" unload="true"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_bedstand" unload="true"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_bedroom_set/mcm_prop_bedroom_bedstand" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_whole" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" type="unit">
+		<material_config path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+		<object path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+		<unit path="units/payday2/props/off_prop_appliance_computer/off_prop_appliance_computer" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_coffe_cup/flt_prop_coffe_cup" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green_potted" type="unit">
+		<material_config path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green" unload="true"/>
+		<object path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green_potted" unload="true"/>
+		<unit path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green_potted" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_clockradio/flt_prop_clockradio" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_clockradio/flt_prop_clockradio" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_clockradio/flt_prop_clockradio" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_clockradio/flt_prop_clockradio" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_clockradio/flt_prop_clockradio" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_kitchen_chair_d_worn_grime/res_prop_kitchen_chair_d_worn_grime" type="unit">
+		<material_config path="units/payday2/props/res_prop_kitchen_chair_d_worn_grime/res_prop_kitchen_chair_d_worn_grime" unload="true"/>
+		<object path="units/payday2/props/res_prop_kitchen_chair_d_worn_grime/res_prop_kitchen_chair_d_worn_grime" unload="true"/>
+		<unit path="units/payday2/props/res_prop_kitchen_chair_d_worn_grime/res_prop_kitchen_chair_d_worn_grime" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_short" type="unit">
+		<material_config path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_short" unload="true"/>
+		<object path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_short" unload="true"/>
+		<unit path="units/world/props/mansion/man_prop_int_carpets/man_prop_int_carpet_short" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal" unload="true"/>
+		<object path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal" unload="true"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_interiors/desk_metal" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_125cm" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_shelves" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_125cm" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_125cm" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_cardboard_box03/flt_prop_cardboard_box03" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_cardboard_box03/flt_prop_cardboard_box03" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_cardboard_box03/flt_prop_cardboard_box03" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_cardboard_box03/flt_prop_cardboard_box03" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/tv/tv_01" type="unit">
+		<material_config path="units/world/props/apartment/tv/tv_01" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/particles/dest/security_camera_dest" unload="true"/>
+		<object path="units/world/props/apartment/tv/tv_01" unload="true"/>
+		<sequence_manager path="units/world/props/apartment/tv/tv_01" unload="true"/>
+		<unit path="units/world/props/apartment/tv/tv_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_125cm_tall" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_shelves" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_125cm_tall" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_drawer_125cm_tall" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box" unload="true"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box" unload="true"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_wine_cardboard_box_open/cas_prop_wine_cardboard_box" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/apartment/door/apartment_door_02" type="unit">
+		<material_config path="units/world/architecture/apartment/door/apartment_door_02" unload="true"/>
+		<object path="units/world/architecture/apartment/door/apartment_door_02" unload="true"/>
+		<sequence_manager path="units/world/architecture/apartment/door/apartment_door_02" unload="true"/>
+		<unit path="units/world/architecture/apartment/door/apartment_door_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_kitchen_fridge_worn_clean/res_prop_kitchen_fridge_worn_clean" type="unit">
+		<material_config path="units/payday2/props/res_prop_kitchen_fridge_worn_clean/res_prop_kitchen_fridge_worn_clean" unload="true"/>
+		<object path="units/payday2/props/res_prop_kitchen_fridge_worn_clean/res_prop_kitchen_fridge_worn_clean" unload="true"/>
+		<unit path="units/payday2/props/res_prop_kitchen_fridge_worn_clean/res_prop_kitchen_fridge_worn_clean" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_02" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_02" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_02" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_02" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_apartment_door_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_props_residential_heaters_gas/flt_prop_residential_heaters_gas" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_props_residential_heaters_gas/flt_prop_residential_heaters_gas" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_props_residential_heaters_gas/flt_prop_residential_heaters_gas" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_props_residential_heaters_gas/flt_prop_residential_heaters_gas" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/residential/props_residential_carpet_02_1m" type="unit">
+		<material_config path="units/world/props/apartment/residential/props_residential_carpet_02" unload="true"/>
+		<object path="units/world/props/apartment/residential/props_residential_carpet_02_1m" unload="true"/>
+		<unit path="units/world/props/apartment/residential/props_residential_carpet_02_1m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/survivalist/carpets/rolled_rug" type="unit">
+		<material_config path="units/world/props/survivalist/carpets/carpet" unload="true"/>
+		<object path="units/world/props/survivalist/carpets/rolled_rug" unload="true"/>
+		<unit path="units/world/props/survivalist/carpets/rolled_rug" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up" type="unit">
+		<material_config path="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up" unload="true"/>
+		<object path="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up" unload="true"/>
+		<unit path="units/world/props/gym/stn_prop_blinds/stn_prop_blinds_window_up" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_curtain/flt_prop_apartment_curtain" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_curtain/flt_prop_apartment_curtain" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_curtain/flt_prop_apartment_curtain" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_curtain/flt_prop_apartment_curtain" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/res_prop_kitchen_stove_worn_clean/res_prop_kitchen_stove_worn_clean" type="unit">
+		<material_config path="units/payday2/props/res_prop_kitchen_stove_worn_clean/res_prop_kitchen_stove_worn_clean" unload="true"/>
+		<object path="units/payday2/props/res_prop_kitchen_stove_worn_clean/res_prop_kitchen_stove_worn_clean" unload="true"/>
+		<unit path="units/payday2/props/res_prop_kitchen_stove_worn_clean/res_prop_kitchen_stove_worn_clean" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" type="unit">
+		<material_config path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_large" unload="true"/>
+		<object path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" unload="true"/>
+		<unit path="units/pd2_dlc_flat/architecture/flt_ext_apartment_exterior/flt_ext_apartment_window" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_04" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_04" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_04" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_04" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_02" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_02" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_02" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_counter_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_halfsink" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_halfsink" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_halfsink" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_halfsink" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_2" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all" unload="true"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_2" unload="true"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_shelf_wall_single/flt_prop_shelf_wall_single_2m" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_shelf_wall_single/flt_prop_shelf_wall_single_2m" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_shelf_wall_single/flt_prop_shelf_wall_single_2m" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_shelf_wall_single/flt_prop_shelf_wall_single_2m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_cyan" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all" unload="true"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_cyan" unload="true"/>
+		<sequence_manager path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all" unload="true"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_cyan" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_plate_large/flt_prop_plate_large" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_plate_large/flt_prop_plate_large" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_plate_large/flt_prop_plate_large" unload="true"/>
+		<physic_effect path="physic_effects/push_sphere" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_plate_large/flt_prop_plate_large" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_plate_large/flt_prop_plate_large" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_1" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all" unload="true"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_1" unload="true"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_04" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_04" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_04" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_04" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_01" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_01" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_01" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_assets/flt_prop_apartment_kitchen_cupbord_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_hallway_lamp/flt_prop_apartment_hallway_lamp" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_hallway_lamp/flt_prop_apartment_hallway_lamp" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_hallway_lamp/flt_prop_apartment_hallway_lamp" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_hallway_lamp/flt_prop_apartment_hallway_lamp" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_fan/flt_prop_apartment_kitchen_fan" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_fan/flt_prop_apartment_kitchen_fan" unload="true"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_fan/flt_prop_apartment_kitchen_fan" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_kitchen_fan/flt_prop_apartment_kitchen_fan" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_club_kitchen/com_prop_club_kitchen_egg_box" type="unit">
+		<material_config path="units/payday2/props/com_prop_club_kitchen/com_prop_club_kitchen_egg_box" unload="true"/>
+		<object path="units/payday2/props/com_prop_club_kitchen/com_prop_club_kitchen_egg_box" unload="true"/>
+		<unit path="units/payday2/props/com_prop_club_kitchen/com_prop_club_kitchen_egg_box" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_4" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_all" unload="true"/>
+		<object path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_4" unload="true"/>
+		<unit path="units/payday2/props/air_prop_office_binder/air_prop_office_binder_pack_4" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor2" type="unit">
+		<material_config path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_interior" unload="true"/>
+		<object path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor2" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor2" unload="true"/>
+		<unit path="units/pd2_dlc_flat/architecture/flt_int_apartment_interior/flt_apartment_floor2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor" type="unit">
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor" unload="true"/>
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor" unload="true"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/computer/computer_mouse" type="unit">
+		<material_config path="units/world/props/office/computer/computer_keyboard" unload="true"/>
+		<object path="units/world/props/office/computer/computer_mouse" unload="true"/>
+		<unit path="units/world/props/office/computer/computer_mouse" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_wall_plastic_double_door" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int" unload="true"/>
+		<object path="units/payday2/architecture/are/are_off_int_wall_plastic_double_door" unload="true"/>
+		<unit path="units/payday2/architecture/are/are_off_int_wall_plastic_double_door" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/are/are_off_int_wall_plastic_2m" type="unit">
+		<material_config path="units/payday2/architecture/are/are_off_int" unload="true"/>
+		<object path="units/payday2/architecture/are/are_off_int_wall_plastic_2m" unload="true"/>
+		<unit path="units/payday2/architecture/are/are_off_int_wall_plastic_2m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_blue" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_green" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_green" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_green" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_blue" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_blue" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_blue" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_metal" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_metal" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_metal" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_green" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int" unload="true"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_green" unload="true"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_025m_cap_a_green" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall2_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall2_1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall2_1m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall3_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall3_1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall3_1m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall5_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall5_1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall5_1m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall2_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall2_4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall2_4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall5_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall5_2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall5_2m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/residential/props_residential_carpet_01_1m" type="unit">
+		<material_config path="units/world/props/apartment/residential/props_residential_carpet_01" unload="true"/>
+		<object path="units/world/props/apartment/residential/props_residential_carpet_01_1m" unload="true"/>
+		<unit path="units/world/props/apartment/residential/props_residential_carpet_01_1m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_floor_carpet_2x2m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_nightclub/com_int_nightclub" unload="true"/>
+		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_floor_carpet_2x2m" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_floor_carpet_2x2m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_2x2m" type="unit">
+		<material_config path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet" unload="true"/>
+		<object path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_2x2m" unload="true"/>
+		<unit path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_2x2m" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_4x2m_a" type="unit">
+		<material_config path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet" unload="true"/>
+		<object path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_4x2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/off_int_fbi/off_int_fbi_floor_carpet_4x2m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_floor_carpet_cross" type="unit">
+		<material_config path="units/payday2/architecture/com_int_nightclub/com_int_nightclub" unload="true"/>
+		<object path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_floor_carpet_cross" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_nightclub/com_int_nightclub_floor_carpet_cross" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet" type="unit">
+		<material_config path="units/payday2/architecture/com_int_gallery/com_int_gallery" unload="true"/>
+		<object path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet" unload="true"/>
+		<unit path="units/payday2/architecture/com_int_gallery/com_int_gallery_floor_4x4m_a_carpet" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/desk/desk" type="unit">
+		<material_config path="units/world/props/apartment/desk/desk" unload="true"/>
+		<object path="units/world/props/apartment/desk/desk" unload="true"/>
+		<unit path="units/world/props/apartment/desk/desk" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_folderpile_05" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_folderpile_etc" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_folderpile_05" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_folderpile_05" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_shelves" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_left" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_shelves" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_office_desk_shelves/bnk_prop_office_desk_right" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_comm_desk/bry_prop_comm_desk" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_comm_desk/bry_prop_comm_desk" unload="true"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_comm_desk/bry_prop_comm_desk" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_berry/props/bry_prop_comm_desk/bry_prop_comm_desk" unload="true"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_comm_desk/bry_prop_comm_desk" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_morning/pd2_env_morning" type="environment">
+		<environment path="environments/pd2_env_morning/pd2_env_morning" unload="true"/>
+		<material_config path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue" unload="true"/>
+		<scene path="core/environments/skies/sky_2003_dusk_blue/sky_2003_dusk_blue" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_100x100" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster" unload="true"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_100x100" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster" unload="true"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_100x100" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_mid_day/pd2_env_mid_day" type="environment">
+		<environment path="environments/pd2_env_mid_day/pd2_env_mid_day" unload="true"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue" unload="true"/>
+		<scene path="core/environments/skies/default/default" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_midday/pd2_env_midday" type="environment">
+		<environment path="environments/pd2_env_midday/pd2_env_midday" unload="true"/>
+		<material_config path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky" unload="true"/>
+		<scene path="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/environments/pd2_env_rvd/pd2_env_rvd_day1_inside" type="environment">
+		<environment path="units/pd2_dlc_rvd/environments/pd2_env_rvd/pd2_env_rvd_day1_inside" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/environments/sky_rvd_la_afternoon/sky_rvd_la_afternoon" unload="true"/>
+		<scene path="units/pd2_dlc_rvd/environments/sky_rvd_la_afternoon/sky_rvd_la_afternoon" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/environments/pd2_env_rvd/pd2_env_rvd_day2_exterior" type="environment">
+		<environment path="units/pd2_dlc_rvd/environments/pd2_env_rvd/pd2_env_rvd_day2_exterior" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/environments/sky_rvd_la_afternoon/sky_rvd_la_afternoon" unload="true"/>
+		<scene path="units/pd2_dlc_rvd/environments/sky_rvd_la_afternoon/sky_rvd_la_afternoon" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/environments/pd2_env_rvd/pd2_env_rvd_day1_exterior" type="environment">
+		<environment path="units/pd2_dlc_rvd/environments/pd2_env_rvd/pd2_env_rvd_day1_exterior" unload="true"/>
+		<material_config path="units/pd2_dlc_rvd/environments/sky_rvd_la_afternoon/sky_rvd_la_afternoon" unload="true"/>
+		<scene path="units/pd2_dlc_rvd/environments/sky_rvd_la_afternoon/sky_rvd_la_afternoon" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1d_2m_vent_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall1d_2m_vent_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_int_wall1d_2m_vent_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_glass_long_b" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/panorama_window" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_ext_glass_long_b" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_glass_long_b" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_glass_long_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_ext_win_blinders_a" type="unit">
+		<material_config path="units/payday2/architecture/lux/lux_ext_win_blinders" unload="true"/>
+		<object path="units/payday2/architecture/lux/lux_ext_win_blinders_a" unload="true"/>
+		<sequence_manager path="units/payday2/architecture/lux/lux_ext_win_blinders_a" unload="true"/>
+		<unit path="units/payday2/architecture/lux/lux_ext_win_blinders_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_livingroom/officedesk_deluxe/officedesk_deluxe_01" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_livingroom/officedesk_deluxe/materials_shared_io" unload="true"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_livingroom/officedesk_deluxe/officedesk_deluxe_01" unload="true"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_livingroom/officedesk_deluxe/officedesk_deluxe_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01" unload="true"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01" unload="true"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_desk_01/lxy_prop_desk_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_left" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_set" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_left" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_left" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_right" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_set" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_right" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_right" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk/dah_prop_desk_a" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk/dah_prop_desk_a" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk/dah_prop_desk_a" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk/dah_prop_desk_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_01" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_01" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_black" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_black" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_black" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown_01" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown_01" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_cubicle/dah_prop_desk_cubicle_brown_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_d/dah_prop_desk_d" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_desk_lamp/dah_prop_desk_lamp" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_desk_lamp/dah_prop_desk_lamp" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_desk_lamp/dah_prop_desk_lamp" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_desk_lamp/dah_prop_desk_lamp" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_desk_lamp/dah_prop_desk_lamp" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_straight" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_set" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_straight" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_desk_set/are_prop_office_desk_straight" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_on" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_small" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cage/props/are_prop_office_lamp_desk/are_prop_office_lamp_desk" type="unit">
+		<material_config path="units/pd2_dlc_cage/props/are_prop_office_lamp_desk/are_prop_office_lamp_desk_on" unload="true"/>
+		<object path="units/pd2_dlc_cage/props/are_prop_office_lamp_desk/are_prop_office_lamp_desk" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cage/props/are_prop_office_lamp_desk/are_prop_office_lamp_desk" unload="true"/>
+		<unit path="units/pd2_dlc_cage/props/are_prop_office_lamp_desk/are_prop_office_lamp_desk" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_static" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_on" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_static" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_static" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_static" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_telephone/are_prop_office_telephone" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_telephone/are_prop_office_telephone" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_telephone/are_prop_office_telephone" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_telephone/are_prop_office_telephone" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_livingroom/dividerscreen_deluxe/dividerscreen_deluxe" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_livingroom/dividerscreen_deluxe/dividerscreen_deluxe" unload="true"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_livingroom/dividerscreen_deluxe/dividerscreen_deluxe" unload="true"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_livingroom/dividerscreen_deluxe/dividerscreen_deluxe" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_corner" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers" unload="true"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_corner" unload="true"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_prop_curator_dividers_corner" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_20" type="unit">
+		<material_config path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/wall_dividers" unload="true"/>
+		<object path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_20" unload="true"/>
+		<unit path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_20" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_40" type="unit">
+		<material_config path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/wall_dividers" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<object path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_40" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_40" unload="true"/>
+		<unit path="units/pd2_dlc_spa/architecture/int/spa_int_wall_dividers/spa_int_wall_dividers_door_40" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jerry/airplane/jry_int_plane_wall_divider_horizontal_divider02" type="unit">
+		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
+		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_wall_divider_horizontal_divider02" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/airplane/jry_int_plane_wall_divider_horizontal_divider02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bex/props/bex_prop_office_divider/bex_prop_office_divider_med" type="unit">
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_office_divider/bex_prop_office_divider_small" unload="true"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_office_divider/bex_prop_office_divider_med" unload="true"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_office_divider/bex_prop_office_divider_med" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_fallen" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_fallen" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_line_divider/bnk_prop_lobby_line_divider_fallen" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_100_high" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_100_high" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_100_high" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/window/office_divider_glass" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
+		<sequence_manager path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_divider/stn_prop_office_divider" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_100_short_corner" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_100_short_corner" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_100_short_corner" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/filecabinet/prop_filecabinet_01" type="unit">
+		<material_config path="units/world/props/office/filecabinet/prop_filecabinet" unload="true"/>
+		<object path="units/world/props/office/filecabinet/prop_filecabinet_01" unload="true"/>
+		<unit path="units/world/props/office/filecabinet/prop_filecabinet_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_b" type="unit">
+		<material_config path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_a" unload="true"/>
+		<object path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_b" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet" unload="true"/>
+		<unit path="units/payday2/props/off_prop_generic_filecabinet/off_prop_generic_filecabinet_b" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_a_01/stn_prop_office_filecabinet_a_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_a_02/stn_prop_office_filecabinet_a_02" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_a_02/stn_prop_office_filecabinet_a_02" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_a_02/stn_prop_office_filecabinet_a_02" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_a_02/stn_prop_office_filecabinet_a_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_b_02/stn_prop_office_filecabinet_b_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_c_01/stn_prop_office_filecabinet_c_01" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_c_01/stn_prop_office_filecabinet_c_01" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_c_01/stn_prop_office_filecabinet_c_01" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_c_01/stn_prop_office_filecabinet_c_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_c_02/stn_prop_office_filecabinet_c_02" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_c_02/stn_prop_office_filecabinet_c_02" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_c_02/stn_prop_office_filecabinet_c_02" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_c_02/stn_prop_office_filecabinet_c_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_d_01/stn_prop_office_filecabinet_d_01" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_d_01/stn_prop_office_filecabinet_d_01" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_d_01/stn_prop_office_filecabinet_d_01" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_d_01/stn_prop_office_filecabinet_d_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_d_02/stn_prop_office_filecabinet_d_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_filecabinet_b_01/stn_prop_office_filecabinet_b_01" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_filecabinet_b_01/stn_prop_office_filecabinet_b_01" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_filecabinet_b_01/stn_prop_office_filecabinet_b_01" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_filecabinet_b_01/stn_prop_office_filecabinet_b_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/file_box/file_box" type="unit">
+		<material_config path="units/world/architecture/hospital/props/file_box/file_box" unload="true"/>
+		<object path="units/world/architecture/hospital/props/file_box/file_box" unload="true"/>
+		<unit path="units/world/architecture/hospital/props/file_box/file_box" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper" unload="true"/>
+		<material_config path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_folderpile_01" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_folderpile_etc" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_folderpile_01" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_folderpile_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_folders_paper/dah_prop_folders_paper" type="unit">
+		<material_config path="units/pd2_dlc_dah/props/dah_prop_folders_paper/dah_prop_folders_paper" unload="true"/>
+		<object path="units/pd2_dlc_dah/props/dah_prop_folders_paper/dah_prop_folders_paper" unload="true"/>
+		<unit path="units/pd2_dlc_dah/props/dah_prop_folders_paper/dah_prop_folders_paper" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_01" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders" unload="true"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_01" unload="true"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_02" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders" unload="true"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_02" unload="true"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_03" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders" unload="true"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_03" unload="true"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_folders/chas_prop_chinese_folders_03" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01_static" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01_static" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01_static" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/stn_prop_cup/stn_prop_cup_single" type="unit">
+		<material_config path="units/world/props/gym/stn_prop_cup/cup" unload="true"/>
+		<object path="units/world/props/gym/stn_prop_cup/stn_prop_cup_single" unload="true"/>
+		<unit path="units/world/props/gym/stn_prop_cup/stn_prop_cup_single" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/bank_papers/bank_papers_1" type="unit">
+		<material_config path="units/world/brushes/bank_papers/bank_papers_io" unload="true"/>
+		<object path="units/world/brushes/bank_papers/bank_papers_1" unload="true"/>
+		<unit path="units/world/brushes/bank_papers/bank_papers_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/bank_papers/bank_paper_pile_1" type="unit">
+		<material_config path="units/world/brushes/bank_papers/bank_papers" unload="true"/>
+		<object path="units/world/brushes/bank_papers/bank_paper_pile_1" unload="true"/>
+		<unit path="units/world/brushes/bank_papers/bank_paper_pile_1" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/bank_papers/bank_papers_2" type="unit">
+		<material_config path="units/world/brushes/bank_papers/bank_papers" unload="true"/>
+		<object path="units/world/brushes/bank_papers/bank_papers_2" unload="true"/>
+		<unit path="units/world/brushes/bank_papers/bank_papers_2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/bank_papers/bank_papers_3" type="unit">
+		<material_config path="units/world/brushes/bank_papers/bank_papers" unload="true"/>
+		<object path="units/world/brushes/bank_papers/bank_papers_3" unload="true"/>
+		<unit path="units/world/brushes/bank_papers/bank_papers_3" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/bank_papers/bank_paper_pile_2" type="unit">
+		<material_config path="units/world/brushes/bank_papers/bank_papers" unload="true"/>
+		<object path="units/world/brushes/bank_papers/bank_paper_pile_2" unload="true"/>
+		<unit path="units/world/brushes/bank_papers/bank_paper_pile_2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_livingroom/computerscreen/computerscreen" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_livingroom/computerscreen/computerscreen" unload="true"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_livingroom/computerscreen/computerscreen" unload="true"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_livingroom/computerscreen/computerscreen" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_corner" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_corner" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_corner" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_short" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_short" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_short" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_1_glass" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_glass_small" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_1_glass" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_officehigh_dividers/divider_150_high_1_glass" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_1_glass" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_2_glass" type="unit">
+		<material_config path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_glass_small" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_2_glass" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_officehigh_dividers/divider_150_high_2_glass" unload="true"/>
+		<unit path="units/payday2/props/off_prop_officehigh_dividers/off_prop_officehigh_dividers_150_high_2_glass" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_aru/props/aru_prop_tea_set/aru_prop_tea_set_plain_cup" type="unit">
+		<material_config path="units/pd2_dlc_aru/props/aru_prop_tea_set/aru_prop_tea_set" unload="true"/>
+		<object path="units/pd2_dlc_aru/props/aru_prop_tea_set/aru_prop_tea_set_plain_cup" unload="true"/>
+		<unit path="units/pd2_dlc_aru/props/aru_prop_tea_set/aru_prop_tea_set_plain_cup" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_bex/props/bex_prop_cup/bex_cup" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_bex/props/bex_prop_cup/bex_cup" unload="true"/>
+		<object path="units/pd2_dlc_bex/props/bex_prop_cup/bex_cup" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_bex/props/bex_prop_cup/bex_cup" unload="true"/>
+		<unit path="units/pd2_dlc_bex/props/bex_prop_cup/bex_cup" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_cupboard_01" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_counters_cupboards" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_cupboard_01" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_cupboard_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" type="unit">
+		<material_config path="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" unload="true"/>
+		<object path="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" unload="true"/>
+		<unit path="units/pd2_dlc_eng/props/eng_prop_computer/eng_prop_computer" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" type="unit">
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<material_config path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+		<object path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+		<unit path="units/pd2_dlc_des/props/des_prop_inter_hack_computer/des_inter_hack_computer" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/air_prop_office_computer/air_prop_office_computer" type="unit">
+		<material_config path="units/payday2/props/air_prop_office_computer/air_prop_office_computer" unload="true"/>
+		<object path="units/payday2/props/air_prop_office_computer/air_prop_office_computer" unload="true"/>
+		<sequence_manager path="units/payday2/props/air_prop_office_computer/air_prop_office_computer" unload="true"/>
+		<unit path="units/payday2/props/air_prop_office_computer/air_prop_office_computer" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_boss" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_boss" unload="true"/>
+		<object path="units/world/props/office/chair/office_chair_boss" unload="true"/>
+		<unit path="units/world/props/office/chair/office_chair_boss" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_leather" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_leather" unload="true"/>
+		<object path="units/world/props/office/chair/office_chair_leather" unload="true"/>
+		<unit path="units/world/props/office/chair/office_chair_leather" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/hospital/props/chair_cafeteria/hospital_office_chair_briefing" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_briefing" unload="true"/>
+		<object path="units/world/architecture/hospital/props/chair_cafeteria/hospital_office_chair_briefing" unload="true"/>
+		<sequence_manager path="units/world/architecture/hospital/props/chair_cafeteria/chair_cafeteria" unload="true"/>
+		<unit path="units/world/architecture/hospital/props/chair_cafeteria/hospital_office_chair_briefing" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_office_chair_visitor/bnk_prop_office_chair_visitor" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_office_chair_tm/sfm_prop_office_chair_tm" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_office_chair_tm/sfm_prop_office_chair_tm" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_office_chair_tm/sfm_prop_office_chair_tm" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_office_chair_tm/sfm_prop_office_chair_tm" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_office_chair/chas_prop_chinese_office_chair" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_office_chair/chas_prop_chinese_office_chair" unload="true"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_office_chair/chas_prop_chinese_office_chair" unload="true"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_office_chair/chas_prop_chinese_office_chair" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_office_chair_visitors/sfm_prop_office_chair_visitors" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_office_chair_visitors/sfm_prop_office_chair_visitors" unload="true"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_office_chair_visitors/sfm_prop_office_chair_visitors" unload="true"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_office_chair_visitors/sfm_prop_office_chair_visitors" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01" unload="true"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01" unload="true"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_briefing" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_briefing" unload="true"/>
+		<object path="units/world/props/office/chair/office_chair_briefing" unload="true"/>
+		<unit path="units/world/props/office/chair/office_chair_briefing" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_briefing_x2" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_briefing" unload="true"/>
+		<object path="units/world/props/office/chair/office_chair_briefing_x2" unload="true"/>
+		<unit path="units/world/props/office/chair/office_chair_briefing_x2" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/chair/office_chair_detective_noarms" type="unit">
+		<material_config path="units/world/props/office/chair/office_chair_detective" unload="true"/>
+		<object path="units/world/props/office/chair/office_chair_detective_noarms" unload="true"/>
+		<unit path="units/world/props/office/chair/office_chair_detective_noarms" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_pencils_02" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_accessories" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_pencils_02" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_pencils_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/desk_pencil/desk_pencils_01" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_accessories" unload="true"/>
+		<object path="units/world/brushes/desk_pencil/desk_pencils_01" unload="true"/>
+		<unit path="units/world/brushes/desk_pencil/desk_pencils_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/brushes/desk_pencil/desk_pencil" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_accessories" unload="true"/>
+		<object path="units/world/brushes/desk_pencil/desk_pencil" unload="true"/>
+		<unit path="units/world/brushes/desk_pencil/desk_pencil" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" unload="true"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" unload="true"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_room/penpaper/penpaper" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_teller_pen/bnk_prop_teller_pen" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_folderpile_03" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_folderpile_etc" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_folderpile_03" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_folderpile_03" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_folderpile_02" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_folderpile_etc" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_folderpile_02" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_folderpile_02" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder" type="unit">
+		<material_config path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder" unload="true"/>
+		<object path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder" unload="true"/>
+		<unit path="units/pd2_dlc_jfr/pickups/pku_german_folder/pku_german_folder" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_folderpile_06" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_folderpile_etc_io" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_folderpile_06" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_folderpile_06" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vr/units/off_prop_officehigh_folder_holder_01_vr" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/des_paper" unload="true"/>
+		<material_config path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_paper_stack" unload="true"/>
+		<object path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder_01" unload="true"/>
+		<sequence_manager path="units/payday2/props/off_prop_officehigh_paperstacks/off_prop_officehigh_folder_holder" unload="true"/>
+		<unit path="units/pd2_dlc_vr/units/off_prop_officehigh_folder_holder_01_vr" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short_static" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_on" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short_static" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short_static" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_on" unload="true"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_small" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling" unload="true"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_office_lamp_ceiling/are_prop_office_lamp_ceiling_short" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/stn_cutscene_microphone/stn_cs_microphone" type="unit">
+		<material_config path="units/world/props/gym/stn_cutscene_microphone/stn_cs_microphone" unload="true"/>
+		<object path="units/world/props/gym/stn_cutscene_microphone/stn_cs_microphone" unload="true"/>
+		<unit path="units/world/props/gym/stn_cutscene_microphone/stn_cs_microphone" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/stn_prop_microphone/stn_prop_microphone" type="unit">
+		<material_config path="units/world/props/gym/stn_prop_microphone/stn_prop_microphone" unload="true"/>
+		<object path="units/world/props/gym/stn_prop_microphone/stn_prop_microphone" unload="true"/>
+		<unit path="units/world/props/gym/stn_prop_microphone/stn_prop_microphone" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/desk_accessories/desk_phone_01" type="unit">
+		<material_config path="units/world/props/office/desk_accessories/desk_phone_01" unload="true"/>
+		<object path="units/world/props/office/desk_accessories/desk_phone_01" unload="true"/>
+		<sequence_manager path="units/world/props/medium_prop" unload="true"/>
+		<unit path="units/world/props/office/desk_accessories/desk_phone_01" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+		<object path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+		<unit path="units/payday2/props/bnk_prop_phone/bnk_prop_phone" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_lxy/props/yacht/clock_study/lxy_prop_clock_study" type="unit">
+		<material_config path="units/pd2_dlc_lxy/props/yacht/clock_study/lxy_prop_clock_study" unload="true"/>
+		<object path="units/pd2_dlc_lxy/props/yacht/clock_study/lxy_prop_clock_study" unload="true"/>
+		<sequence_manager path="units/world/props/small_prop" unload="true"/>
+		<unit path="units/pd2_dlc_lxy/props/yacht/clock_study/lxy_prop_clock_study" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock_unit" type="unit">
+		<material_config path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock" unload="true"/>
+		<object path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock_unit" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_office_clock/stn_prop_office_clock_unit" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/env_test_dark/env_test_dark" type="environment">
+		<environment path="environments/env_test_dark/env_test_dark" unload="true"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" unload="true"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_env_born_outdoor_darker/pd2_env_born_outdoor_darker" type="environment">
+		<environment path="environments/pd2_env_born_outdoor_darker/pd2_env_born_outdoor_darker" unload="true"/>
+		<material_config path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds" unload="true"/>
+		<scene path="core/environments/skies/sky_1530_low_sun_clouds/sky_1530_low_sun_clouds" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_mcmansion_indoor_dark/pd2_mcmansion_indoor_dark" type="environment">
+		<environment path="environments/pd2_mcmansion_indoor_dark/pd2_mcmansion_indoor_dark" unload="true"/>
+		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon" unload="true"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/environments/pd2_env_uno_dark" type="environment">
+		<environment path="units/pd2_dlc_uno/environments/pd2_env_uno_dark" unload="true"/>
+		<material_config path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" unload="true"/>
+		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars" unload="true"/>
+	</add>
+	<add from_db="true" path="environments/pd2_dinner_outdoor_middle/pd2_dinner_outdoor_middle" type="environment">
+		<environment path="environments/pd2_dinner_outdoor_middle/pd2_dinner_outdoor_middle" unload="true"/>
+		<scene path="core/environments/skies/sky_0902_overcast/sky_0902_overcast" unload="true"/>
+		<material_config path="core/environments/skies/sky_0902_overcast/sky_0902_overcast" unload="true"/>
 	</add>
 	<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
 </table>
