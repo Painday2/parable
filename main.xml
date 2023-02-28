@@ -1,4 +1,28 @@
-<table min_lib_ver="4.4" name="parable">
+<table min_lib_ver="4.4" name="The Pain Parable">
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<Package file="scriptdata/package_parable.package" id="package_parable" unload_on_restart="true"/>
+	<level ai_group_type="america" id="pain_parable" max_bags="54">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<hooks directory="hooks">
+			<s file="setup.lua" source_file="lib/setups/setup"/>
+		</hooks>
+		<packages>
+			<value_node value="package_parable"/>
+			<value_node value="package_parable"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
 	<narrative contact="custom" id="parable">
 		<chain>
 			<table level_id="pain_parable" type="d" type_id="heist_type_assault"/>
@@ -18,6 +42,7 @@
 		<crimenet_videos>
 			<value_node value="cn_branchbank2"/>
 		</crimenet_videos>
+		<debrief_event/>
 		<experience_mul>
 			<value_node value="1"/>
 			<value_node value="1"/>
@@ -55,24 +80,4 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
-	<level ai_group_type="america" id="pain_parable" max_bags="54">
-		<assets>
-			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
-			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
-		</assets>
-		<hooks directory="hooks">
-			<s file="setup.lua" source_file="lib/setups/setup"/>
-		</hooks>
-		<packages/>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 </table>

@@ -1,0 +1,6 @@
+<unit type="lxa" slot="1" >
+    <object file="units/payday2/architecture/lux/lux_int_wall1_4m_a_window" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
