@@ -3,18 +3,13 @@
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<Package file="scriptdata/package_parable.package" id="package_parable" unload_on_restart="true"/>
-	<level ai_group_type="america" id="pain_parable" max_bags="54">
+	<level ai_group_type="america" briefing_dialog="" id="pain_parable" intro_event="" max_bags="54" team_ai_off="true">
 		<assets>
-			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
-			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
 		</assets>
 		<hooks directory="hooks">
 			<s file="setup.lua" source_file="lib/setups/setup"/>
 		</hooks>
 		<packages>
-			<value_node value="package_parable"/>
 			<value_node value="package_parable"/>
 		</packages>
 		<script_data_mods directory="scriptdata">

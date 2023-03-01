@@ -5,11 +5,12 @@
 	</add>
 	<add>
 		<model force="true" path="units/payday2/architecture/lux/lux_int_wall1_4m_a_window"/>
-		<unit force="true" path="units/payday2/architecture/lux/lux_int_wall1_4m_a_window"/>
 		<object force="true" path="units/payday2/architecture/lux/lux_int_wall1_4m_a_window"/>
+		<unit force="true" path="units/payday2/architecture/lux/lux_int_wall1_4m_a_window"/>
 	</add>
 	<add>
 		<texture load="true" path="units/zdann/green_screen/green_df"/>
+		<texture load="true" path="units/zdann/green_screen/rainbow_df"/>
 		<texture load="true" path="units/zdann/green_screen/green_nm"/>
 		<texture force="true" path="core/textures/lens_dirt"/>
 		<model path="units/zdann/green_screen/green_screen"/>
@@ -20,5 +21,9 @@
 		<unit path="units/zdann/green_screen/green_screen_wide"/>
 		<cooked_physics path="units/zdann/green_screen/green_screen"/>
 		<material_config path="units/zdann/green_screen/green_screen"/>
+		<model path="units/zdann/green_screen/rainbow_wide"/>
+		<object path="units/zdann/green_screen/rainbow_wide"/>
+		<unit path="units/zdann/green_screen/rainbow_wide"/>
+		<material_config path="units/zdann/green_screen/rainbow"/>
 	</add>
 </table>

@@ -42,12 +42,13 @@
 		<entry key="file" type="string" value="massunit"/>
 		<entry key="preload_units" type="table">
 			<entry index="1" type="string" value="units/world/brushes/bank_papers/bank_papers_1"/>
-			<entry index="2" type="string" value="units/world/brushes/bank_papers/bank_papers_1"/>
-			<entry index="3" type="string" value="units/world/vegetation/brushes/train/tra_brush_garbage/tra_brush_garabage_crumblednewspaper"/>
-			<entry index="4" type="string" value="units/world/brushes/bank_papers/bank_papers_2"/>
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">
+		<entry key="start" type="table">
+			<entry key="position" type="vector3" value="3366.64 -695.962 253.452"/>
+			<entry key="rotation" type="quaternion" value="0.19784 0.00984801 -0.0487308 -0.978973"/>
+		</entry>
 	</entry>
 	<entry key="environment" type="table">
 		<entry key="cubemap_gizmos" type="table">
