@@ -1,6 +1,10 @@
 <table>
 	<editor_groups/>
-	<statics/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="4000 0 2000" _prev_rot="-0 0 -0 -1" continent="editor_only" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_023" position="4000 0 2000" rotation="-0 0 -0 -1" unit_id="200000"/>
+		</table>
+	</statics>
 	<values>
 		<workviews/>
 	</values>

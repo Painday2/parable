@@ -1,6 +1,5 @@
 <table directory="assets">
 	<add>
-		<material_config force="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_floor_a"/>
 		<material_config force="true" path="units/payday2/architecture/lux/lux"/>
 	</add>
 	<add>
@@ -25,5 +24,39 @@
 		<object path="units/zdann/green_screen/rainbow_wide"/>
 		<unit path="units/zdann/green_screen/rainbow_wide"/>
 		<material_config path="units/zdann/green_screen/rainbow"/>
+	</add>
+	<!--NDA Wall (Rex)-->
+	<add>
+		<material_config	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall"/>
+		<sequence_manager	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall"/>
+		<texture			path="units/pd2_mod_phys/props/nda_player_blockers/nda_bounds"/>
+		<unit load="true"	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m"/>
+		<object				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m"/>
+		<model				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_4x3m"/>
+		<unit load="true"	path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
+		<object				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
+		<model				path="units/pd2_mod_phys/props/nda_player_blockers/nda_wall_2x2m"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_orange"/>
+		<object path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_orange"/>
+		<model path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_orange"/>
+		<material_config path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_orange"/>
+		<cooked_physics path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_orange"/>
+		<unit path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_blue"/>
+		<object path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_blue"/>
+		<model path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_blue"/>
+		<material_config path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_blue"/>
+		<cooked_physics path="units/pd2_mod_parable/parable_floor_carpet_4x4m/parable_floor_carpet_4x4m_blue"/>
+	</add>
+	<!--Folding bed (Mako)-->
+	<add>
+		<texture path="units/pd2_mod_phys/props/phys_bedding"/>
+		<texture path="units/pd2_mod_phys/props/phys_wood_df"/>
+		<sequence_manager path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<material_config path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 	</add>
 </table>

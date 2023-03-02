@@ -45,6 +45,10 @@
 		</entry>
 	</entry>
 	<entry key="camera_bookmarks" type="table">
+		<entry key="elements" type="table">
+			<entry key="position" type="vector3" value="4192.51 254.663 2586.77"/>
+			<entry key="rotation" type="quaternion" value="-0.0316359 -0.48263 0.873379 0.057249"/>
+		</entry>
 		<entry key="start" type="table">
 			<entry key="position" type="vector3" value="3366.64 -695.962 253.452"/>
 			<entry key="rotation" type="quaternion" value="0.19784 0.00984801 -0.0487308 -0.978973"/>

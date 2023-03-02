@@ -1,0 +1,7 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:SIMPLE_TINT" name="mat_floor_a" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_df"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_d_int/gov_c_int_floor_a_nm"/>
+        <variable type="vector3" name="tint_color" value="1 0.71764707565308 0.33725491166115"/>
+    </material>
+</materials>
