@@ -7,7 +7,10 @@
 		<assets>
 		</assets>
 		<hooks directory="hooks">
-			<s file="setup.lua" source_file="lib/setups/setup"/>
+			<hook file="Setup.lua" source_file="lib/setups/setup"/>
+			<hook file="ElementMissionEnd.lua" source_file="lib/managers/mission/elementmissionend"/>
+			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
+			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 		</hooks>
 		<packages>
 			<value_node value="package_parable"/>
