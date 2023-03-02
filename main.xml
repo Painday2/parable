@@ -11,6 +11,7 @@
 			<hook file="ElementMissionEnd.lua" source_file="lib/managers/mission/elementmissionend"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
 			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 		</hooks>
 		<packages>
 			<value_node value="package_parable"/>

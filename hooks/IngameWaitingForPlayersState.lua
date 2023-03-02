@@ -2,7 +2,7 @@ Hooks:PostHook(IngameWaitingForPlayersState, "at_enter", "ParableInstantReloadSt
 	if Global.parable_instant_restart then
 		managers.hud._hud_mission_briefing:hide()
 		managers.menu_component:disable_mission_briefing_gui()
-		managers.menu:close_menu("kit_menu")
+		MenuManager.super.close_menu(managers.menu, "kit_menu")
 		game_state_machine:current_state():start_game_intro()
 
 		self._instant_fade_out = managers.overlay_effect:play_effect({
@@ -19,7 +19,7 @@ Hooks:PostHook(IngameWaitingForPlayersState, "at_enter", "ParableInstantReloadSt
 	end
 end)
 
-Hooks:PostHook(IngameWaitingForPlayersState, "sync_start", "ParableInstantReloadFade", function(self, variant, soundtrack, music_ext)
+Hooks:PreHook(IngameWaitingForPlayersState, "at_exit", "ParableInstantReloadFadeRemoval", function(self, next_state)
 	if self._instant_fade_out then
 		managers.overlay_effect:stop_effect(self._instant_fade_out)
 		self._instant_fade_out = nil
