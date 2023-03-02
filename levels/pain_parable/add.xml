@@ -4639,10 +4639,79 @@
 		<unit path="units/payday2/props/bnk_prop_branch1/bnk_prop_branch1_security_shutter_a"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters" type="unit">
-		<unit path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
-		<object path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
 		<material_config path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
+		<object path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
 		<sequence_manager path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
+		<unit path="units/pd2_dlc_peta/props/pta_prop_folding_shutters/pta_folding_shutters"/>
 	</add>
+	<add from_db="true" path="units/world/props/apartment/painting/painting_small_06" type="unit">
+		<material_config path="units/world/props/apartment/painting/painting"/>
+		<object path="units/world/props/apartment/painting/painting_small_06"/>
+		<unit path="units/world/props/apartment/painting/painting_small_06"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/design_lamp" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/fancy_painting"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/design_lamp"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/design_lamp"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/paintings/diamondheist_painting_15" type="unit">
+		<material_config path="units/world/props/bank/paintings/diamondheist_painting_15"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/bank/paintings/diamondheist_painting_15"/>
+		<sequence_manager path="units/world/props/bank/paintings/painting"/>
+		<unit path="units/world/props/bank/paintings/diamondheist_painting_15"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/paintings/hospital_painting_20" type="unit">
+		<material_config path="units/world/props/bank/paintings/hospital_painting_20"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/bank/paintings/hospital_painting_20"/>
+		<sequence_manager path="units/world/props/bank/paintings/painting_suburbia"/>
+		<unit path="units/world/props/bank/paintings/hospital_painting_20"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/paintings/hospital_painting_22" type="unit">
+		<material_config path="units/world/props/bank/paintings/hospital_painting_22"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/bank/paintings/hospital_painting_22"/>
+		<sequence_manager path="units/world/props/bank/paintings/painting_suburbia"/>
+		<unit path="units/world/props/bank/paintings/hospital_painting_22"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/paintings/hospital_painting_23" type="unit">
+		<material_config path="units/world/props/bank/paintings/hospital_painting_23"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/bank/paintings/hospital_painting_23"/>
+		<sequence_manager path="units/world/props/bank/paintings/painting_suburbia"/>
+		<unit path="units/world/props/bank/paintings/hospital_painting_23"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/paintings/diamondheist_painting_19" type="unit">
+		<material_config path="units/world/props/bank/paintings/diamondheist_painting_19"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/bank/paintings/diamondheist_painting_19"/>
+		<sequence_manager path="units/world/props/bank/paintings/painting"/>
+		<unit path="units/world/props/bank/paintings/diamondheist_painting_19"/>
+	</add>
+	<model path="units/pain_floor/pain_floor" unload="true"/>
+	<object path="units/pain_floor/pain_floor" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_floor" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_floor" unload="true"/>
+	<texture path="units/pain_floor/pain_floor_df" unload="true"/>
+	<model path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<object path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<model path="units/pain_floor/pain_floor_one" unload="true"/>
+	<object path="units/pain_floor/pain_floor_one" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_floor_one" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_floor_one" unload="true"/>
+	<model path="units/pain_floor/pain_wall" unload="true"/>
+	<object path="units/pain_floor/pain_wall" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_wall" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_wall" unload="true"/>
+	<texture path="units/painting_01_df" unload="true"/>
+	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1d_4m_a_doubledoor" type="unit">
+		<unit path="units/payday2/architecture/lux/lux_int_wall1d_4m_a_doubledoor"/>
+		<object path="units/payday2/architecture/lux/lux_int_wall1d_4m_a_doubledoor"/>
+		<material_config path="units/payday2/architecture/lux/lux"/>
+	</add>
+	<material_config path="units/pain_floor/pain_floor" unload="true"/>
 	<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
 </table>

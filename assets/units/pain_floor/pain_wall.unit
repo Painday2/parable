@@ -1,0 +1,8 @@
+<unit type="mkp" slot="1">
+	<object file="units/pain_floor/pain_wall" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

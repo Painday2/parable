@@ -18,6 +18,15 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<instance id="inst_pain_drill">
+		<add file="levels/inst_pain_drill/add.xml"/>
+		<include directory="levels/inst_pain_drill">
+			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.mission" type="generic_xml"/>
+		</include>
+		<packages/>
+		<script_data_mods directory="scriptdata"/>
+	</instance>
 	<narrative contact="custom" id="parable">
 		<chain>
 			<table level_id="pain_parable" type="d" type_id="heist_type_assault"/>

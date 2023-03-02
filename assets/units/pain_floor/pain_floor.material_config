@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mat_mkp" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pain_floor/pain_floor_df"/>
+    </material>
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+</materials>

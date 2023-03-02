@@ -1,0 +1,25 @@
+<table directory="assets">
+	<texture load="true" path="environment/pain_sky_df" unload="true"/>
+	
+	<material_config path="units/pain_floor/pain_floor" unload="true"/>
+	<model path="units/pain_floor/pain_floor" unload="true"/>
+	<object path="units/pain_floor/pain_floor" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_floor" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_floor" unload="true"/>
+	<texture path="units/pain_floor/pain_floor_df" unload="true"/>
+	
+	<model path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<object path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_floor_corner" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_floor_corner" unload="true"/>
+	
+	<model path="units/pain_floor/pain_floor_one" unload="true"/>
+	<object path="units/pain_floor/pain_floor_one" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_floor_one" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_floor_one" unload="true"/>
+
+	<model path="units/pain_floor/pain_wall" unload="true"/>
+	<object path="units/pain_floor/pain_wall" unload="true"/>
+	<unit load="true" path="units/pain_floor/pain_wall" unload="true"/>
+	<cooked_physics path="units/pain_floor/pain_wall" unload="true"/>
+</table>

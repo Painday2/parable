@@ -1,0 +1,110 @@
+<table>
+	<editor_groups/>
+	<instances>
+		<table continent="world" folder="levels/instances/mods/inst_pain_drill/world" index_size="1000" mission_placed="true" name="inst_pain_drill_001" position="1905.64 -707.179 28.12" rotation="0 0 0 1" script="default" start_index="0"/>
+	</instances>
+	<statics>
+		<table>
+			<unit_data _prev_pos="0 0 346.923" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_001" position="0 0 0" rotation="0.5 0.5 -0.5 0.5" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 0 46.923" _prev_rot="0 0 1 -0" continent="world" local_pos="300 400 0" local_rot="0.5 -0.5 -0.5 0.5" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_001" position="400 0 -300" rotation="0 0 -1 0" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -400 346.923" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 400 400" local_rot="-1 0 0 0" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_002" position="400 -400 0" rotation="-0.5 0.5 0.5 0.5" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 -400 346.923" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 800 400" local_rot="-1 0 0 0" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_003" position="800 -400 0" rotation="-0.5 0.5 0.5 0.5" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 0 346.923" _prev_rot="0.707107 0 -0.707107 -0" continent="world" local_pos="0 800 0" local_rot="-0.707107 0 0 -0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_004" position="800 0 0" rotation="-0.707107 0 0.707107 0" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 0 46.923" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="300 400 0" local_rot="0 -0.707107 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_floor_one" name_id="pain_floor_one_001" position="400 0 -300" rotation="0 0 -0.707107 0.707107" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 400 46.923" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="300 400 -400" local_rot="0 -0.707107 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_002" position="400 400 -300" rotation="0 0 -0.707107 0.707107" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 400 346.923" _prev_rot="0.707107 0 -0.707107 -0" continent="world" local_pos="0 800 -400" local_rot="-0.707107 0 0 -0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_005" position="800 400 0" rotation="-0.707107 0 0.707107 0" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 0 346.923" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 400 0" local_rot="-0.707107 0 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_006" position="400 0 0" rotation="0 0.707107 0 0.707107" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 400 346.923" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 400 -400" local_rot="-0.707107 0 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_007" position="400 400 0" rotation="0 0.707107 0 0.707107" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 800 346.923" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 400 -800" local_rot="0 0 0 1" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_008" position="400 800 0" rotation="0.5 0.5 -0.5 0.5" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 800 46.923" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="300 400 -800" local_rot="0 -0.707107 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_floor_corner" name_id="pain_floor_corner_001" position="400 800 -300" rotation="0 0 -0.707107 0.707107" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="800 800 346.923" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 800 -800" local_rot="0 0 0 1" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_009" position="800 800 0" rotation="0.5 0.5 -0.5 0.5" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 800 46.923" _prev_rot="0 0 1 -1.49012e-008" continent="world" local_pos="300 1200 -800" local_rot="0.5 -0.5 -0.5 0.5" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_003" position="1200 800 -300" rotation="0 0 -1 1.49012e-008" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 400 346.923" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 1200 -400" local_rot="-1 0 0 0" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_010" position="1200 400 0" rotation="-0.5 0.5 0.5 0.5" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 800 46.923" _prev_rot="0 0 1 -1.49012e-008" continent="world" local_pos="300 1600 -800" local_rot="0.5 -0.5 -0.5 0.5" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_004" position="1600 800 -300" rotation="0 0 -1 1.49012e-008" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 800 346.923" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 1200 -800" local_rot="0 0 0 1" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_011" position="1200 800 0" rotation="0.5 0.5 -0.5 0.5" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 800 346.923" _prev_rot="0.707107 0 -0.707107 -0" continent="world" local_pos="0 1600 -800" local_rot="-0.707107 0 0 -0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_012" position="1600 800 0" rotation="-0.707107 0 0.707107 0" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 400 346.923" _prev_rot="0.707107 0 -0.707107 -0" continent="world" local_pos="0 1600 -400" local_rot="-0.707107 0 0 -0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_013" position="1600 400 0" rotation="-0.707107 0 0.707107 0" unit_id="100019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 0 346.923" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 1200 0" local_rot="-0.707107 0 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_014" position="1200 0 0" rotation="0 0.707107 0 0.707107" unit_id="100021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 0 46.923" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="300 1200 0" local_rot="0 -0.707107 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_006" position="1200 0 -300" rotation="0 0 -0.707107 0.707107" unit_id="100022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 0 346.923" _prev_rot="0.707107 0 -0.707107 -0" continent="world" local_pos="0 1600 0" local_rot="-0.707107 0 0 -0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_015" position="1600 0 0" rotation="-0.707107 0 0.707107 0" unit_id="100023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -400 346.923" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 1200 400" local_rot="-0.707107 0 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_016" position="1200 -400 0" rotation="0 0.707107 0 0.707107" unit_id="100024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -800 346.923" _prev_rot="0 -0.707107 0 -0.707107" continent="world" local_pos="0 1200 800" local_rot="-0.707107 0 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_017" position="1200 -800 0" rotation="0 0.707107 0 0.707107" unit_id="100025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 -400 46.923" _prev_rot="-0 -0 0.707107 -0.707107" continent="world" local_pos="300 1200 400" local_rot="0 -0.707107 0 0.707107" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_007" position="1200 -400 -300" rotation="0 0 -0.707107 0.707107" unit_id="100026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -800 346.923" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 1600 800" local_rot="-1 0 0 0" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_018" position="1600 -800 0" rotation="-0.5 0.5 0.5 0.5" unit_id="100027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 -400 46.923" _prev_rot="0 0 1 -0" continent="world" local_pos="300 2000 400" local_rot="0.5 -0.5 -0.5 0.5" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_008" position="2000 -400 -300" rotation="0 0 -1 0" unit_id="100028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -400 346.923" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 1600 400" local_rot="0 0 0 1" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_019" position="1600 -400 0" rotation="0.5 0.5 -0.5 0.5" unit_id="100029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 -800 346.923" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 2000 800" local_rot="-1 0 0 0" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_020" position="2000 -800 0" rotation="-0.5 0.5 0.5 0.5" unit_id="100030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2400 -400 46.923" _prev_rot="-1.49012e-008 0 1 2.98023e-008" continent="world" local_pos="300 2400 400" local_rot="0.5 -0.5 -0.5 0.5" mesh_variation="display_off" name="units/pain_floor/pain_floor" name_id="pain_floor_009" position="2400 -400 -300" rotation="1.49012e-008 0 -1 -2.98023e-008" unit_id="100031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2400 -800 346.923" _prev_rot="0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 2400 800" local_rot="-1 0 0 0" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_021" position="2400 -800 0" rotation="-0.5 0.5 0.5 0.5" unit_id="100032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2000 -400 346.923" _prev_rot="-0.5 -0.5 0.5 -0.5" continent="world" local_pos="0 2000 400" local_rot="0 0 0 1" mesh_variation="display_off" name="units/pain_floor/pain_wall" name_id="pain_wall_022" position="2000 -400 0" rotation="0.5 0.5 -0.5 0.5" unit_id="100033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 400 -300" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-228.987 325.049 0" local_rot="0 0 -0.707107 0.707107" name="units/pain_floor/pain_floor" name_id="pain_floor_005" position="1200 400 -300" rotation="0 0 0.707107 -0.707107" unit_id="100000"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>
