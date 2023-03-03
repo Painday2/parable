@@ -8,5 +8,7 @@ Hooks:PreHook(ElementMissionEnd, "on_executed", "ParableInstantReloadFailure", f
 		managers.criminals:save_current_character_names()
 		managers.job:stop_sounds()
 		MenuCallbackHandler:start_the_game()
+
+		self._values.enabled = false
 	end
 end)

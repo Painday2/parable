@@ -17,7 +17,12 @@ Hooks:PostHook(IngameWaitingForPlayersState, "at_enter", "ParableInstantReloadSt
 
 		Global.parable_instant_restart = false
 	end
+
+	self:_skip()
 end)
+
+function IngameWaitingForPlayersState:_chk_show_skip_prompt() end
+function IngameWaitingForPlayersState:_create_blackscreen_loading_icon() end
 
 Hooks:PreHook(IngameWaitingForPlayersState, "at_exit", "ParableInstantReloadFadeRemoval", function(self, next_state)
 	if self._instant_fade_out then
