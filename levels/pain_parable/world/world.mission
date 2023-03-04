@@ -353,6 +353,10 @@
 					<entry key="instigator" type="string" value="player"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100010"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="4642.54 1304.53 75"/>
 					<entry key="radius" type="number" value="250"/>
