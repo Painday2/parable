@@ -1,8 +1,8 @@
 ParableLoadingScreenGuiScript = ParableLoadingScreenGuiScript or class()
 
-local prefix = "PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN "
+local prefix = "PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN IS ALWAYS IN PAIN IS "
 local middle = "LOADING"
-local suffix = " IN PAIN IS ALWAYS IN PAIN"
+local suffix = " ALWAYS IN PAIN IN PAIN IS ALWAYS IN PAIN"
 
 local size = 72
 local offset = {
