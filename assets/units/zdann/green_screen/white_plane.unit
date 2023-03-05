@@ -1,0 +1,8 @@
+<unit type="mkp" slot="1">
+	<object file="units/zdann/green_screen/white_plane" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

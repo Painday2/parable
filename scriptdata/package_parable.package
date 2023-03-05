@@ -24,6 +24,11 @@
 		<object path="units/zdann/green_screen/rainbow_wide"/>
 		<unit path="units/zdann/green_screen/rainbow_wide"/>
 		<material_config path="units/zdann/green_screen/rainbow"/>
+		<model path="units/zdann/green_screen/white_plane"/>
+		<object path="units/zdann/green_screen/white_plane"/>
+		<unit path="units/zdann/green_screen/white_plane"/>
+		<material_config path="units/zdann/green_screen/white_plane"/>
+		<cooked_physics path="units/zdann/green_screen/white_plane"/>
 	</add>
 	<!--NDA Wall (Rex)-->
 	<add>
@@ -58,5 +63,15 @@
 		<object path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<unit path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
 		<model path="units/pd2_mod_phys/props/phys_fold_out_bed_large"/>
+	</add>
+	<add>
+		<unit path="units/pd2_mod_parable/parable_door_ind/parable_door_ind"/>
+		<object path="units/pd2_mod_parable/parable_door_ind/parable_door_ind"/>
+		<model path="units/pd2_mod_parable/parable_door_ind/parable_door_ind"/>
+		<cooked_physics path="units/pd2_mod_parable/parable_door_ind/parable_door_ind"/>
+		<sequence_manager path="units/pd2_mod_parable/parable_door_ind/parable_door_ind"/>
+		<material_config path="units/pd2_mod_parable/parable_door_ind/parable_door_ind"/>
+		<material_config path="units/pd2_mod_parable/parable_door_ind/parable_door_ind_red"/>
+		<material_config path="units/pd2_mod_parable/parable_door_ind/parable_door_ind_blue"/>
 	</add>
 </table>

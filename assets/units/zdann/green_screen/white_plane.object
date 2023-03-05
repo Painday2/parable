@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/zdann/green_screen/white_plane" orientation_object="rp_mkp_int_floor_4x4m_a" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_mkp_int_floor_4x4m_a" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<graphic_group name="umu" enabled="true" culling_object="c_box_01">
+			<object name="g_mkp_int_floor_4x4m_a" enabled="true" />
+		</graphic_group>
+	</graphics>
+    <decal_surfaces>
+		<decal_mesh name="g_mkp_int_floor_4x4m_a" enabled="false" material="no_decal"/>
+    </decal_surfaces>
+</dynamic_object>
