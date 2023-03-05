@@ -6356,9 +6356,14 @@
 		<unit path="units/payday2/props/ind_prop_dock_box/ind_prop_dock_box_stacked"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ceiling_office" type="unit">
-		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ceiling_office"/>
-		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ceiling_office"/>
 		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ceiling_office"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ceiling_office"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
 	</add>
 	<material_config path="units/pain_floor/pain_floor" unload="true"/>
 	<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
