@@ -1,5 +1,5 @@
 Hooks:PostHook(IngameWaitingForPlayersState, "at_enter", "ParableInstantReloadState", function(self)
-	if Global.parable_instant_restart then
+	if Global.instant_level_load then
 		managers.hud._hud_mission_briefing:hide()
 		managers.menu_component:disable_mission_briefing_gui()
 		MenuManager.super.close_menu(managers.menu, "kit_menu")
@@ -15,7 +15,7 @@ Hooks:PostHook(IngameWaitingForPlayersState, "at_enter", "ParableInstantReloadSt
 			timer = TimerManager:main()
 		})
 
-		Global.parable_instant_restart = false
+		Global.instant_level_load = false
 	end
 
 	self:_skip()

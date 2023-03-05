@@ -7,7 +7,6 @@
 		<assets>
 		</assets>
 		<hooks directory="hooks">
-			<hook file="ElementMissionEnd.lua" source_file="lib/managers/mission/elementmissionend"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
 			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
@@ -15,6 +14,9 @@
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 		</hooks>
+		<classes directory="classes">
+			<class file="ElementInstantLevelLoad.lua"/>
+		</classes>
 		<packages>
 			<value_node value="package_parable"/>
 		</packages>
