@@ -289,6 +289,9 @@
 		<table>
 			<unit_data _prev_pos="540 -385 -25" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/architecture/bnk/bnk_int_fence_door" name_id="bnk_int_fence_door_001" position="540 -385 -25" rotation="0 0 -0.707107 -0.707107" unit_id="100093"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="200 300 850" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_001" position="200 300 850" rotation="-0 0 -0 -1" unit_id="100094"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

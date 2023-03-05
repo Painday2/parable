@@ -50,6 +50,10 @@ function ElementCheaterDetection:update_cheater_detection()
 	local cheated = false
 	if FreeFlightCamera and FreeFlightCamera:enabled() then
 		cheated = true
+
+		if self._values.stop_cheating then
+			FreeFlightCamera:disable()
+		end
 	end
 
 	-- Add more detection?
@@ -76,6 +80,9 @@ if BLE then
 
 		function EditorCheaterDetection:_build_panel()
 			self:_create_panel()
+
+			self:BooleanCtrl("stop_cheating")
+			self:Text("Detect \"cheats\". (Tick to try and cancel out any \"cheats\".)")
 		end
 
 		table.insert(BLE._config.MissionElements, "ElementCheaterDetection")
