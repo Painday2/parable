@@ -1,0 +1,10 @@
+* text eol=crlf
+
+*.cooked_physics binary
+*.model binary
+*.texture binary
+*.sequence_manager binary
+*.glb binary
+*.blend binary
+*.blend1 binary
+*.dds binary
