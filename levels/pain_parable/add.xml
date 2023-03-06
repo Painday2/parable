@@ -3398,12 +3398,11 @@
 		<sequence_manager path="units/world/props/bank/paintings/painting"/>
 		<unit path="units/world/props/bank/paintings/diamondheist_painting_13"/>
 	</add>
-	<add from_db="true" path="units/world/props/bank/paintings/painting_01" type="unit">
+	<add path="units/world/props/bank/paintings/painting_01" type="unit">
 		<material_config path="units/world/props/bank/paintings/painting_01"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 		<object path="units/world/props/bank/paintings/painting_01"/>
-		<physic_effect path="core/physic_effects/sequencemanager_push"/>
 		<sequence_manager path="units/world/props/bank/paintings/painting"/>
+		<texture path="units/world/props/bank/paintings/painting_01_mandrill" unload="true"/>
 		<unit path="units/world/props/bank/paintings/painting_01"/>
 	</add>
 	<add from_db="true" path="units/world/props/bank/paintings/suburbia_painting_33" type="unit">
@@ -4693,7 +4692,6 @@
 	<object path="units/pain_floor/pain_floor" unload="true"/>
 	<unit load="true" path="units/pain_floor/pain_floor" unload="true"/>
 	<cooked_physics path="units/pain_floor/pain_floor" unload="true"/>
-	<texture path="units/pain_floor/pain_floor_df" unload="true"/>
 	<model path="units/pain_floor/pain_floor_corner" unload="true"/>
 	<object path="units/pain_floor/pain_floor_corner" unload="true"/>
 	<unit load="true" path="units/pain_floor/pain_floor_corner" unload="true"/>
@@ -4706,7 +4704,6 @@
 	<object path="units/pain_floor/pain_wall" unload="true"/>
 	<unit load="true" path="units/pain_floor/pain_wall" unload="true"/>
 	<cooked_physics path="units/pain_floor/pain_wall" unload="true"/>
-	<texture path="units/painting_01_df" unload="true"/>
 	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1d_4m_a_doubledoor" type="unit">
 		<material_config path="units/payday2/architecture/lux/lux"/>
 		<object path="units/payday2/architecture/lux/lux_int_wall1d_4m_a_doubledoor"/>
@@ -6361,10 +6358,47 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_ceiling_office"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
-		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
-		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
 		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision_10m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision_10m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision_10m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision_5m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision_5m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision_5m"/>
+	</add>
+	<add from_db="true" path="core/units/light_spot/light_spot" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_spot/light_spot"/>
+		<unit path="core/units/light_spot/light_spot"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/shadow_caster_10x10" type="unit">
+		<material_config path="units/dev_tools/level_tools/shadow_caster"/>
+		<object path="units/dev_tools/level_tools/shadow_caster_10x10"/>
+		<sequence_manager path="units/dev_tools/level_tools/shadow_caster"/>
+		<unit path="units/dev_tools/level_tools/shadow_caster_10x10"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane" type="unit">
+		<material_config path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+		<object path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+		<unit path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburb_painting_01/suburb_painting_01" type="unit">
+		<unit path="units/world/props/suburb_painting_01/suburb_painting_01"/>
+		<object path="units/world/props/suburb_painting_01/suburb_painting_01"/>
+		<material_config path="units/world/props/suburb_painting_01/suburb_painting_01"/>
+		<sequence_manager path="units/world/props/suburb_painting_01/suburb_painting"/>
 	</add>
 	<material_config path="units/pain_floor/pain_floor" unload="true"/>
 	<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
+	<texture path="units/pain_floor/pain_floor_df" unload="true"/>
 </table>
