@@ -5,6 +5,9 @@
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
+		<sounds directory="assets/sound">
+			<sound id="mandrill_exit" path="mandrillscream.ogg" subtitle_id="mandrill_scream" />
+		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
