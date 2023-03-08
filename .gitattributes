@@ -1,10 +1,12 @@
-* text eol=crlf
-
-*.cooked_physics binary
-*.model binary
-*.texture binary
-*.sequence_manager binary
-*.glb binary
-*.blend binary
-*.blend1 binary
-*.dds binary
+*.txt text eol=crlf
+*.lua text eol=crlf
+*.xml text eol=crlf
+*.json text eol=crlf
+*.objective text eol=crlf
+*.package text eol=crlf
+*.material_config text eol=crlf
+*.object text eol=crlf
+*.unit text eol=crlf
+*.world text eol=crlf
+*.mission text eol=crlf
+*.continent text eol=crlf
