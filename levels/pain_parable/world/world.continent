@@ -651,10 +651,10 @@
 			<unit_data _prev_pos="6375 125 0" _prev_rot="0 0 1 -0" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 600 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall1_2m_a" name_id="lux_int_wall1_2m_a_115" position="6375 123 0" rotation="0 0 1 -0" unit_id="100344"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="6350 125 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="25 -800 0" local_rot="0 0 1 0" name="units/payday2/architecture/lux/lux_int_wall1d_2m_door_a" name_id="lux_int_wall1d_2m_door_a_028" position="6350 125 0" rotation="0 0 0 -1" unit_id="100345"/>
+			<unit_data _prev_pos="6350 125 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall1d_2m_door_a" name_id="lux_int_wall1d_2m_door_a_028" position="6350 123 0" rotation="0 0 0 -1" unit_id="100345"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="6372 172 0" _prev_rot="0 0 -8.9407e-008 -1" continent="world" instance_data="false" local_pos="3 553 0" local_rot="0 0 1 -8.9407e-008" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_029" position="6372 170 0" rotation="0 0 -8.9407e-008 -1" unit_id="100346"/>
+			<unit_data _prev_pos="6372 170 0" _prev_rot="0 0 -8.9407e-008 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="deactivate_door" name="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" name_id="gen_interactable_door_reinforced_029" position="6372 168 0" rotation="0 0 -8.9407e-008 -1" unit_id="100346"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="6375 525 0" _prev_rot="0 0 1 -0" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 200 0" local_rot="0 0 0 1" name="units/payday2/architecture/lux/lux_int_wall1_2m_a" name_id="lux_int_wall1_2m_a_116" position="6375 523 0" rotation="0 0 1 -0" unit_id="100347"/>
@@ -990,9 +990,9 @@
 			<unit_data _prev_pos="6368.79 823.994 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="18.79 98.994 0" local_rot="0 0 0 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator_doors" name_id="tag_int_elevator_doors_001" position="6368.79 823.994 0" rotation="-0 0 -0 -1" unit_id="100513"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="6373 831 0" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="elevator_down" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator" name_id="tag_int_elevator_001" position="6373 831 0" rotation="-0 0 -0 -1" unit_id="100514">
+			<unit_data _prev_pos="6373 831 0" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="true" local_pos="-402 506 1600" local_rot="0 0 -4.37114e-008 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator" name_id="tag_int_elevator_001" position="6373 831 0" rotation="-0 0 -0 -1" unit_id="100514">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.921569 0.67451 0.741176" enabled="true" falloff_exponent="4" far_range="300" multiplier="@ID8badd0cc6ca7cc05@" name="ls_light" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.921569 0.67451 0.737255" enabled="true" falloff_exponent="4" far_range="300" multiplier="@ID8badd0cc6ca7cc05@" name="ls_light" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
@@ -7748,7 +7748,7 @@
 			<unit_data _prev_pos="8768.79 1198.99 -1600" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator_doors" name_id="tag_int_elevator_doors_003" position="8693.79 1198.99 -1600" rotation="0 0 0.707107 -0.707107" unit_id="102280"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="8700.8 1194.78 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator" name_id="tag_int_elevator_002" position="8700.8 1194.78 0" rotation="0 0 0.707107 -0.707107" unit_id="102281">
+			<unit_data _prev_pos="8700.8 1194.78 0" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="1925.8 869.78 1600" local_rot="0 0 -0.707107 0.707107" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator" name_id="tag_int_elevator_002" position="8700.8 1194.78 0" rotation="0 0 0.707107 -0.707107" unit_id="102281">
 				<lights>
 					<table clipping_values="10000 -10000 0" color="0.921569 0.67451 0.737255" enabled="true" falloff_exponent="4" far_range="300" multiplier="@ID8badd0cc6ca7cc05@" name="ls_light" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>

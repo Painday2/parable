@@ -5,9 +5,6 @@
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
-		<sounds directory="assets/sound">
-			<sound id="mandrill_exit" path="mandrillscream.ogg" subtitle_id="mandrill_scream" />
-		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
@@ -25,6 +22,9 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+		<sounds directory="assets/sound">
+			<sound id="mandrill_exit" path="mandrillscream.ogg" subtitle_id="mandrill_scream"/>
+		</sounds>
 	</level>
 	<level ai_group_type="america" id="pain_parable_cheat_room" max_bags="54" team_ai_off="true">
 		<assets/>
@@ -46,6 +46,33 @@
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="pain_parable_lair" max_bags="54">
+		<assets>
+			<asset name="ammo_bag"/>
+			<asset name="health_bag"/>
+			<asset name="grenade_crate"/>
+			<asset name="bodybags_bag"/>
+		</assets>
+		<packages>
+			<value_node value="package_parable"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+		<classes directory="classes">
+			<class file="ElementCheaterDetection.lua"/>
+			<class file="ElementInstantLevelLoad.lua"/>
+		</classes>
+		<hooks directory="hooks">
+			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
+			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+		</hooks>
 	</level>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
