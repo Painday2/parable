@@ -7172,10 +7172,70 @@
 		<unit path="units/world/props/hotel/elevator_chair/elevator_chair"/>
 	</add>
 	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch" type="unit">
-		<unit path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
+		<material_config path="units/world/architecture/secret_stash/secret_stash"/>
 		<object path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
 		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
-		<material_config path="units/world/architecture/secret_stash/secret_stash"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_stairs_elevator_hatch"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level_doorway_2m_b" type="unit">
+		<material_config path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level"/>
+		<object path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level_doorway_2m_b"/>
+		<unit path="units/pd2_dlc_help/architecture/ind_ext_level/hlp_ext_level_doorway_2m_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/bph_ext_level_table" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_locker"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/bph_ext_level_table"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/bph_ext_level_table"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m_above_door" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m_above_door"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m_above_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m_above_door_grey" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_cage_grey"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m_above_door_grey"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m_above_door_grey"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m1m_grey" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_cage_grey"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m1m_grey"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m1m_grey"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_corner_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_corner_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_corner_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_03_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_03_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_03_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_04_v3" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_04_v3"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_1_04_v3"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_vent"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_duct_3_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stripes_center" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_decals"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stripes_center"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stripes_center"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_big_door" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/kosugi_warehouse_big_door"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_big_door"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_big_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
 	</add>
 	<material_config path="units/pain_floor/pain_floor" unload="true"/>
 	<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>
