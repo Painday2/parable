@@ -72,6 +72,11 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hooks directory="slide_player_state">
+				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
+				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+			</hooks>
 		</hooks>
 	</level>
 	<Localization default="english.txt" directory="loc">

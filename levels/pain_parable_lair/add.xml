@@ -929,8 +929,1071 @@
 		<unit path="units/pd2_dlc_corp/props/corp_int_double_door/corp_int_double_door"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_ceiling_4x4m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02" type="unit">
+		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_02"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_sawblade/ind_prop_mill_sawblade" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_sawblade/ind_prop_mill_sawblade"/>
+		<object path="units/payday2/props/ind_prop_mill_sawblade/ind_prop_mill_sawblade"/>
+		<sequence_manager path="units/payday2/props/ind_prop_mill_sawblade/ind_prop_mill_sawblade"/>
+		<unit path="units/payday2/props/ind_prop_mill_sawblade/ind_prop_mill_sawblade"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_pallet_assembly_table/ind_prop_mill_pallet_assembly_table" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_pallet_assembly_table/ind_prop_mill_pallet_assembly_table"/>
+		<object path="units/payday2/props/ind_prop_mill_pallet_assembly_table/ind_prop_mill_pallet_assembly_table"/>
+		<unit path="units/payday2/props/ind_prop_mill_pallet_assembly_table/ind_prop_mill_pallet_assembly_table"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/ind_prop_mill_saw/ind_prop_mill_saw" type="unit">
+		<material_config path="units/payday2/props/ind_prop_mill_saw/ind_prop_mill_saw"/>
+		<object path="units/payday2/props/ind_prop_mill_saw/ind_prop_mill_saw"/>
+		<sequence_manager path="units/payday2/props/ind_prop_mill_saw/ind_prop_mill_saw"/>
+		<unit path="units/payday2/props/ind_prop_mill_saw/ind_prop_mill_saw"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/dah_turret_ceiling" type="unit">
+		<unit path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/dah_turret_ceiling"/>
+		<object path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/dah_turret_ceiling"/>
+		<unit path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/spawn_turret_debris"/>
+		<object path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/spawn_turret_debris"/>
+		<unit path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/spawn_shield_front"/>
+		<object path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/spawn_shield_front"/>
+		<effect load="true" path="effects/particles/weapons/flashlight/flashlight"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
+		<effect load="true" path="effects/payday2/particles/weapons/big_762_auto"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/combo_light_all"/>
+		<effect load="true" path="effects/payday2/particles/weapons/parts/distance_halo_big"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_556_lmg"/>
+		<effect load="true" path="effects/payday2/particles/weapons/shells/shell_link"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
+		<unit path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/spawn_shield_upper"/>
+		<object path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/spawn_shield_upper"/>
+		<bnk path="soundbanks/weapon_swatturret"/>
+		<material_config path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/dah_turret_ceiling"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_dah/vehicles/dah_turret_ceiling/dah_turret_ceiling"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling" type="unit">
+		<unit path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+		<object path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+		<material_config path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_turret_debris"/>
+		<material_config path="units/payday2/vehicles/gen_vehicle_turret/gen_vehicle_turret"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_front"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_aftersmoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_med"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_damage_smoke_large"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sparks/sparks_loop"/>
+		<effect load="true" path="effects/payday2/particles/explosions/sentry_explosion"/>
+		<unit path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<object path="units/payday2/vehicles/gen_vehicle_turret/spawn_shield_upper"/>
+		<bnk path="soundbanks/weapon_swatturret"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_berry/vehicles/gen_turret_ceiling/gen_turret_ceiling"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x12m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker/dev_ai_vis_blocker_005x6x6m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_1m_a_white"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_white" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_white"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_2m_a_white"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_white" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_white"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_wall_4m_a_white"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white" type="unit">
+		<unit path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white"/>
+		<object path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white"/>
+		<material_config path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white"/>
+		<unit path="units/pd2_dlc_friend/architecture/int/spawn_int_door_white_debris"/>
+		<object path="units/pd2_dlc_friend/architecture/int/spawn_int_door_white_debris"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_friend/architecture/int/sfm_int_door_white"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_yellow_01" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_yellow_01"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_yellow_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_olive_01" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_olive_01"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_olive_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_blue_04" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_blue_04"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_blue_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_blue_03" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_blue_03"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_blue_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_red_03" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_red_03"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_red_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_red_04" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_red_04"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_wall_red_04"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_floor_4x4m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_floor_4x4m"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_floor_4x4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_floor_11x20" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_floor_11x20"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_floor_11x20"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_door" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_door"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_6x6" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_6x6"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_6x6"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_3x3" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_3x3"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_3x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_17x11m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_17x11m"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_17x11m"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_17x11m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_2x2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" type="unit">
+		<font path="fonts/font_caslon"/>
+		<material_config path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon"/>
+		<object path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon"/>
+		<unit path="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_a_window_door" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_ext_facade/mus_ext_facade_front_window_door"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_a_window_door"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_a_window_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_b_door" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_b_door"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_b_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_b" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_b"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_b_3x3" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_b_3x3"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_b_3x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_b_door_double" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_b_door_double"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_b_door_double"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_b_end" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_b_end"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_b_end"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_b_wall" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_b_wall"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_b_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_hall_tsection_4x3" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_hall_tsection_4x3"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_hall_tsection_4x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_pillar_a" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_pillar_a"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_pillar_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_pillar_b" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_pillar_b"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_pillar_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_lobby_door_3x3" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_lobby_door_3x3"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_lobby_door_3x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_lobby_corridor" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_lobby_corridor"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_lobby_corridor"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_lobby_stairs" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int_lobby_stairs"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_lobby_stairs"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_lobby_stairs"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_staircase_a" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int_staircase_a"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_staircase_a"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_staircase_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_staircase_wall_a" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_staircase_wall_a"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_staircase_wall_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_wall_a_4x3" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int_wall"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_wall_a_4x3"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_wall_a_4x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_wall_a_4x6" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_wall_a_4x6"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_wall_a_4x6"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/int/mus_int_wall_b_4x3" type="unit">
+		<material_config path="units/pd2_indiana/architecture/int/mus_int"/>
+		<object path="units/pd2_indiana/architecture/int/mus_int_wall_b_4x3"/>
+		<unit path="units/pd2_indiana/architecture/int/mus_int_wall_b_4x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor_2x4m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor"/>
+		<object path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor_2x4m"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor_2x4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor_4x4m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor"/>
+		<object path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor_4x4m"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_floor_4x4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar"/>
+		<object path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar_base" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar"/>
+		<object path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar_base"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_pillar_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_showcase_base" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room"/>
+		<object path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_showcase_base"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_showcase_base"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_diamond_room/mus_int_diamond_pressure_plate" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_diamond_room/mus_int_diamond_room"/>
+		<object path="units/pd2_indiana/architecture/mus_int_diamond_room/mus_int_diamond_pressure_plate"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_diamond_room/mus_int_diamond_pressure_plate"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_diamond_room/mus_int_diamond_pressure_plate"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_renovation"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_cloth_4x4"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_curator_room_a" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_curator_room_a"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_lab_curator_room_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_window_01"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_il"/>
+		<object path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_window_01"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_il"/>
+		<object path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight_end" type="unit">
+		<effect load="true" path="effects/payday2/particles/flares/street_light_flare_window_01"/>
+		<material_config path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_il"/>
+		<object path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight_end"/>
+		<sequence_manager path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_skylight/mus_int_corridor_skylight_end"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight_top" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight"/>
+		<object path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight_top"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight_top"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight_top_end" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight"/>
+		<object path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight_top_end"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_skylight_top/mus_int_exibit_skylight_top_end"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim_4m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim_4m"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim_4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim_window" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim_window"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_trim_window"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_4x4m_hole" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_4x4m_hole"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_4x4m_hole"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_4x4m" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_4x4m"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lobby/mus_int_lobby_ceiling_coffer_4x4m"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_big_room/mus_ext_court_window_solid" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room"/>
+		<object path="units/pd2_indiana/architecture/mus_int_big_room/mus_ext_court_window_solid"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_big_room/mus_ext_court_window_solid"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_03" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_03"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_03"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_a" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_a"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_a"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_b" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_b"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_b"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_d" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_d"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_d"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_e" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_e"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_e"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standingwall_a" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standingwall_a"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standingwall_a"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standingwall_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_a" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_a"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_a"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_b" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_b"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_b"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_c" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_standing_set"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_c"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_c"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_display_set/mus_prop_exhibit_display_wall_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_names_plaque_01/chl_prop_names_plaque_01" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_names_plaque_01/chl_prop_names_plaque_01"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_names_plaque_01/chl_prop_names_plaque_01"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_names_plaque_01/chl_prop_names_plaque_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_d" type="unit">
+		<material_config path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+		<object path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_d"/>
+		<unit path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_b" type="unit">
+		<material_config path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+		<object path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_b"/>
+		<unit path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a" type="unit">
+		<material_config path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+		<object path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+		<unit path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_c" type="unit">
+		<material_config path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+		<object path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_c"/>
+		<unit path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_e" type="unit">
+		<material_config path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_a"/>
+		<object path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_e"/>
+		<unit path="units/payday2/props/stn_prop_lobby_counter_plaque/stn_prop_lobby_counter_plaque_e"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_wall_8m" type="unit">
+		<material_config path="units/payday2/architecture/com_ext_gallery/com_ext_gallery"/>
+		<object path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_wall_8m"/>
+		<unit path="units/payday2/architecture/com_ext_gallery/com_ext_gallery_wall_8m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_4m_a_white" type="unit">
+		<material_config path="units/payday2/architecture/com_int_gallery/com_int_gallery"/>
+		<object path="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_4m_a_white"/>
+		<unit path="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_4m_a_white"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/painting/painting_big_02" type="unit">
+		<material_config path="units/world/props/apartment/painting/painting"/>
+		<object path="units/world/props/apartment/painting/painting_big_02"/>
+		<unit path="units/world/props/apartment/painting/painting_big_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_e"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+		<object path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+		<unit path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_f"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/painting/painting_big_03" type="unit">
+		<material_config path="units/world/props/apartment/painting/painting"/>
+		<object path="units/world/props/apartment/painting/painting_big_03"/>
+		<unit path="units/world/props/apartment/painting/painting_big_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue_woman" type="unit">
+		<effect load="true" path="effects/particles/dest/ceramic_cup_dest"/>
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue_woman"/>
+		<sequence_manager path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_room/fancy_painting_etc/statue_woman"/>
+	</add>
+	<add from_db="true" path="units/world/props/bank/paintings/painting_12" type="unit">
+		<material_config path="units/world/props/bank/paintings/painting_12"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<object path="units/world/props/bank/paintings/painting_12"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push"/>
+		<sequence_manager path="units/world/props/bank/paintings/painting"/>
+		<unit path="units/world/props/bank/paintings/painting_12"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/equipment/chca_interactable_big_painting/chca_interactable_big_painting" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_chca/equipment/chca_interactable_big_painting/chca_interactable_big_painting_contour"/>
+		<object path="units/pd2_dlc_chca/equipment/chca_interactable_big_painting/chca_interactable_big_painting"/>
+		<sequence_manager path="units/pd2_dlc_chca/equipment/chca_interactable_big_painting/chca_interactable_big_painting"/>
+		<unit path="units/pd2_dlc_chca/equipment/chca_interactable_big_painting/chca_interactable_big_painting"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_painting/chl_props_trophy_painting" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_painting/chl_props_trophy_painting"/>
+		<object path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_painting/chl_props_trophy_painting"/>
+		<unit path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophy_painting/chl_props_trophy_painting"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_b" type="unit">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_b"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_b"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_b"/>
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_c" type="unit">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_c"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_c"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_c"/>
+		<unit path="units/pd2_dlc_chas/pickups/chas_pku_paintings/chas_pku_paintings_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_c" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_c"/>
+		<object path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_c"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_paintings"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_d" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_d"/>
+		<object path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_d"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_paintings"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_e" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_e"/>
+		<object path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_e"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_paintings"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_e"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_f" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_f"/>
+		<object path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_f"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_paintings"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_f"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_g" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_g"/>
+		<object path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_g"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_paintings"/>
+		<unit path="units/payday2/props/bnk_prop_lobby_paintings/bnk_prop_lobby_painting_g"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/props/cas_prop_painting/cas_prop_painting" type="unit">
+		<material_config path="units/pd2_dlc_casino/props/cas_prop_painting/cas_prop_painting"/>
+		<object path="units/pd2_dlc_casino/props/cas_prop_painting/cas_prop_painting"/>
+		<sequence_manager path="units/pd2_dlc_casino/props/cas_prop_painting/cas_prop_painting"/>
+		<unit path="units/pd2_dlc_casino/props/cas_prop_painting/cas_prop_painting"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_b" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_a"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_b"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_c" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_a"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_c"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_d" type="unit">
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_a"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_d"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_chinese_painting/chas_prop_chinese_painting_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_gallery_paintings/com_prop_gallery_paintingabstract_large_2" type="unit">
+		<material_config path="units/payday2/props/com_prop_gallery_paintings/com_prop_gallery_paintingabstract"/>
+		<object path="units/payday2/props/com_prop_gallery_paintings/com_prop_gallery_paintingabstract_large_2"/>
+		<unit path="units/payday2/props/com_prop_gallery_paintings/com_prop_gallery_paintingabstract_large_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ben_qwek_10" type="unit">
+		<material_config path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ben_qwek_10"/>
+		<object path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ben_qwek_10"/>
+		<unit path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ben_qwek_10"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_4" type="unit">
+		<material_config path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_4"/>
+		<object path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_4"/>
+		<unit path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_int_paintings/com_prop_int_medium_painting_darius_8" type="unit">
+		<material_config path="units/payday2/props/com_prop_int_paintings/com_prop_int_medium_painting_darius_8"/>
+		<object path="units/payday2/props/com_prop_int_paintings/com_prop_int_medium_painting_darius_8"/>
+		<unit path="units/payday2/props/com_prop_int_paintings/com_prop_int_medium_painting_darius_8"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_9" type="unit">
+		<material_config path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_9"/>
+		<object path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_9"/>
+		<unit path="units/payday2/props/com_prop_int_paintings/com_prop_int_large_painting_ray_9"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting6" type="unit">
+		<material_config path="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting6"/>
+		<object path="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting6"/>
+		<sequence_manager path="units/payday2/props/lxa_prop_gallery_paintings/lxa_painting_destroy"/>
+		<unit path="units/payday2/props/lxa_prop_gallery_paintings/lxa_prop_painting6"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_a" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_set"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_a"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_b" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_set"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_b"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_c" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_set"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_c"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_c"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_d" type="unit">
+		<material_config path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_set"/>
+		<object path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_d"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<unit path="units/pd2_mcmansion/props/mcm_prop_livingroom_painting_set/mcm_prop_livingroom_painting_d"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_atlantis" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_atlantis"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_atlantis"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_atlantis"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_atlantis"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_derelict" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_derelict"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_derelict"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_derelict"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_derelict"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_dig" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_dig"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_dig"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_dig"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_dig"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_egyptian_painting/mus_prop_egyptian_painting" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_egyptian_painting/mus_prop_egyptian_painting"/>
+		<object path="units/pd2_indiana/props/mus_prop_egyptian_painting/mus_prop_egyptian_painting"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_egyptian_painting/mus_prop_egyptian_painting"/>
+		<unit path="units/pd2_indiana/props/mus_prop_egyptian_painting/mus_prop_egyptian_painting"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_mummy" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_mummy"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_mummy"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_mummy"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_mummy"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_thing" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_thing"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_thing"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_thing"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_thing"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_tomb" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_tomb"/>
+		<object path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_tomb"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_tomb"/>
+		<unit path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_tomb"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_myh/props/myh_prop_painting/myh_prop_painting" type="unit">
+		<material_config path="units/pd2_dlc_fish/lxy_prop_maritime_paintings/lxy_prop_maritime_paintings_a"/>
+		<object path="units/pd2_dlc_myh/props/myh_prop_painting/myh_prop_painting"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_myh/props/myh_prop_painting/myh_prop_painting"/>
+		<unit path="units/pd2_dlc_myh/props/myh_prop_painting/myh_prop_painting"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_myh/props/myh_props_wrapped_painting/myh_props_wrapped_painting" type="unit">
+		<material_config path="units/pd2_dlc_myh/props/myh_props_wrapped_painting/myh_props_wrapped_painting"/>
+		<object path="units/pd2_dlc_myh/props/myh_props_wrapped_painting/myh_props_wrapped_painting"/>
+		<unit path="units/pd2_dlc_myh/props/myh_props_wrapped_painting/myh_props_wrapped_painting"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nmh/props/nmh_props_painting_portrait01/nmh_props_painting_portrait01" type="unit">
+		<material_config path="units/pd2_dlc_nmh/props/nmh_props_painting_portrait01/nmh_props_painting_portrait01"/>
+		<object path="units/pd2_dlc_nmh/props/nmh_props_painting_portrait01/nmh_props_painting_portrait01"/>
+		<unit path="units/pd2_dlc_nmh/props/nmh_props_painting_portrait01/nmh_props_painting_portrait01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_field" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_field"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_field"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_field"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_commander_horse" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_commander_horse"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_commander_horse"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_commander_horse"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_woods" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_woods"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_woods"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_battle_woods"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_drawing_admiral" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_drawing_admiral"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_drawing_admiral"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_drawing_admiral"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_merchant_harbor" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_merchant_harbor"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_merchant_harbor"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_merchant_harbor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_family" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_family"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_family"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_family"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_gentlemen" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_gentlemen"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_gentlemen"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_gentlemen"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lady_eagle" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lady_eagle"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lady_eagle"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lady_eagle"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_banker" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_banker"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_banker"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_banker"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_polearm_posers" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_polearm_posers"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_polearm_posers"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_polearm_posers"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_ladies" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_ladies"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_ladies"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_photo_ladies"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_book" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_book"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_book"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_book"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_stick" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_stick"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_stick"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_lord_stick"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_merchant" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_merchant"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_merchant"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_paintings"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_merchant"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_red_robes" type="unit">
+		<material_config path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_red_robes"/>
+		<object path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_red_robes"/>
+		<unit path="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_portrait_red_robes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_painting_atlantis" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_atlantis"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_painting_atlantis"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_paintings"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_painting_atlantis"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_painting_mummy" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_exhibit_paintings/mus_prop_exhibit_painting_mummy"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_painting_mummy"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_paintings"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_exhibit_paintings/sfm_prop_exhibit_painting_mummy"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_g/sfm_prop_lobby_wall_painting_g" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_g/sfm_prop_lobby_wall_painting_g"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_g/sfm_prop_lobby_wall_painting_g"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_g/sfm_prop_lobby_wall_painting_g"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_j/sfm_prop_lobby_wall_painting_j" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_j/sfm_prop_lobby_wall_painting_j"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_j/sfm_prop_lobby_wall_painting_j"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_lobby_wall_painting_j/sfm_prop_lobby_wall_painting_j"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_painting_aztec_god/vit_prop_aztec_god" type="unit">
+		<effect load="true" path="effects/particles/fire/small_sparkles"/>
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_painting_aztec_god/vit_prop_aztec_god"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_painting_aztec_god/vit_prop_aztec_god"/>
+		<sequence_manager path="units/pd2_dlc_vit/props/vit_prop_painting_aztec_god/vit_prop_aztec_god"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_painting_aztec_god/vit_prop_aztec_god"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_painting_woman_in_red/vit_prop_painting_woman_in_red" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_painting_woman_in_red/vit_prop_painting_woman_in_red"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_painting_woman_in_red/vit_prop_painting_woman_in_red"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_painting_woman_in_red/vit_prop_painting_woman_in_red"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_painting_4" type="unit">
+		<material_config path="units/world/architecture/secret_stash/props/secret_stash_props_painting"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_painting_4"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push"/>
+		<sequence_manager path="units/world/architecture/secret_stash/props/secret_stash_props_paintings"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_painting_4"/>
+	</add>
+	<add from_db="true" path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting_a" type="unit">
+		<material_config path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting"/>
+		<object path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting_a"/>
+		<unit path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting_a"/>
+	</add>
+	<add from_db="true" path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting_b" type="unit">
+		<material_config path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting"/>
+		<object path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting_b"/>
+		<unit path="units/world/props/western/wst_prop_int_painting/wst_prop_int_painting_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_level_railing_ending" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_railing"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_level_railing_ending"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_level_railing_ending"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/architecture/mus_int_lab/mus_int_level_railing_middle" type="unit">
+		<material_config path="units/pd2_indiana/architecture/mus_int_lab/mus_int_railing"/>
+		<object path="units/pd2_indiana/architecture/mus_int_lab/mus_int_level_railing_middle"/>
+		<unit path="units/pd2_indiana/architecture/mus_int_lab/mus_int_level_railing_middle"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_aristotle_statue/mus_prop_aristotle_statue" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/dest_statue_bust"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_aristotle_statue/mus_prop_aristotle_statue"/>
+		<object path="units/pd2_indiana/props/mus_prop_aristotle_statue/mus_prop_aristotle_statue"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_aristotle_statue/mus_prop_aristotle_statue"/>
+		<unit path="units/pd2_indiana/props/mus_prop_aristotle_statue/mus_prop_aristotle_statue"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_caeser_bust/mus_prop_caeser_bust" type="unit">
+		<effect load="true" path="effects/payday2/particles/destruction/dest_statue_bust"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_caeser_bust/mus_prop_caeser_bust"/>
+		<object path="units/pd2_indiana/props/mus_prop_caeser_bust/mus_prop_caeser_bust"/>
+		<physic_effect path="physic_effects/push_sphere_unit"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_caeser_bust/mus_prop_caeser_bust"/>
+		<unit path="units/pd2_indiana/props/mus_prop_caeser_bust/mus_prop_caeser_bust"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_construction_cart_scaffold/mus_prop_construction_cart_scaffold" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_construction_cart_scaffold/mus_prop_construction_cart_scaffold"/>
+		<object path="units/pd2_indiana/props/mus_prop_construction_cart_scaffold/mus_prop_construction_cart_scaffold"/>
+		<unit path="units/pd2_indiana/props/mus_prop_construction_cart_scaffold/mus_prop_construction_cart_scaffold"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair"/>
+		<object path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair"/>
+		<unit path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair_set" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair"/>
+		<object path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair_set"/>
+		<unit path="units/pd2_indiana/props/mus_prop_courtyard_chair_set/mus_prop_courtyard_chair_set"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_construction_saw/mus_prop_construction_saw" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_construction_saw/mus_prop_construction_saw"/>
+		<object path="units/pd2_indiana/props/mus_prop_construction_saw/mus_prop_construction_saw"/>
+		<unit path="units/pd2_indiana/props/mus_prop_construction_saw/mus_prop_construction_saw"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_curator_chair/mus_prop_curator_chair" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_curator_chair/mus_prop_curator_chair"/>
+		<object path="units/pd2_indiana/props/mus_prop_curator_chair/mus_prop_curator_chair"/>
+		<unit path="units/pd2_indiana/props/mus_prop_curator_chair/mus_prop_curator_chair"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_monument/mus_prop_monument" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_monument/mus_prop_monument"/>
+		<object path="units/pd2_indiana/props/mus_prop_monument/mus_prop_monument"/>
+		<unit path="units/pd2_indiana/props/mus_prop_monument/mus_prop_monument"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/mus_prop_kariatyde_pillar_statue" type="unit">
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/mus_prop_kariatyde_pillar_statue"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/mus_prop_kariatyde_pillar_statue"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_01"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_01"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_02"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_02"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_03"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_03"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_04"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_04"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_05"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_05"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_06"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_06"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_08"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_08"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_09"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_09"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_10"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_10"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_11"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_11"/>
+		<unit path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_07"/>
+		<object path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/spawn_piece_07"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/payday2/particles/destruction/des_statue_man"/>
+		<material_config path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/mus_prop_kariatyde_pillar_statue"/>
+		<sequence_manager path="units/pd2_indiana/props/mus_prop_kariatyde_pillar_statue/mus_prop_kariatyde_pillar_statue"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_hallway_bench/mus_prop_hallway_bench" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_hallway_bench/mus_prop_hallway_bench"/>
+		<object path="units/pd2_indiana/props/mus_prop_hallway_bench/mus_prop_hallway_bench"/>
+		<unit path="units/pd2_indiana/props/mus_prop_hallway_bench/mus_prop_hallway_bench"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench" type="unit">
+		<material_config path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench"/>
+		<object path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench"/>
+		<unit path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" type="unit">
+		<material_config path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench"/>
+		<object path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single"/>
+		<unit path="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_02" type="unit">
+		<unit path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_02"/>
+		<object path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_02"/>
+		<material_config path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_02"/>
+		<sequence_manager path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures"/>
+		<physic_effect path="core/physic_effects/sequencemanager_push"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
 	</add>
 </table>

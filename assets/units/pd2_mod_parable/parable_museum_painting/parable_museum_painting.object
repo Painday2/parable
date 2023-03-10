@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" orientation_object="rp_sah_prop_painting_battle_woods" />
+	<metadata material_config_group="mtr_museum_painting"/>
+	<bodies>
+        <body enabled="true" template="static" name="static_body" >
+			<object name="rp_sah_prop_painting_battle_woods" />	
+            <object collision_type="convex" name="c_convex_01" padding="-2.5"/>
+        </body>	
+    </bodies>
+	<decal_surfaces default_material="wood">
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_painting_battle_woods" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,11 @@
+<unit type="sah" slot="1">
+	<object file="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on physic_effect="physic_effects/push_sphere_unit" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>
