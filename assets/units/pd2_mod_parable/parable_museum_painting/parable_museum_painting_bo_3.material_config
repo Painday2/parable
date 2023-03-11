@@ -1,0 +1,6 @@
+<materials version="3" group="mtr_museum_painting">
+    <material name="mat_painting_battle_woods" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_bo_3" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/props/sah_prop_paintings/sah_prop_painting_shared_frame_large_nm" mip="1"/>
+    </material>
+</materials>
