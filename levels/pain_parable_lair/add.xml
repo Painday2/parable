@@ -2017,8 +2017,36 @@
 		<unit path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_picture_07"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_collision_10m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_collision_10m"/>
+		<material_config path="core/material_configs/hub_elements"/>
 		<object path="units/dev_tools/level_tools/dev_collision_10m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision_10m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane" type="unit">
+		<material_config path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+		<object path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+		<unit path="units/pd2_dlc_cane/props/cne_prop_black_plane/cne_prop_black_plane"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane" type="unit">
+		<material_config path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+		<object path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+		<unit path="units/pd2_dlc_help/props/hlp_black_plane/hlp_black_plane"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever" type="unit">
+		<unit path="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever"/>
+		<unit path="units/pd2_dlc_chas/props/chas_prop_lever/spawn_chas_lever_break"/>
+		<object path="units/pd2_dlc_chas/props/chas_prop_lever/spawn_chas_lever_break"/>
+		<bnk path="soundbanks/des_sfx"/>
+		<effect load="true" path="effects/payday2/particles/explosions/grenade_explosion"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_chas/props/chas_prop_lever/chas_prop_lever"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m" type="unit">
+		<unit path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m"/>
+		<object path="units/dev_tools/level_tools/collision/dev_collision_20m/dev_collision_20m"/>
 		<material_config path="core/material_configs/hub_elements"/>
 	</add>
 </table>

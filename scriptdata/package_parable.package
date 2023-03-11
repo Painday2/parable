@@ -157,6 +157,14 @@
 		<texture path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_bo_3"/>
 		<material_config path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_bo_4"/>
 		<texture path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_bo_4"/>
+		<material_config path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_1"/>
+		<texture path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_1"/>
+		<material_config path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_2"/>
+		<texture path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_2"/>
+		<material_config path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_3"/>
+		<texture path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_3"/>
+		<material_config path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_4"/>
+		<texture path="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_para_4"/>
 	</add>
 	<add>
 		<texture force="true" path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures_07_df" unload="true"/>
