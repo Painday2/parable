@@ -26,6 +26,81 @@
 				<value_node value="100478"/>
 			</units>
 		</table>
+		<table continent="world" name="museum exhibit" reference="100722" visible="true">
+			<units>
+				<value_node value="100722"/>
+				<value_node value="100709"/>
+				<value_node value="100710"/>
+				<value_node value="100723"/>
+				<value_node value="100721"/>
+				<value_node value="100715"/>
+				<value_node value="100726"/>
+				<value_node value="100711"/>
+				<value_node value="100724"/>
+				<value_node value="100717"/>
+				<value_node value="100714"/>
+				<value_node value="100727"/>
+				<value_node value="100728"/>
+				<value_node value="100712"/>
+				<value_node value="100729"/>
+				<value_node value="100716"/>
+				<value_node value="100718"/>
+				<value_node value="100713"/>
+				<value_node value="100725"/>
+				<value_node value="100730"/>
+				<value_node value="100689"/>
+				<value_node value="100746"/>
+				<value_node value="100741"/>
+				<value_node value="100749"/>
+				<value_node value="100747"/>
+				<value_node value="100734"/>
+				<value_node value="100743"/>
+				<value_node value="100748"/>
+				<value_node value="100733"/>
+				<value_node value="100694"/>
+				<value_node value="100693"/>
+				<value_node value="100756"/>
+				<value_node value="100752"/>
+				<value_node value="100695"/>
+				<value_node value="100692"/>
+				<value_node value="100735"/>
+				<value_node value="100744"/>
+				<value_node value="100745"/>
+				<value_node value="100696"/>
+				<value_node value="100648"/>
+				<value_node value="100751"/>
+				<value_node value="100688"/>
+				<value_node value="100739"/>
+				<value_node value="100738"/>
+				<value_node value="100697"/>
+				<value_node value="100691"/>
+				<value_node value="100736"/>
+				<value_node value="100757"/>
+				<value_node value="100753"/>
+				<value_node value="100698"/>
+				<value_node value="100731"/>
+				<value_node value="100740"/>
+				<value_node value="100732"/>
+				<value_node value="100650"/>
+				<value_node value="100690"/>
+				<value_node value="100699"/>
+				<value_node value="100755"/>
+				<value_node value="100742"/>
+				<value_node value="100687"/>
+				<value_node value="100703"/>
+				<value_node value="100754"/>
+				<value_node value="100704"/>
+				<value_node value="100702"/>
+				<value_node value="100685"/>
+				<value_node value="100705"/>
+				<value_node value="100700"/>
+				<value_node value="100701"/>
+				<value_node value="100408"/>
+				<value_node value="100706"/>
+				<value_node value="100684"/>
+				<value_node value="100686"/>
+			</units>
+		</table>
 	</editor_groups>
 	<instances/>
 	<statics>
@@ -2492,9 +2567,6 @@
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4900 475 -26.092" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_dlc_chca/equipment/chca_interactable_big_painting/chca_interactable_big_painting" name_id="chca_interactable_big_painting_001" position="-4900 -125 -26.092" rotation="0 0 0 -1" unit_id="100737"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-3200 53 40.342" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="-3200 53 40.342" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100743">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Development started on the 21st of March 2018.
 The heist was made in 10 days, and was the 
@@ -2700,6 +2772,1119 @@ an unreleased version of RPN in Minecraft...
 		</table>
 		<table>
 			<unit_data _prev_pos="1050 -6735.36 -2588.67" _prev_rot="-0.270598 -0.270598 0.653282 -0.653281" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision_10m" name_id="dev_collision_10m_001" only_visible_in_editor="true" position="1050 -6753.03 -2570.99" rotation="-0.270598 -0.270598 0.653282 -0.653281" unit_id="100758"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4350 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_009" position="-6400 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100759"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4375 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 25 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_005" position="-6425 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100760"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -275 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_006" position="-6125 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100761"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4050 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_010" position="-6100 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100762"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4650 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_011" position="-6700 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100763"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4275 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 -75 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_007" position="-6325 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100764"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4700 475 394" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="75 350 0" local_rot="-0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" name_id="mus_prop_exhibit_lamp_config_02_003" position="-6750 475 394" rotation="0 0 1 4.37114e-008" unit_id="100765"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3775 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -575 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_007" position="-5825 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100766"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3750 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -600 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_012" position="-5800 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100767"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 325 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_008" position="-6725 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100768"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 -475 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_009" position="-5925 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100769"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4400 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 50 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_013" position="-6450 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100770"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4100 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -250 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_014" position="-6150 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100771"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3475 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -875 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_008" position="-5525 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100772"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3800 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -550 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_015" position="-5850 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100773"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4275 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 -75 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_010" position="-6325 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100774"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 325 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_011" position="-6725 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100775"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 -475 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_012" position="-5925 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100776"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3450 725 394" _prev_rot="0 0 0 -1" continent="world" local_pos="325 -900 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" name_id="mus_prop_exhibit_lamp_config_02_004" position="-5500 725 394" rotation="0 0 0 -1" unit_id="100777"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3500 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -850 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_016" position="-5550 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100778"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4975 50 200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 625 -194" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m" name_id="mus_int_room_a_ceiling_20x11m_002" position="-7025 50 200" rotation="0 0 0 -1" unit_id="100779"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6150 53 40.342" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_013" position="-6150 53 40.342" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100780">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The maps started development on March 20th, 2019.
+Enemy Spawner and Mandrill Maze were completed
+By March 25th, 2019. Meaning, Stalk Fraud had only
+8 days until it was completed mid April 1st.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5925 53 -35" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_2" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_2" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_005" position="-5925 53 -35" rotation="0 0 1 4.37114e-008" unit_id="100781"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6825 53 -35" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_1" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_1" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_006" position="-6825 53 -35" rotation="0 0 1 -4.37114e-008" unit_id="100782"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6150 53 -84.658" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_014" position="-6150 53 -84.658" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100784">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Originally, Switch at the end would not say
+where he was located on higher difficulties.
+This was scrapped, causing a bug where
+he sometimes doesn't spawn.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5424 500 72.611" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_011" position="-5424 500 72.611" rotation="0.5 0.5 0.5 0.5" unit_id="100785">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="1" render_template="diffuse_vc_decal" text="Exhibit 2:" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5250 53 40.342" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_015" position="-5250 53 40.342" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100786">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="A year later, the second map came out, with the concept
+originating from Zdann wanting to make 2 maps for April Fools -
+Mandrill Maze, and Enemy Spawner 2.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6400 53 -159.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_016" position="-6414 53 -159.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100787">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Early Development Screenshot]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5424 525 22.611" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_012" position="-5424 525 -2.389" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100788">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.95" render_template="diffuse_vc_decal" text="Stalk" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4375 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 25 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_018" position="-6425 50.0002 -200" rotation="0 0 0 -1" unit_id="100789"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -275 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_026" position="-6125 50.0002 -200" rotation="0 0 0 -1" unit_id="100790"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6100 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_017" position="-6100 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100792">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Stalk Fraud was the first map to add a weapon skin
+to the game for players to use. Many players
+who didn't realize this thought it was an
+&quot;official&quot; dev texture weapon skin.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 325 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_027" position="-6725 50.0002 -200" rotation="0 0 0 -1" unit_id="100793"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3775 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -575 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_028" position="-5825 50.0002 -200" rotation="0 0 0 -1" unit_id="100794"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5424 525 -52.389" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 -75 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_013" position="-5424 525 -77.389" rotation="0.5 0.5 0.5 0.5" unit_id="100795">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.95" render_template="diffuse_vc_decal" text="Fraud" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5250 53 -59.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_018" position="-5250 53 -59.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100796">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="As a joke, the two were flipped, with Stalk Fraud actually 
+being included as the second day of Enemy Spawner 2,
+despite Mandrill Maze originally being called Stalk Fraud.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5512 53 -159.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_019" position="-5562 53 -159.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100797">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Heist Logo and Tagline]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4975 50 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 625 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_007" position="-7025 50 -200" rotation="0 0 0 -1" unit_id="100798"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7000 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_020" position="-7000 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100799">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Stalk Fraud had many more voicelines than RPN.
+Not only did Luke voice Pain, but also Switch, 
+as the Original VA couldn't do it.
+He did all the lines in 2 days while under a flu. 
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6325 1145 -35" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_3" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_3" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_007" position="-6325 1145 -35" rotation="-0 0 -0 -1" unit_id="100800"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6125 600 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_floor_11x20" name_id="mus_int_room_a_floor_11x20_002" position="-6125 600 -200" rotation="0 0 0 -1" unit_id="100801"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4525 600 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 175 -594" local_rot="0 0 -1 0" name="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" name_id="com_prop_gallery_bench_no_back_single_003" position="-6575 600 -200" rotation="0 0 0.707107 -0.707107" unit_id="100802"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 600 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 -475 -594" local_rot="0 0 -1 0" name="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" name_id="com_prop_gallery_bench_no_back_single_004" position="-5925 600 -200" rotation="0 0 0.707107 -0.707107" unit_id="100803"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 150 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-250 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_029" position="-7125 150 -200" rotation="0 0 0.707107 -0.707107" unit_id="100804"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3475 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -875 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_030" position="-5525 50.0002 -200" rotation="0 0 0 -1" unit_id="100805"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6100 1149 -84.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_021" position="-6100 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="100808">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Possible names for Stalk Fraud included:
+&quot;The Walking Disaster&quot;
+&quot;Meat Street&quot;
+&quot;The Stock Fraud/Raid&quot;
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 450 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="50.0001 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" name_id="mus_int_room_a_wall_white_02_004" position="-7125 450 -200" rotation="0 0 0.707107 -0.707107" unit_id="100809"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 575 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="175 725 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_door" name_id="mus_int_room_a_door_003" position="-7125 575 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100810"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7000 1149 -59.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_022" position="-7000 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="100811">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Luke has used 3 different microphone for Pain:
+RPN, a Snowball
+Stalk Fraud and TLHS, a Blue Yeti
+Boworks, AT2020
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3400 500 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="100 -950 -594" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_2m_a_white" name_id="com_int_gallery_wall_2m_a_white_002" position="-5450 500 -200" rotation="0 0 0 -1" unit_id="100812"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3525 700 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="300 -825 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_showcase_base" name_id="mus_int_big_room_showcase_base_002" position="-5575 700 -200" rotation="0 0 0.707107 -0.707107" unit_id="100813"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3175 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -1175 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_031" position="-5225 50.0002 -200" rotation="0 0 0 -1" unit_id="100814"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 750 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="350 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_032" position="-7125 750 -200" rotation="0 0 0.707107 -0.707107" unit_id="100815"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5425 1145 -35" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_4" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_sf_4" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_008" position="-5425 1145 -35" rotation="-0 0 -0 -1" unit_id="100816"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6721 1149 -159.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_023" position="-6721 1149 -159.658" rotation="-0.707107 0 0 -0.707107" unit_id="100817">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[All Voiceline Elements of SF]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 150 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-250 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_008" position="-5125 150 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100818"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4375 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 25 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_033" position="-6425 1150 -200" rotation="0 0 1 -0" unit_id="100819"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5800 1149 -159.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_024" position="-5800 1149 -159.658" rotation="-0.707107 0 0 -0.707107" unit_id="100820">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[The Mockup Weapon Skin]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -275 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_034" position="-6125 1150 -200" rotation="0 0 1 -0" unit_id="100821"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6725 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_035" position="-6725 1150 -200" rotation="0 0 1 -0" unit_id="100822"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 450 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="50 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_036" position="-5125 450 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100823"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3775 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -575 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_037" position="-5825 1150 -200" rotation="0 0 1 -0" unit_id="100824"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 1050 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="650 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_009" position="-7125 1050 -200" rotation="0 0 0.707107 -0.707107" unit_id="100825"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4975 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 625 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_038" position="-7025 1150 -200" rotation="0 0 1 -0" unit_id="100826"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 750 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="350 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" name_id="mus_int_room_a_wall_white_02_005" position="-5125 750 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100827"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3475 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -875 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_039" position="-5525 1150 -200" rotation="0 0 1 -0" unit_id="100828"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 1050 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="650 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_040" position="-5125 1050 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100829"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3175 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -1175 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_010" position="-5225 1150 -200" rotation="0 0 1 -0" unit_id="100830"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8425 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_017" position="-8450 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100791"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8450 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 25 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_009" position="-8475 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100806"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8150 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -275 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_010" position="-8175 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100807"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8125 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_018" position="-8150 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100831"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8725 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_019" position="-8750 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100832"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8350 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 -75 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_013" position="-8375 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100833"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8775 475 394" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="75 350 0" local_rot="-0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" name_id="mus_prop_exhibit_lamp_config_02_005" position="-8800 475 394" rotation="0 0 1 4.37114e-008" unit_id="100834"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7850 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -575 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_011" position="-7875 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100835"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7825 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -600 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_020" position="-7850 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100836"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8750 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 325 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_014" position="-8775 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100837"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7950 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 -475 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_015" position="-7975 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100838"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8475 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 50 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_021" position="-8500 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100839"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8175 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -250 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_022" position="-8200 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100840"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7550 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -875 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_012" position="-7575 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100841"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7875 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -550 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_023" position="-7900 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100842"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8350 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 -75 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_016" position="-8375 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100843"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8750 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 325 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_017" position="-8775 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100844"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7950 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 -475 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_018" position="-7975 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100845"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7525 725 394" _prev_rot="0 0 0 -1" continent="world" local_pos="325 -900 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" name_id="mus_prop_exhibit_lamp_config_02_006" position="-7550 725 394" rotation="0 0 0 -1" unit_id="100846"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7575 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -850 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_024" position="-7600 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100847"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9050 50 200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 625 -194" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m" name_id="mus_int_room_a_ceiling_20x11m_003" position="-9075 50 200" rotation="0 0 0 -1" unit_id="100848"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8200 53 40.342" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_025" position="-8200 53 40.342" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100849">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="TLHS has over 20 minutes of
+Pain dialog, which was recorded by
+Luke while he had contracted COVID.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7975 53 -35" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_1" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_1" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_009" position="-7975 53 -35" rotation="0 0 1 -4.37114e-008" unit_id="100850"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8875 53 -35" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_2" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_2" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_010" position="-8875 53 -35" rotation="0 0 1 4.37114e-008" unit_id="100851"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8200 53 -59.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_026" position="-8200 53 -59.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100853">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Before returning for Pain Parable,
+the last time Luke voiced Pain
+was 3 years prior, for The Late Holiday Special." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7474 500 72.611" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_014" position="-7474 500 72.611" rotation="0.5 0.5 0.5 0.5" unit_id="100854">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="1" render_template="diffuse_vc_decal" text="Exhibit 3:" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7300 53 40.342" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_027" position="-7300 53 40.342" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100855">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Despite the previous two maps beginning development
+the week of, or before April Fools, TLHS actually
+started development as a concept the year prior.
+There are hints for this map in both RPN and SF.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8448 53 -159.658" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_028" position="-8460 53 -159.658" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100856">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Original Santa Screen Concept]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7474 525 22.611" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_015" position="-7474 522 22.611" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100857">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.05585" render_template="diffuse_vc_decal" text="The Late" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8450 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 25 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_041" position="-8475 50.0002 -200" rotation="0 0 0 -1" unit_id="100858"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8150 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -275 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_042" position="-8175 50.0002 -200" rotation="0 0 0 -1" unit_id="100859"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8150 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_029" position="-8150 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100861">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="A trailer was storyboarded but never made
+that made fun of Overkill's marketing, with
+a showcase of voice actors and features,
+and a price tag of $4.99 as bait.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8750 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 325 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_043" position="-8775 50.0002 -200" rotation="0 0 0 -1" unit_id="100862"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7850 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -575 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_044" position="-7875 50.0002 -200" rotation="0 0 0 -1" unit_id="100863"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7474 525 -52.389" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_016" position="-7474 519 -48.389" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100864">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.55207" render_template="diffuse_vc_decal" text="Holiday" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7300 53 -84.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_030" position="-7300 53 -84.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100865">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The original version of The Late Holiday Special
+was around 50 minutes long because of 
+the &quot;Hack the computer&quot; segments, 
+which were later shortened by - a lot.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7562 53 -159.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_031" position="-7562 53 -159.658" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100866">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Old Beardlib Editor Screenshot]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9050 50 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 625 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_011" position="-9075 50 -200" rotation="0 0 0 -1" unit_id="100867"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9050 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_032" position="-9050 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100868">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Originally, Santa Claus was going to be
+played by Jacksfilms and Mrs. Claus
+by his wife Erin. Due to personal reasons,
+they didn't have time around Christmas to record.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8375 1145 -35" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_3" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_3" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_011" position="-8375 1145 -35" rotation="-0 0 -0 -1" unit_id="100869"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8175 600 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_floor_11x20" name_id="mus_int_room_a_floor_11x20_003" position="-8175 600 -200" rotation="0 0 0 -1" unit_id="100870"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8600 600 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 175 -594" local_rot="0 0 -1 0" name="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" name_id="com_prop_gallery_bench_no_back_single_005" position="-8625 600 -200" rotation="0 0 0.707107 -0.707107" unit_id="100871"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7950 600 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 -475 -594" local_rot="0 0 -1 0" name="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" name_id="com_prop_gallery_bench_no_back_single_006" position="-7975 600 -200" rotation="0 0 0.707107 -0.707107" unit_id="100872"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9150 150 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-250 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_045" position="-9175 150 -200" rotation="0 0 0.707107 -0.707107" unit_id="100873"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7550 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -875 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_046" position="-7575 50.0002 -200" rotation="0 0 0 -1" unit_id="100874"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7474 525 -127.389" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_017" position="-7474 520 -121.389" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100875">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.75055" render_template="diffuse_vc_decal" text="Special" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8150 1149 -84.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_033" position="-8150 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="100877">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The Italian localization for every Pain map was
+randomly made by a user called &quot;MakinDay&quot; 
+and sent to Cupcake, who then added it.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9150 450 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="50.0001 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" name_id="mus_int_room_a_wall_white_02_006" position="-9175 450 -200" rotation="0 0 0.707107 -0.707107" unit_id="100878"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9150 575 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="175 725 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_door" name_id="mus_int_room_a_door_004" position="-9175 575 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100879"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9050 1149 -84.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_034" position="-9050 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="100880">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The map was done by December 2019
+but pushed back to April Fools for the voiceover
+related reasons. To this day, 
+Santa is &quot;temporarily&quot; voiced by Cupcake." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7500 500 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_2m_a_white" name_id="com_int_gallery_wall_2m_a_white_003" position="-7500 500 -200" rotation="0 0 0 -1" unit_id="100881"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7600 700 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="300 -825 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_showcase_base" name_id="mus_int_big_room_showcase_base_003" position="-7625 700 -200" rotation="0 0 0.707107 -0.707107" unit_id="100882"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7250 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -1175 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_047" position="-7275 50.0002 -200" rotation="0 0 0 -1" unit_id="100883"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9150 750 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="350 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_048" position="-9175 750 -200" rotation="0 0 0.707107 -0.707107" unit_id="100884"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7475 1145 -35" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_4" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_tlhs_4" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_012" position="-7475 1145 -35" rotation="-0 0 -0 -1" unit_id="100885"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8734 1149 -159.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_035" position="-8739 1149 -159.658" rotation="-0.707107 0 0 -0.707107" unit_id="100886">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Santa Claus NPC Model]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7150 150 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-250 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_012" position="-7175 150 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100887"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8450 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 25 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_049" position="-8475 1150 -200" rotation="0 0 1 -0" unit_id="100888"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7854 1149 -159.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_036" position="-7854 1149 -159.658" rotation="-0.707107 0 0 -0.707107" unit_id="100889">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Santa's Helpers Civilians]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8150 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -275 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_050" position="-8175 1150 -200" rotation="0 0 1 -0" unit_id="100890"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-8750 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 325 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_051" position="-8775 1150 -200" rotation="0 0 1 -0" unit_id="100891"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7150 450 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="50 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_052" position="-7175 450 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100892"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7850 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -575 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_053" position="-7875 1150 -200" rotation="0 0 1 -0" unit_id="100893"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9150 1050 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="650 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_013" position="-9175 1050 -200" rotation="0 0 0.707107 -0.707107" unit_id="100894"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9050 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 625 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_054" position="-9075 1150 -200" rotation="0 0 1 -0" unit_id="100895"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7150 750 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="350 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" name_id="mus_int_room_a_wall_white_02_007" position="-7175 750 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100896"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7550 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -875 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_055" position="-7575 1150 -200" rotation="0 0 1 -0" unit_id="100897"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7150 1050 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="650 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_056" position="-7175 1050 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100898"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7250 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -1175 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_014" position="-7275 1150 -200" rotation="0 0 1 -0" unit_id="100899"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4350 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_025" position="-10500 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100737"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4375 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 25 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_013" position="-10525 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100783"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -275 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_014" position="-10225 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100852"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4050 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_026" position="-10200 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100860"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4650 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_027" position="-10800 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100876"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4275 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 -75 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_019" position="-10425 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100900"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4700 475 394" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="75 350 0" local_rot="-0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" name_id="mus_prop_exhibit_lamp_config_02_007" position="-10850 475 394" rotation="0 0 1 4.37114e-008" unit_id="100901"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3775 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -575 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_015" position="-9925 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100902"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3750 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -600 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_028" position="-9900 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100903"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 325 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_020" position="-10825 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100904"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 600 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="200 -475 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_021" position="-10025 600 400.849" rotation="1 0 0 4.37114e-008" unit_id="100905"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4400 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 50 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_029" position="-10550 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100906"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4100 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -250 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_030" position="-10250 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100907"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3475 400 394" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 -875 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_indiana/architecture/mus_int_skylight/mus_int_exibit_skylight_4x3" name_id="mus_int_exibit_skylight_4x3_016" position="-9625 400 394" rotation="0 0 -0.707107 -0.707107" unit_id="100908"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3800 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -550 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_031" position="-9950 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100909"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4275 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 -75 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_022" position="-10425 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100910"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 325 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_023" position="-10825 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100911"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 1000 400.849" _prev_rot="1 0 0 4.37114e-008" continent="world" local_pos="600 -475 6.84921" local_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" name="units/zdann/green_screen/white_plane" name_id="white_plane_024" position="-10025 1000 400.849" rotation="1 0 0 4.37114e-008" unit_id="100912"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3450 725 394" _prev_rot="0 0 0 -1" continent="world" local_pos="325 -900 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_02" name_id="mus_prop_exhibit_lamp_config_02_008" position="-9600 725 394" rotation="0 0 0 -1" unit_id="100913"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3500 800 394" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="400 -850 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_indiana/props/mus_prop_exhibit_lamp/mus_prop_exhibit_lamp_config_01" name_id="mus_prop_exhibit_lamp_config_01_032" position="-9650 800 394" rotation="0 0 0.707107 -0.707107" unit_id="100914"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4975 50 200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 625 -194" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_ceiling_20x11m" name_id="mus_int_room_a_ceiling_20x11m_004" position="-11125 50 200" rotation="0 0 0 -1" unit_id="100915"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4100 53 40.342" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="-347 -250 -353.658" local_rot="-0.5 -0.5 -0.5 -0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_037" position="-10250 53 40.342" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100916">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Originally, both the Pain and Dial characters 
+were going to be voice by Luke. However,
+Luke killed his voice the first time he recorded Pain,
+since he did all of his voice lines in half a day. 
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 53 -35" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="-347 -475 -429" local_rot="-0 0 -0.707107 -0.707107" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_013" position="-10025 53 -35" rotation="0 0 1 4.37114e-008" unit_id="100917"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4775 53 -35" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="-347 425 -429" local_rot="0 0 -0.707107 -0.707107" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_rpn_2" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_rpn_2" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_014" position="-10925 53 -35" rotation="0 0 1 -4.37114e-008" unit_id="100918"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4100 53 -84.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="-347 -250 -478.658" local_rot="-0.5 -0.5 -0.5 -0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_038" position="-10250 53 -84.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100919">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The robot voice heard today
+was supposed to be a placeholder until Luke got better, 
+but he wasn't available until release. This never got changed.
+Also, Dial used to be called Dile.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9524 500 72.611" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_018" position="-9524 500 72.611" rotation="0.5 0.5 0.5 0.5" unit_id="100920">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="1" render_template="diffuse_vc_decal" text="Exhibit 4:" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 53 40.342" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="-347 -1150 -353.658" local_rot="-0.5 -0.5 -0.5 -0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_039" position="-9350 53 40.342" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100921">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Development started on the 21st of March 2018.
+The heist was made in 10 days, and was the 
+first heist to use a completely unique narrator." vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4400 53 -159.658" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="-347 50 -553.658" local_rot="-0.5 -0.5 -0.5 -0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_040" position="-10550 53 -159.658" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100922">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[Custom Contractor Video]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9524 525 22.611" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_019" position="-9524 550 -2.389" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100923">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.95" render_template="diffuse_vc_decal" text="BO-" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4375 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 25 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_057" position="-10525 50.0002 -200" rotation="0 0 0 -1" unit_id="100924"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -275 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_058" position="-10225 50.0002 -200" rotation="0 0 0 -1" unit_id="100925"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4050 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="749 -300 -353.658" local_rot="0.5 -0.5 -0.5 0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_041" position="-10200 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100927">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="RPN was the first of many joke heists released
+by the Pain crew. Possible yet unreleased
+sequels included breaking Pain out of prison, 
+cleaning the safehouse, and getting him a chimichanga.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 325 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_059" position="-10825 50.0002 -200" rotation="0 0 0 -1" unit_id="100928"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3775 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -575 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_060" position="-9925 50.0002 -200" rotation="0 0 0 -1" unit_id="100929"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-9524 500 -77.389" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_arena/props/editable_text_caslon/editable_text_caslon" name_id="editable_text_caslon_020" position="-9524 502 -77.389" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100930">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_caslon" font_color="0 0 0" font_size="2.55207" render_template="diffuse_vc_decal" text="WORKS" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3200 53 -59.658" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="-347 -1150 -453.658" local_rot="-0.5 -0.5 -0.5 -0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_042" position="-9350 53 -59.658" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100931">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The concept for RPN was to combine all of the worst objectives
+into one heist, combined with funny dialogue to counteract. 
+The creators are uncertain as to why people enjoyed it so much.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3462 53 -159.658" _prev_rot="3.09086e-008 0.707107 0.707107 3.09086e-008" continent="world" local_pos="-347 -888 -553.658" local_rot="-0.5 -0.5 -0.5 -0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_043" position="-9612 53 -159.658" rotation="3.09086e-008 0.707107 0.707107 3.09086e-008" unit_id="100932">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[First Development Screenshot]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4975 50 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 625 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_015" position="-11125 50 -200" rotation="0 0 0 -1" unit_id="100933"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4950 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="749 600 -353.658" local_rot="0.5 -0.5 -0.5 0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_044" position="-11100 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100934">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The safe seen today was not the original objective.
+Instead, it was going to be 666 seconds of drilling
+a safe that could jam, with more safes inside.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4275 1145 -35" _prev_rot="0 0 0 -1" continent="world" local_pos="745 -75 -429" local_rot="0 0 -0.707107 0.707107" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_rpn_3" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_rpn_3" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_015" position="-10425 1145 -35" rotation="0 0 0 -1" unit_id="100935"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 600 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="200 -275 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_floor_11x20" name_id="mus_int_room_a_floor_11x20_004" position="-10225 600 -200" rotation="0 0 0 -1" unit_id="100936"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4525 600 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 175 -594" local_rot="0 0 -1 0" name="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" name_id="com_prop_gallery_bench_no_back_single_007" position="-10675 600 -200" rotation="0 0 0.707107 -0.707107" unit_id="100937"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3875 600 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="200 -475 -594" local_rot="0 0 -1 0" name="units/payday2/props/com_prop_gallery_bench/com_prop_gallery_bench_no_back_single" name_id="com_prop_gallery_bench_no_back_single_008" position="-10025 600 -200" rotation="0 0 0.707107 -0.707107" unit_id="100938"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 150 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-250 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_061" position="-11225 150 -200" rotation="0 0 0.707107 -0.707107" unit_id="100939"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3475 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -875 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_062" position="-9625 50.0002 -200" rotation="0 0 0 -1" unit_id="100940"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-10200 1149 -84.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_045" position="-10200 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="100943">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="Later concepts included an OVERKILL'S The Walking Dead
+Parody, a multitude of VR game parodies and a
+Linus Tech Tips heist. There is also
+an unreleased version of RPN in Minecraft...
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 450 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="50.0001 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" name_id="mus_int_room_a_wall_white_02_008" position="-11225 450 -200" rotation="0 0 0.707107 -0.707107" unit_id="100944"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 575 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="175 725 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_door" name_id="mus_int_room_a_door_005" position="-11225 575 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100945"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4950 1149 -59.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="749 600 -453.658" local_rot="0.5 -0.5 -0.5 0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_046" position="-11100 1149 -59.658" rotation="-0.707107 0 0 -0.707107" unit_id="100946">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="This, and the explosives bags originally not spawning 
+until reaching the wall, made for an hour long heist.
+Today, the heist is much more bearable, sort of.
+" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3400 500 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="100 -950 -594" local_rot="0 0 -0.707107 0.707107" name="units/payday2/architecture/com_int_gallery/com_int_gallery_wall_2m_a_white" name_id="com_int_gallery_wall_2m_a_white_004" position="-9550 500 -200" rotation="0 0 0 -1" unit_id="100947"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3525 700 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="300 -825 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/mus_int_big_room/mus_int_big_room_showcase_base" name_id="mus_int_big_room_showcase_base_004" position="-9675 700 -200" rotation="0 0 0.707107 -0.707107" unit_id="100948"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3175 50.0002 -200" _prev_rot="0 0 0 -1" continent="world" local_pos="-350 -1175 -594" local_rot="0 0 -0.707107 0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_063" position="-9325 50.0002 -200" rotation="0 0 0 -1" unit_id="100949"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 750 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="350 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_064" position="-11225 750 -200" rotation="0 0 0.707107 -0.707107" unit_id="100950"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3375 1145 -35" _prev_rot="0 0 0 -1" continent="world" local_pos="745 -975 -429" local_rot="0 0 -0.707107 0.707107" material="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_rpn_4" material_variation="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting_rpn_4" mesh_variation="" name="units/pd2_mod_parable/parable_museum_painting/parable_museum_painting" name_id="parable_museum_painting_016" position="-9525 1145 -35" rotation="0 0 0 -1" unit_id="100951"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4659 1149 -159.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="749 309 -553.658" local_rot="0.5 -0.5 -0.5 0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_047" position="-10809 1149 -159.658" rotation="-0.707107 0 0 -0.707107" unit_id="100952">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[The Safe Holdout of Death]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 150 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-250 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_016" position="-9225 150 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100953"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4375 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 25 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_065" position="-10525 1150 -200" rotation="0 0 1 -0" unit_id="100954"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3758 1149 -159.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="749 -592 -553.658" local_rot="0.5 -0.5 -0.5 0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_048" position="-9908 1149 -159.658" rotation="-0.707107 0 0 -0.707107" unit_id="100955">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="[All Released Pain Spinoffs]" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4075 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -275 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_066" position="-10225 1150 -200" rotation="0 0 1 -0" unit_id="100956"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4675 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 325 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_067" position="-10825 1150 -200" rotation="0 0 1 -0" unit_id="100957"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 450 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="50 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_068" position="-9225 450 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100958"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3775 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -575 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_069" position="-9925 1150 -200" rotation="0 0 1 -0" unit_id="100959"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5075 1050 -200" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="650 725 -594" local_rot="0 0 -1 0" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_017" position="-11225 1050 -200" rotation="0 0 0.707107 -0.707107" unit_id="100960"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4975 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 625 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_070" position="-11125 1150 -200" rotation="0 0 1 -0" unit_id="100961"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 750 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="350 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_02" name_id="mus_int_room_a_wall_white_02_009" position="-9225 750 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100962"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3475 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -875 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_071" position="-9625 1150 -200" rotation="0 0 1 -0" unit_id="100963"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3075 1050 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="650 -1275 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_01" name_id="mus_int_room_a_wall_white_01_072" position="-9225 1050 -200" rotation="0 0 -0.707107 -0.707107" unit_id="100964"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3175 1150 -200" _prev_rot="0 0 1 -0" continent="world" local_pos="750 -1175 -594" local_rot="0 0 -0.707107 -0.707107" name="units/pd2_indiana/architecture/int/mus_int_room_a_wall_white_03" name_id="mus_int_room_a_wall_white_03_018" position="-9325 1150 -200" rotation="0 0 1 -0" unit_id="100965"/>
 		</table>
 	</statics>
 	<values>
