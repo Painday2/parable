@@ -170,4 +170,24 @@
 		<texture force="true" path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures_07_df" unload="true"/>
 		<texture force="true" path="units/payday2/props/off_prop_hallway_pictures/off_prop_hallway_pictures_01_df" unload="true"/>
 	</add>
+	<add>
+		<animation path="anims/bo_head/idle_on"/>
+		<animation path="anims/bo_head/idle_off"/>
+		<animation path="anims/bo_head/bootup"/>
+		<animation path="anims/bo_head/bootdown"/>
+		<animation path="anims/bo_head/complete_fucking_overkill"/>
+		<animation path="anims/bo_head/going_to_be_epic"/>
+		<animation path="anims/bo_head/holy_fuck_bananas"/>
+		<animation path="anims/bo_head/star_vr"/>
+		<animation path="anims/bo_head/total_immersion"/>
+		<animation_def path="anims/units/bo_head/bo_head"/>
+		<animation_state_machine path="anims/units/bo_head/bo_head"/>
+		<animation_states path="anims/units/bo_head/bo"/>
+		<animation_subset path="anims/units/bo_head/bo"/>
+		<material_config path="units/pd2_mod_phys/props/bo_head"/>
+		<model path="units/pd2_mod_phys/props/bo_head"/>
+		<object path="units/pd2_mod_phys/props/bo_head"/>
+		<unit path="units/pd2_mod_phys/props/bo_head"/>
+		<sequence_manager path="units/pd2_mod_phys/props/bo_head"/>
+	</add>
 </table>
