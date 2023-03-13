@@ -1,0 +1,6 @@
+<unit type="str" slot="1" >
+    <object file="units/ecl_decal_emblem/ecl_decal_emblem" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

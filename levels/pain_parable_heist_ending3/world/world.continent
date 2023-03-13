@@ -1,0 +1,42 @@
+<table>
+	<editor_groups/>
+	<instances/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="1770.46 4102.93 -50" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="4688.97 627.272 -50.0003" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/mcrpn" name_id="mcrpn_001" position="1770.46 4102.93 -50" rotation="0 0 -1 8.9407e-008" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-579.544 3452.93 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="4038.97 2977.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/red_sandstone_top" name_id="red_sandstone_top_001" position="-579.544 3452.93 0" rotation="0 0 -1 8.9407e-008" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1770.46 3802.93 -450" _prev_rot="0 0 1 -8.9407e-008" continent="world" disable_on_ai_graph="true" local_pos="4388.97 627.272 -450" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/fences" name_id="fences_001" position="1770.46 3802.93 -450" rotation="0 0 -1 8.9407e-008" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="520.456 3452.93 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="4038.97 1877.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/red_sandstone_top" name_id="red_sandstone_top_002" position="520.456 3452.93 0" rotation="0 0 -1 8.9407e-008" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="520.456 2352.93 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="2938.97 1877.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/red_sandstone_top" name_id="red_sandstone_top_003" position="520.456 2352.93 0" rotation="0 0 -1 8.9407e-008" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-579.544 2352.93 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="2938.97 2977.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/red_sandstone_top" name_id="red_sandstone_top_004" position="-579.544 2352.93 0" rotation="0 0 -1 8.9407e-008" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="520.456 1152.93 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="1738.97 1877.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/red_sandstone_top" name_id="red_sandstone_top_005" position="520.456 1152.93 0" rotation="0 0 -1 8.9407e-008" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-579.544 1152.93 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" local_pos="1738.97 2977.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/red_sandstone_top" name_id="red_sandstone_top_006" position="-579.544 1152.93 0" rotation="0 0 -1 8.9407e-008" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1820.46 -2047.07 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" disable_on_ai_graph="true" local_pos="-1461.03 577.272 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/stonewall" name_id="stonewall_001" position="1820.46 -2047.07 0" rotation="0 0 -1 8.9407e-008" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1020.46 -2047.07 0" _prev_rot="0 0 1 -8.9407e-008" continent="world" disable_on_ai_graph="true" local_pos="-1461.03 1377.27 -0.000274658" local_rot="0 0 0.707107 0.707107" name="units/pd2_mod_craft/props/stonewall" name_id="stonewall_002" position="1020.46 -2047.07 0" rotation="0 0 -1 8.9407e-008" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2397.73 -586.032 0.000274658" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" name_id="dev_nav_splitter_4x3m_001" only_exists_in_editor="true" position="2397.73 -586.032 0.000274658" rotation="0 0 -0.707107 -0.707107" unit_id="100000"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>

@@ -47,21 +47,26 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_lair" max_bags="54">
-		<assets>
-			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
-			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
-		</assets>
-		<packages>
-			<value_node value="package_parable"/>
-		</packages>
+	<level ai_group_type="america" id="pain_parable_gaming" max_bags="54" team_ai_off="true">
+		<packages/>
+		<classes directory="classes">
+			<class file="ElementCheaterDetection.lua"/>
+			<class file="ElementInstantLevelLoad.lua"/>
+		</classes>
+		<hooks directory="hooks">
+			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
+			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+		</hooks>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
 			</mod>
 		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="pain_parable_lair" max_bags="54" team_ai_off="true">
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
@@ -79,6 +84,79 @@
 				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
 			</hooks>
 		</hooks>
+		<packages>
+			<value_node value="package_parable"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="pain_parable_heist_ending1" max_bags="54" team_ai_off="true">
+		<packages>
+			<value_node value="packages/narr_election2"/>
+			<value_node value="levels/instances/unique/moon/santa/world/world"/>
+			<value_node value="levels/narratives/dentist/mia/stage1/world_sounds"/>
+			<value_node value="levels/narratives/classics/glace/world"/>
+		</packages>
+		<classes directory="classes">
+			<class file="ElementCheaterDetection.lua"/>
+			<class file="ElementInstantLevelLoad.lua"/>
+		</classes>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
+			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+		</hooks>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="pain_parable_heist_ending2" max_bags="54">
+		<packages/>
+		<classes directory="classes">
+			<class file="ElementCheaterDetection.lua"/>
+			<class file="ElementInstantLevelLoad.lua"/>
+		</classes>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
+			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+		</hooks>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
+	<level ai_group_type="america" id="pain_parable_heist_ending3" max_bags="54" team_ai_off="true">
+		<packages/>
+		<classes directory="classes">
+			<class file="ElementCheaterDetection.lua"/>
+			<class file="ElementInstantLevelLoad.lua"/>
+		</classes>
+		<hooks directory="hooks">
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
+			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
+			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+		</hooks>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
 	</level>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>

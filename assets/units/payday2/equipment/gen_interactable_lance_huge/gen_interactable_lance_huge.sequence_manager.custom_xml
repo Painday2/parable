@@ -1,0 +1,16 @@
+<table>
+	<unit>
+		<sequence editable_state="true" triggable="true" name="'jammed_trigger'">
+			<sound action="'play'" event="'huge_lance_generator_jam'" source="'snd_generator'"/>
+			<sound action="'play'" event="'huge_lance_motor_jam'" source="'snd_engine'"/>
+		</sequence>
+		<sequence editable_state="true" triggable="true" name=" 'interact' ">
+			<run_sequence filter="'filter_toggle_off'" name="'int_seq_drill_toggled'"/>
+			<run_sequence filter="'filter_toggle_on'" name="'done_shock'"/>
+		</sequence>
+		<sequence editable_state="true" name="'int_seq_drill_toggled'" triggable="true">
+			<sound action="'play'" event="'huge_lance_generator_on'" source="'snd_generator'"/>
+			<sound action="'play'" event="'huge_lance_motor_on'" source="'snd_engine'"/>
+		</sequence>
+	</unit>
+</table>

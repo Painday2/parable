@@ -7233,8 +7233,269 @@
 		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_warehouse_big_door"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_1x1m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_fence_gate" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_fence_gate"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_fence_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_fence_wall_short" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_fence_wall_short"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_fence_wall_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/architecture/cas_ext_fence_right/cas_ext_fence_right" type="unit">
+		<material_config path="units/pd2_dlc_casino/architecture/cas_ext_fence_right/cas_ext_fence_right"/>
+		<object path="units/pd2_dlc_casino/architecture/cas_ext_fence_right/cas_ext_fence_right"/>
+		<unit path="units/pd2_dlc_casino/architecture/cas_ext_fence_right/cas_ext_fence_right"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_mex/architecture/ext/mex_ext_fence_door_deluxe_non_jamming" type="unit">
+		<unit path="units/pd2_dlc_mex/architecture/ext/mex_ext_fence_door_deluxe_non_jamming"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_door_deluxe"/>
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<unit path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge_single"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge_single"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_door_deluxe"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/architecture/hlp_int_prison_bars/hlp_int_fence_gate" type="unit">
+		<material_config path="units/pd2_dlc_help/architecture/hlp_int_prison_bars/hlp_int_fence_wall"/>
+		<object path="units/pd2_dlc_help/architecture/hlp_int_prison_bars/hlp_int_fence_gate"/>
+		<unit path="units/pd2_dlc_help/architecture/hlp_int_prison_bars/hlp_int_fence_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/lxa_ext_fence/lxa_ext_fence_2m" type="unit">
+		<material_config path="units/payday2/architecture/lxa_ext_fence/lxa_ext_fence"/>
+		<object path="units/payday2/architecture/lxa_ext_fence/lxa_ext_fence_2m"/>
+		<unit path="units/payday2/architecture/lxa_ext_fence/lxa_ext_fence_2m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_road_highway"/>
+		<object path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m"/>
+		<sequence_manager path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m"/>
+		<unit path="units/pd2_dlc_holly/river/architecture/lxa_highway/lxa_concrete_fence_6m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/environment/cas_int/cas_int_fence_door/cas_int_fence_door" type="unit">
+		<object path="units/pd2_dlc_casino/environment/cas_int/cas_int_fence_door/cas_int_fence_door"/>
+		<material_config path="units/pd2_dlc_casino/environment/cas_int/cas_int_fence_door/cas_int_fence_door"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/pd2_dlc_casino/environment/cas_int/cas_int_fence_door/cas_int_fence_door"/>
+		<unit path="units/pd2_dlc_casino/environment/cas_int/cas_int_fence_door/cas_int_fence_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_urban/fence_post002" type="unit">
+		<material_config path="units/pd2_dlc2/csgo_models/props_urban/fence_post002"/>
+		<object path="units/pd2_dlc2/csgo_models/props_urban/fence_post002"/>
+		<unit path="units/pd2_dlc2/csgo_models/props_urban/fence_post002"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_40" type="unit">
+		<material_config path="units/world/architecture/gym/gym_wall_fence/wall_fence"/>
+		<object path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_40"/>
+		<unit path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_40"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_gate" type="unit">
+		<material_config path="units/world/architecture/gym/gym_wall_fence/wall_fence"/>
+		<object path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_gate"/>
+		<unit path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_gate"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m_shorter" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m_shorter"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m_shorter"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_barista_fence/com_prop_barista_fence_1m" type="unit">
+		<material_config path="units/payday2/props/com_prop_barista_fence/com_prop_barista_fence"/>
+		<object path="units/payday2/props/com_prop_barista_fence/com_prop_barista_fence_1m"/>
+		<unit path="units/payday2/props/com_prop_barista_fence/com_prop_barista_fence_1m"/>
+	</add>
+	<add from_db="true" path="units/world/props/fence_suburbia/fence_pillar_suburbia" type="unit">
+		<material_config path="units/world/props/fence_suburbia/fence"/>
+		<object path="units/world/props/fence_suburbia/fence_pillar_suburbia"/>
+		<unit path="units/world/props/fence_suburbia/fence_pillar_suburbia"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_3m" type="unit">
+		<material_config path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_1m"/>
+		<object path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_3m"/>
+		<unit path="units/pd2_dlc_ranc/props/ranc_ext_prop_barriers/ranc_wood_fence_3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_cap_01" type="unit">
+		<material_config path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_3x3_01"/>
+		<object path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_cap_01"/>
+		<unit path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_cap_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_3x3_01" type="unit">
+		<material_config path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_3x3_01"/>
+		<object path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_3x3_01"/>
+		<unit path="units/pd2_dlc_run/props/run_prop_fence_01/run_prop_fence_3x3_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_fence_high_pillar"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/fence/fence_far_high_pole_03" type="unit">
+		<material_config path="units/world/props/street/fence/fence"/>
+		<object path="units/world/props/street/fence/fence_far_high_pole_03"/>
+		<unit path="units/world/props/street/fence/fence_far_high_pole_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/fence/fence_far_high_pole_02" type="unit">
+		<material_config path="units/world/props/street/fence/fence"/>
+		<object path="units/world/props/street/fence/fence_far_high_pole_02"/>
+		<unit path="units/world/props/street/fence/fence_far_high_pole_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/fence/fence_far_high_02" type="unit">
+		<material_config path="units/world/props/street/fence/fence"/>
+		<object path="units/world/props/street/fence/fence_far_high_02"/>
+		<unit path="units/world/props/street/fence/fence_far_high_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/fence/fence_double" type="unit">
+		<material_config path="units/world/props/street/fence/fence_instanceoff"/>
+		<object path="units/world/props/street/fence/fence_double"/>
+		<unit path="units/world/props/street/fence/fence_double"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/plywood_fence/plywood_fence_door" type="unit">
+		<material_config path="units/world/props/street/plywood_fence/plywood_fence_io"/>
+		<object path="units/world/props/street/plywood_fence/plywood_fence_door"/>
+		<sequence_manager path="units/world/props/street/plywood_fence/plywood_fence_door"/>
+		<unit path="units/world/props/street/plywood_fence/plywood_fence_door"/>
+	</add>
+	<add from_db="true" path="units/world/props/street/plywood_fence/plywood_fence_small" type="unit">
+		<material_config path="units/world/props/street/plywood_fence/plywood_fence"/>
+		<object path="units/world/props/street/plywood_fence/plywood_fence_small"/>
+		<unit path="units/world/props/street/plywood_fence/plywood_fence_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_wood_fence_01" type="unit">
+		<material_config path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_ground"/>
+		<object path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_wood_fence_01"/>
+		<unit path="units/pd2_dlc_ranc/architecture/ext/ranc_ext_ground/ranc_ext_wood_fence_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_trai/architecture/ext/trai_ext_perimeter_fence/trai_ext_security_wall_east_01" type="unit">
+		<material_config path="units/pd2_dlc_trai/architecture/ext/trai_ext_perimeter_fence/trai_ext_security_wall_east_01"/>
+		<object path="units/pd2_dlc_trai/architecture/ext/trai_ext_perimeter_fence/trai_ext_security_wall_east_01"/>
+		<unit path="units/pd2_dlc_trai/architecture/ext/trai_ext_perimeter_fence/trai_ext_security_wall_east_01"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_20" type="unit">
+		<material_config path="units/world/architecture/gym/gym_wall_fence/wall_fence"/>
+		<object path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_20"/>
+		<unit path="units/world/architecture/gym/gym_wall_fence/gym_wall_fence_20"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_1m1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m1m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m1m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m1m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_fence_2m"/>
+	</add>
+	<add from_db="true" path="units/world/props/fence_suburbia/fence_5m_suburbia" type="unit">
+		<material_config path="units/world/props/fence_suburbia/fence"/>
+		<object path="units/world/props/fence_suburbia/fence_5m_suburbia"/>
+		<unit path="units/world/props/fence_suburbia/fence_5m_suburbia"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_shoutout_raid/props/gen_prop_fence/gen_prop_fence" type="unit">
+		<material_config path="units/pd2_dlc_shoutout_raid/props/gen_prop_fence/gen_prop_fence"/>
+		<object path="units/pd2_dlc_shoutout_raid/props/gen_prop_fence/gen_prop_fence"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/props/gen_prop_fence/gen_prop_fence"/>
+		<unit path="units/pd2_dlc_shoutout_raid/props/gen_prop_fence/gen_prop_fence"/>
+	</add>
+	<add from_db="true" path="units/world/props/pillar_fence/pillar_fence_01" type="unit">
+		<material_config path="units/world/props/pillar_fence/pillar_fence"/>
+		<object path="units/world/props/pillar_fence/pillar_fence_01"/>
+		<unit path="units/world/props/pillar_fence/pillar_fence_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/pillar_fence/pillar_fence_single_01" type="unit">
+		<material_config path="units/world/props/pillar_fence/pillar_fence"/>
+		<object path="units/world/props/pillar_fence/pillar_fence_single_01"/>
+		<unit path="units/world/props/pillar_fence/pillar_fence_single_01"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_3m" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_fence"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_3m"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_wall_3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_panel_wall6m_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_panel_wall6m_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_panel_wall6m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/bnk/bnk_int_wall_corner_a" type="unit">
+		<material_config path="units/payday2/architecture/bnk/bnk_int"/>
+		<object path="units/payday2/architecture/bnk/bnk_int_wall_corner_a"/>
+		<unit path="units/payday2/architecture/bnk/bnk_int_wall_corner_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/architecture/cas_int_lobby_wall_5x1m/cas_int_lobby_wall_5x1m" type="unit">
+		<material_config path="units/pd2_dlc_casino/architecture/cas_int_lobby_wall_5x1m/cas_int_lobby_wall_5x1m"/>
+		<object path="units/pd2_dlc_casino/architecture/cas_int_lobby_wall_5x1m/cas_int_lobby_wall_5x1m"/>
+		<unit path="units/pd2_dlc_casino/architecture/cas_int_lobby_wall_5x1m/cas_int_lobby_wall_5x1m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_roof_wall" type="unit">
+		<material_config path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_exterior"/>
+		<object path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_roof_wall"/>
+		<unit path="units/pd2_dlc_chill/architecture/chl_whole_building/chl_roof_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_trim_a_1x1m" type="unit">
+		<material_config path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_a"/>
+		<object path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_trim_a_1x1m"/>
+		<unit path="units/pd2_dlc2/architecture/gov_d_int/gov_d_int_wall_trim_a_1x1m"/>
+	</add>
+	<add from_db="true" path="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall" type="unit">
+		<material_config path="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall"/>
+		<object path="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall"/>
+		<unit path="units/world/props/diamond_heist/apartment/apartment_livingroom/tv_wall/tv_wall"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/residential/residential_lights_walllamp_03" type="unit">
+		<material_config path="units/world/props/apartment/residential/residential_lights_desklamp"/>
+		<object path="units/world/props/apartment/residential/residential_lights_walllamp_03"/>
+		<unit path="units/world/props/apartment/residential/residential_lights_walllamp_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/residential/residential_lights_walllamp_02" type="unit">
+		<material_config path="units/world/props/apartment/residential/residential_lights_desklamp"/>
+		<object path="units/world/props/apartment/residential/residential_lights_walllamp_02"/>
+		<unit path="units/world/props/apartment/residential/residential_lights_walllamp_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/cords/wall_socket" type="unit">
+		<material_config path="units/world/props/apartment/cords/cords"/>
+		<object path="units/world/props/apartment/cords/wall_socket"/>
+		<unit path="units/world/props/apartment/cords/wall_socket"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/cords/cord_wall_straight_short_01" type="unit">
+		<material_config path="units/world/props/apartment/cords/cords"/>
+		<object path="units/world/props/apartment/cords/cord_wall_straight_short_01"/>
+		<unit path="units/world/props/apartment/cords/cord_wall_straight_short_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/cords/cord_wall_straight_long_01" type="unit">
+		<material_config path="units/world/props/apartment/cords/cords"/>
+		<object path="units/world/props/apartment/cords/cord_wall_straight_long_01"/>
+		<unit path="units/world/props/apartment/cords/cord_wall_straight_long_01"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/bedwalllamp/bedwalllamp" type="unit">
+		<material_config path="units/world/props/apartment/bedwalllamp/bedwalllamp"/>
+		<object path="units/world/props/apartment/bedwalllamp/bedwalllamp"/>
+		<unit path="units/world/props/apartment/bedwalllamp/bedwalllamp"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a"/>
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
 	</add>
 	<material_config path="units/pain_floor/pain_floor" unload="true"/>

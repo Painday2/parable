@@ -1,0 +1,198 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01" type="unit">
+		<effect load="true" path="units/pd2_dlc_uno/architecture/effects/uno_light_beam_dust"/>
+		<material_config path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01"/>
+		<object path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01"/>
+		<unit path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/props/uno_gold_bar/uno_goldbar" type="unit">
+		<effect load="true" path="units/pd2_dlc_uno/props/uno_gold_bar/uno_goldbar_effect_02"/>
+		<effect load="true" path="units/pd2_dlc_uno/props/uno_gold_bar/uno_goldbar_effect_01"/>
+		<material_config path="units/pd2_dlc_uno/props/uno_interactable_goldbag_open/uno_interactable_goldbag_open"/>
+		<object path="units/pd2_dlc_uno/props/uno_gold_bar/uno_goldbar"/>
+		<sequence_manager path="units/pd2_dlc_uno/props/uno_gold_bar/uno_goldbar"/>
+		<unit path="units/pd2_dlc_uno/props/uno_gold_bar/uno_goldbar"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_02" type="unit">
+		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
+		<object path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_02"/>
+		<unit path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/props/uno_prop_bauldwins_shadow/uno_prop_bauldwins_ashes" type="unit">
+		<material_config path="units/pd2_dlc_uno/props/uno_prop_bauldwins_shadow/uno_prop_bauldwins_ashes"/>
+		<object path="units/pd2_dlc_uno/props/uno_prop_bauldwins_shadow/uno_prop_bauldwins_ashes"/>
+		<unit path="units/pd2_dlc_uno/props/uno_prop_bauldwins_shadow/uno_prop_bauldwins_ashes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/mesh/uno_pipes" type="unit">
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<object path="units/pd2_dlc_uno/architecture/mesh/uno_pipes"/>
+		<unit path="units/pd2_dlc_uno/architecture/mesh/uno_pipes"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/mesh/uno_wall" type="unit">
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<object path="units/pd2_dlc_uno/architecture/mesh/uno_wall"/>
+		<unit path="units/pd2_dlc_uno/architecture/mesh/uno_wall"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/effects/lightbeam_02/uno_lightbeam_02" type="unit">
+		<effect load="true" path="units/pd2_dlc_uno/architecture/effects/lightbeam_02/uno_lightbeam_02"/>
+		<material_config path="units/pd2_dlc_uno/architecture/effects/lightbeam_02/uno_lightbeam_02"/>
+		<object path="units/pd2_dlc_uno/architecture/effects/lightbeam_02/uno_lightbeam_02"/>
+		<sequence_manager path="units/pd2_dlc_uno/architecture/effects/lightbeam_02/uno_lightbeam_02"/>
+		<unit path="units/pd2_dlc_uno/architecture/effects/lightbeam_02/uno_lightbeam_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01" type="unit">
+		<effect load="true" path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01"/>
+		<material_config path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01"/>
+		<object path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01"/>
+		<sequence_manager path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01"/>
+		<unit path="units/pd2_dlc_uno/architecture/effects/lightbeam_01/uno_lightbeam_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton" type="unit">
+		<font path="fonts/font_dunton_writing"/>
+		<material_config path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+		<object path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+		<unit path="units/pd2_dlc_dark/props/editable_text_dunton/editable_text_dunton"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh" type="unit">
+		<material_config path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<object path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+		<unit path="units/pd2_dlc_uno/architecture/mesh/uno_main_mesh"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<unit path="units/test/jocke/plane_black_temp"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_02_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_01_door_nowindow_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_01_door_nowindow_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_0_01_door_nowindow_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_construction_floor/com_int_construction_concrete_floor_8x8m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_construction_floor/com_int_construction_concrete_floors"/>
+		<object path="units/payday2/architecture/com_int_construction_floor/com_int_construction_concrete_floor_8x8m"/>
+		<unit path="units/payday2/architecture/com_int_construction_floor/com_int_construction_concrete_floor_8x8m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_ceiling_a_8x8m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_8x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_a_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_a_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_a_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_b_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_b_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_b_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_wall_2x3m" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_wall"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_wall_2x3m"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_wall_2x3m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_b_ending_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_b_ending_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_b_ending_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_8x8m_blend" type="unit">
+		<material_config path="units/payday2/architecture/com_int_basement/com_int_basement_floor_a"/>
+		<object path="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_8x8m_blend"/>
+		<unit path="units/payday2/architecture/com_int_basement/com_int_basement_floor_a_8x8m_blend"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_v2" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind_ext_level/ind_ext_level_railing_v2"/>
+		<object path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_v2"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_level/ind_ext_stairs_c_v2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/cdr/cdr_int_ceiling_8x8m_a" type="unit">
+		<material_config path="units/payday2/architecture/cdr/cdr_int"/>
+		<object path="units/payday2/architecture/cdr/cdr_int_ceiling_8x8m_a"/>
+		<unit path="units/payday2/architecture/cdr/cdr_int_ceiling_8x8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_32x32_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_8m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1x4m_a_trim"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc2/csgo_models/props_bank/vault" type="unit">
+		<unit path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<object path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<material_config path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_large_thermic/gen_interactable_drill_large_thermic"/>
+		<effect load="true" path="effects/payday2/environment/drill"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<sequence_manager path="units/pd2_dlc2/csgo_models/props_bank/vault"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_pillar_1m_b_round" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_pillar_1m_b_round"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_pillar_1m_b_round"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer" type="unit">
+		<material_config path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+		<object path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+		<sequence_manager path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+		<unit path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge" type="unit">
+		<effect load="true" path="effects/payday2/environment/beast_drill_effect"/>
+		<effect load="true" path="effects/payday2/environment/parts/beast_thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/beast_thermal_sparks"/>
+		<effect load="true" path="effects/payday2/environment/parts/small_thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge"/>
+		<object path="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge"/>
+		<unit path="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large" type="unit">
+		<effect load="true" path="effects/payday2/environment/thermal_lance"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark"/>
+		<gui path="guis/timer_gui"/>
+		<material_config path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large"/>
+		<object path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large"/>
+		<unit path="units/payday2/equipment/gen_interactable_lance_large/gen_interactable_lance_large"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim" type="unit">
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim"/>
+		<material_config path="units/payday2/architecture/mkp/mkp"/>
+	</add>
+</table>

@@ -1,0 +1,22 @@
+<materials version="3">
+    <material name="mtr_drill" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_lance_huge/drill_df"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_lance_huge/drill_nm"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material name="mtr_mount" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_lance_huge/mount_df"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_lance_huge/mount_nm"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+
+    <material name="mtr_generator" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/equipment/gen_interactable_lance_huge/generator_df"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_interactable_lance_huge/generator_nm"/>
+        <variable value="1 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+    </material>
+</materials>

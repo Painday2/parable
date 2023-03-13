@@ -52,12 +52,12 @@
 	<graphics>
 		<graphic_group name="sawicongroup" 					enabled="true" culling_object="g_icon_saw">
 			<lod_object name="saw_icon">
-					<object name="g_icon_saw" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
-					<object name="g_icon_saw_lod1" 	enabled="true"  lod="1" />
+					<object name="g_icon_saw" 		enabled="false"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_saw_lod1" 	enabled="false"  lod="1" />
 			</lod_object>
 			<lod_object name="lockpick_icon">
-					<object name="g_icon_lockpick" 		enabled="true"  max_distance="450"  max_draw_lod="0" />
-					<object name="g_icon_lockpick_lod1" 	enabled="true"  lod="1" />
+					<object name="g_icon_lockpick" 		enabled="false"  max_distance="450"  max_draw_lod="0" />
+					<object name="g_icon_lockpick_lod1" 	enabled="false"  lod="1" />
 			</lod_object>
 		</graphic_group>
 		<graphic_group name="doors" enabled="true" culling_object="co_door">

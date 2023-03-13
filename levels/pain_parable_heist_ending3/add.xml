@@ -1,0 +1,48 @@
+<table directory="assets">
+	<add unload_on_restart="true">
+		<texture path="units/pd2_mod_craft/props/textures/gravel"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_top_lines"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_side_lines"/>
+		<texture path="units/pd2_mod_craft/props/textures/stone"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_side_chiseled"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_bottom"/>
+		<texture path="units/pd2_mod_craft/props/textures/cobblestone"/>
+		<texture path="units/pd2_mod_craft/props/textures/loom_bottom"/>
+		<texture path="units/pd2_mod_craft/props/textures/glass"/>
+		<texture path="units/pd2_mod_craft/props/textures/loom_front"/>
+		<texture path="units/pd2_mod_craft/props/textures/loom_side"/>
+		<texture path="units/pd2_mod_craft/props/textures/red_sandstone_top"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_top_chiseled"/>
+		<texture path="units/pd2_mod_craft/props/textures/dirt"/>
+		<texture path="units/pd2_mod_craft/props/textures/log_spruce_side"/>
+		<texture path="units/pd2_mod_craft/props/textures/plank_oak"/>
+		<texture path="units/pd2_mod_craft/props/textures/loom_top"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_top"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz_side"/>
+		<model path="units/pd2_mod_craft/props/mcrpn"/>
+		<object path="units/pd2_mod_craft/props/mcrpn"/>
+		<unit path="units/pd2_mod_craft/props/mcrpn"/>
+		<model path="units/pd2_mod_craft/props/red_sandstone_top"/>
+		<object path="units/pd2_mod_craft/props/red_sandstone_top"/>
+		<unit path="units/pd2_mod_craft/props/red_sandstone_top"/>
+		<model path="units/pd2_mod_craft/props/fences"/>
+		<object path="units/pd2_mod_craft/props/fences"/>
+		<unit path="units/pd2_mod_craft/props/fences"/>
+		<model path="units/pd2_mod_craft/props/stonewall"/>
+		<object path="units/pd2_mod_craft/props/stonewall"/>
+		<unit path="units/pd2_mod_craft/props/stonewall"/>
+		<material_config path="units/pd2_mod_craft/material_master"/>
+	</add>
+	<add path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<cooked_physics path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<model path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_4x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
+</table>

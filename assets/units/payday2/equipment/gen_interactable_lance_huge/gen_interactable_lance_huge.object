@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge" orientation_object="rp_gen_interactable_lance_huge" />
+	<sequence_manager file="units/payday2/equipment/gen_interactable_lance_huge/gen_interactable_lance_huge" />
+	
+	<bodies>
+		<body name="body_mount" enabled="true" template="static" >
+			<object name="rp_gen_interactable_lance_huge" />
+			<object name="c_mount" collision_type="mesh_mopp" />
+		</body>
+
+		<body name="body_generator" enabled="true" template="static" >
+			<object name="rp_gen_interactable_lance_huge" />
+			<object name="c_box_generator" collision_type="box" />
+		</body>
+
+		<body name="body_drill" enabled="true" template="animated">
+			<object name="move" />
+			<object name="c_drill" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+
+	<decal_surfaces default_material="steel" />
+
+	<graphics>
+		<object name="g_generator" 			enabled="true" />
+		<object name="g_generator_outline" 	enabled="false" />
+		<object name="g_mount" 				enabled="true" />
+		<object name="g_drill" 				enabled="true" />
+	</graphics>
+</dynamic_object>
