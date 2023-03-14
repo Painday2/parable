@@ -360,7 +360,7 @@
 			<unit_data _prev_pos="2912 16149.1 357.408" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/cdr/cdr_int_ceiling_8x8m_a" name_id="cdr_int_ceiling_8x8m_a_003" position="2912 15349.1 357.408" rotation="0 0 0 -1" unit_id="100065"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="3668.32 15359 -23" _prev_rot="0 0 0 -1" continent="world" local_pos="0 800 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_construction_floor/com_int_construction_concrete_floor_8x8m" name_id="com_int_construction_concrete_floor_8x8m_003" position="3668.32 15359 -23" rotation="0 0 0 -1" unit_id="100066"/>
+			<unit_data _prev_pos="3668.32 15359 -23" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/com_int_construction_floor/com_int_construction_concrete_floor_8x8m" name_id="com_int_construction_concrete_floor_8x8m_003" position="3668.32 15349 -23" rotation="0 0 0 -1" unit_id="100066"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2912 14549.1 357.408" _prev_rot="0 0 0 -1" continent="world" local_pos="-756.32 -1609.88 380.408" local_rot="0 0 0 1" name="units/payday2/architecture/cdr/cdr_int_ceiling_8x8m_a" name_id="cdr_int_ceiling_8x8m_a_004" position="2912 14549.1 357.408" rotation="0 0 0 -1" unit_id="100068"/>
@@ -529,6 +529,51 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-7062 21770 100" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim" name_id="mkp_int_wall_1x1m_a_trim_002" position="-7462 21770 100" rotation="0 0 0 -1" unit_id="100169"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6000 19600 675.001" _prev_rot="0 1 0 1.49012e-007" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_32x32_a" name_id="mkp_int_floor_32x32_a_002" position="-6000 19600 625.001" rotation="0 1 0 1.49012e-007" unit_id="100170"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7062 21812 127.797" _prev_rot="0 0.707107 0 -0.707107" continent="world" local_pos="17.4316 -26.853 -1" local_rot="0 0 0.707107 0.707107" mesh_variation="state_interaction_disable" name="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" name_id="are_prop_security_button_001" position="-7062 21812 127.797" rotation="0 0.707107 0 -0.707107" unit_id="100171"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7063 21829.4 154.65" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_001" position="-7063 21835.4 154.65" rotation="-0.5 0.5 0.5 -0.5" unit_id="100172">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="1 1 1" font_size="1.08223" render_template="diffuse_vc_decal" text="Kill cop" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7436 21791.4 154.65" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_002" position="-7436 21783.4 154.65" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100176">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="1 1 1" font_size="1.08223" render_template="diffuse_vc_decal" text="Kill cop" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7437 21821.8 127.797" _prev_rot="0.707107 2.98023e-008 0.707107 -2.98023e-008" continent="world" local_pos="17.4316 -26.853 -1" local_rot="-4.47035e-008 -2.98023e-008 -0.707107 -0.707107" mesh_variation="state_interaction_disable" name="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" name_id="are_prop_security_button_002" position="-7437 21808.8 127.797" rotation="-0.707107 -2.98023e-008 -0.707107 2.98023e-008" unit_id="100177"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-7107 21430.4 154.65" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="editable_text_short_003" position="-7103 21430.4 154.65" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100178">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_large_mf" font_color="1 1 1" font_size="1.08" render_template="diffuse_vc_decal" text="Reset Drill" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
 		</table>
 	</statics>
 	<values>

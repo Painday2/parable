@@ -191,8 +191,25 @@
 		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk"/>
 	</add>
 	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim" type="unit">
-		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim"/>
 		<material_config path="units/payday2/architecture/mkp/mkp"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1x1m_a_trim"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_info_button_gensec/are_prop_info_button_gensec"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
 	</add>
 </table>
