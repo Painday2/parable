@@ -1,0 +1,12 @@
+<materials version="3">
+	<material name="mat_box_vr_headset" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset" />
+		<bump_normal_texture file="units/pd2_dlc_berry/architecture/temp_textures/white_no_spec_nm" />
+	</material>
+    <material name="mat_outline" render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="1.0 0.5 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+</materials>

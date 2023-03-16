@@ -191,4 +191,9 @@
 		<unit path="units/pd2_mod_phys/props/bo_head"/>
 		<sequence_manager path="units/pd2_mod_phys/props/bo_head"/>
 	</add>
+	<add>
+		<unit_mat_seq path="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset"/>
+		<texture path="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset"/>
+		<cooked_physics path="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset"/>
+	</add>
 </table>

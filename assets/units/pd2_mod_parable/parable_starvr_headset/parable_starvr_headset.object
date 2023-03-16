@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset" orientation_object="rp_moo_props_store_boxes_vr_headset" />
+	<sequence_manager file="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset" />
+	<bodies>
+		<body name="body_static" enabled="true" template="dynamic">
+			<object name="rp_moo_props_store_boxes_vr_headset" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_box" enabled="true" />
+		<object name="g_box_outline" enabled="false" />
+	</graphics>
+</dynamic_object>
