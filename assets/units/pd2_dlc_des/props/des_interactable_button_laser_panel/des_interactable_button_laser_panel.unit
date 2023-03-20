@@ -1,0 +1,12 @@
+<unit type="des" slot="1">
+	<network sync="spawn"/>
+	<object file="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="invisible_parable" />
+			<var name="_interact_object" value="interact"/>
+		</extension>
+	</extensions>
+</unit>

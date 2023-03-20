@@ -2,6 +2,8 @@
 	<add>
 		<material_config force="true" path="units/payday2/architecture/lux/lux"/>
 		<texture force="true" path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_screen_df"/>
+		<unit force="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<unit force="true" path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
 	</add>
 	<add>
 		<model force="true" path="units/payday2/architecture/lux/lux_int_wall1_4m_a_window"/>

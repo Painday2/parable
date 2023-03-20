@@ -3539,4 +3539,104 @@
 		<object path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_train"/>
 		<unit path="units/pd2_dlc_chill/props/chl_props_trophies/chl_props_trophies_train"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_flamingo_water_ring/brb_prop_flamingo_water_ring" type="unit">
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_flamingo_water_ring/brb_prop_flamingo_water_ring"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_flamingo_water_ring/brb_prop_flamingo_water_ring"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_flamingo_water_ring/brb_prop_flamingo_water_ring"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_b" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_a"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_b"/>
+		<sequence_manager path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_flamingo/sfm_prop_ext_flamingo_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_01" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_01"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_02" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_02"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_02"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_03" type="unit">
+		<material_config path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server"/>
+		<object path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_03"/>
+		<unit path="units/pd2_dlc_berry/props/bry_prop_servers/bry_prop_master_server_03"/>
+	</add>
+	<add from_db="true" path="units/world/props/airport/airport_camera/airport_camera" type="unit">
+		<material_config path="units/world/props/airport/airport_camera/airport_camera"/>
+		<object path="units/world/props/airport/airport_camera/airport_camera"/>
+		<unit path="units/world/props/airport/airport_camera/airport_camera"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_red/architecture/red_int_camera_room/red_int_camera_room" type="unit">
+		<material_config path="units/pd2_dlc_red/architecture/red"/>
+		<object path="units/pd2_dlc_red/architecture/red_int_camera_room/red_int_camera_room"/>
+		<unit path="units/pd2_dlc_red/architecture/red_int_camera_room/red_int_camera_room"/>
+	</add>
+	<add from_db="true" path="units/world/props/gym/stn_prop_camera/stn_prop_camera" type="unit">
+		<material_config path="units/world/props/gym/stn_prop_camera/stn_prop_camera_cheeze"/>
+		<object path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
+		<sequence_manager path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
+		<unit path="units/world/props/gym/stn_prop_camera/stn_prop_camera"/>
+	</add>
+	<add from_db="true" path="units/world/props/security_camera/security_camera" type="unit">
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<material_config path="units/world/props/security_camera/security_camera"/>
+		<object path="units/world/props/security_camera/security_camera"/>
+		<sequence_manager path="units/world/props/security_camera/security_camera"/>
+		<unit path="units/world/props/security_camera/security_camera"/>
+	</add>
+	<add from_db="true" path="units/world/props/security_camera/security_camera_white" type="unit">
+		<material_config path="units/world/props/security_camera/security_camera_white"/>
+		<object path="units/world/props/security_camera/security_camera_white"/>
+		<sequence_manager path="units/world/props/security_camera/security_camera"/>
+		<unit path="units/world/props/security_camera/security_camera_white"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_pole" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_pole"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_pole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole" type="unit">
+		<material_config path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+		<object path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+		<unit path="units/pd2_dlc_friend/props/sfm_prop_ext_camera_pole/sfm_prop_ext_camera_pole"/>
+	</add>
+	<add from_db="true" path="core/units/light_omni_seq/light_omni_seq" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni_seq/light_omni_seq"/>
+		<sequence_manager path="core/units/light_omni_seq/light_omni_seq"/>
+		<unit path="core/units/light_omni_seq/light_omni_seq"/>
+	</add>
+	<add from_db="true" path="units/test/jocke/store_window_plane_temp" type="unit">
+		<material_config path="units/test/jocke/simple_temp"/>
+		<object path="units/test/jocke/store_window_plane_temp"/>
+		<unit path="units/test/jocke/store_window_plane_temp"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" type="unit">
+		<material_config path="units/pd2_dlc_des/props/des_prop_laser_panel/des_prop_laser_panel"/>
+		<object path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
+		<sequence_manager path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
+		<unit path="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/editable_text_system/editable_text_system" type="unit">
+		<font path="fonts/font_system"/>
+		<material_config path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
+		<object path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
+		<unit path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
+	</add>
 </table>

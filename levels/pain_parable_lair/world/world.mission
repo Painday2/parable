@@ -1865,6 +1865,7 @@
 						<entry index="242" type="number" value="101426"/>
 						<entry index="243" type="number" value="101571"/>
 						<entry index="244" type="number" value="101574"/>
+						<entry index="245" type="number" value="102152"/>
 					</entry>
 				</entry>
 			</entry>
@@ -2247,6 +2248,7 @@
 						<entry index="130" type="number" value="101567"/>
 						<entry index="131" type="number" value="101572"/>
 						<entry index="132" type="number" value="101573"/>
+						<entry index="133" type="number" value="102152"/>
 					</entry>
 				</entry>
 			</entry>
@@ -2382,7 +2384,7 @@
 				<entry key="values" type="table">
 					<entry key="as_subtitle" type="boolean" value="true"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="debug_string" type="string" value="Now the facility jumped to life, its true nature revealed. Each screen bore a stock, all monitored and manipulated, in this place where free market meant nothing."/>
+					<entry key="debug_string" type="string" value="Now the facility jumped to life, its true nature revealed. Each screen bore a stock, all monitored and manipulated, in this place where the free market meant nothing. The company he had entrusted has been working illegitimately all along."/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
@@ -2958,6 +2960,171 @@
 							<entry key="time" type="number" value="0"/>
 						</entry>
 					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="91" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="area_trigger_starvr"/>
+				<entry key="id" type="number" value="100090"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="500"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="500"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100091"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="2475 5925 -200"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="on_enter"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="500"/>
+				</entry>
+			</entry>
+			<entry index="92" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debug_parable_facility3"/>
+				<entry key="id" type="number" value="100091"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="As he approached the horrible machines, Richard was shocked to learn how StarVR was being manufactured limitlessly, artificially changing the value."/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="2475 5650 -200"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="93" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="area_trigger_valhalla"/>
+				<entry key="id" type="number" value="100092"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="500"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="500"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100093"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="975 6700 -200"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="on_enter"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="500"/>
+				</entry>
+			</entry>
+			<entry index="94" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debug_parable_facility4"/>
+				<entry key="id" type="number" value="100093"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="Now confronted with the Valhalla Vault, he stood in awe of the realization: There was absolutely nothing there. The fake promises allowed millions to be embezzled."/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1025 6375 -200"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="95" type="table">
+				<entry key="class" type="string" value="ElementAreaTrigger"/>
+				<entry key="editor_name" type="string" value="area_trigger_power"/>
+				<entry key="id" type="number" value="100094"/>
+				<entry key="module" type="string" value="CoreElementArea"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="string" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="depth" type="number" value="500"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="height" type="number" value="500"/>
+					<entry key="instigator" type="string" value="player"/>
+					<entry key="instigator_name" type="string" value=""/>
+					<entry key="interval" type="number" value="0.1"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100095"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1725 8525 14.006"/>
+					<entry key="radius" type="number" value="250"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="shape_type" type="string" value="box"/>
+					<entry key="spawn_unit_elements" type="table">
+					</entry>
+					<entry key="substitute_object" type="string" value=""/>
+					<entry key="trigger_on" type="string" value="on_enter"/>
+					<entry key="trigger_times" type="number" value="1"/>
+					<entry key="use_disabled_shapes" type="boolean" value="false"/>
+					<entry key="width" type="number" value="500"/>
+				</entry>
+			</entry>
+			<entry index="96" type="table">
+				<entry key="class" type="string" value="ElementDebug"/>
+				<entry key="editor_name" type="string" value="debug_parable_facility5"/>
+				<entry key="id" type="number" value="100095"/>
+				<entry key="module" type="string" value="CoreElementDebug"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="as_subtitle" type="boolean" value="true"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="debug_string" type="string" value="Richard valiantly decided to put a stop to the madness, once and for all. Upon reaching the controls, he turned the power off."/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1750 8650 14.006"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="show_instigator" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

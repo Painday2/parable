@@ -1,11 +1,35 @@
 <generic_scriptdata type="table">
 	<entry key="ambience_enabled" type="boolean" value="true"/>
-	<entry key="default_ambience" type="string" value="ambience_ext_big_city_day"/>
-	<entry key="default_environment" type="string" value="acoustics_outdoor_medium"/>
-	<entry key="default_occasional" type="string" value="occasionals_silent"/>
+	<entry key="default_ambience" type="string" value="ambience_int_basement_lo_hum"/>
+	<entry key="default_environment" type="string" value="acoustics_indoor_default"/>
+	<entry key="default_occasional" type="string" value="occasionals_sewer"/>
 	<entry key="sound_area_emitters" type="table">
 	</entry>
 	<entry key="sound_emitters" type="table">
+		<entry index="1" type="table">
+			<entry key="emitter_event" type="string" value="emitter_bug_01"/>
+			<entry key="name" type="string" value="crickets"/>
+			<entry key="position" type="vector3" value="825 6725 -200"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="2" type="table">
+			<entry key="emitter_event" type="string" value="emitter_bug_01"/>
+			<entry key="name" type="string" value="crickets"/>
+			<entry key="position" type="vector3" value="575 5650 -200"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="3" type="table">
+			<entry key="emitter_event" type="string" value="emitter_bug_01"/>
+			<entry key="name" type="string" value="crickets"/>
+			<entry key="position" type="vector3" value="25 6600 -200"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
+		<entry index="4" type="table">
+			<entry key="emitter_event" type="string" value="emitter_bug_01"/>
+			<entry key="name" type="string" value="crickets"/>
+			<entry key="position" type="vector3" value="375 7600 -200"/>
+			<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+		</entry>
 	</entry>
 	<entry key="sound_environments" type="table">
 	</entry>
