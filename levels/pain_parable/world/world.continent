@@ -2012,10 +2012,10 @@
 			<unit_data _prev_pos="2925 475 1.49012e-006" _prev_rot="0 0 1 -5.50351e-007" continent="world" local_pos="225 1.61529e-005 0" local_rot="0 0 -1 4.37114e-008" name="units/pd2_dlc2/csgo_models/props_interiors/chair_office2" name_id="chair_office2_007" position="2925 950 1.49012e-006" rotation="0 0 1 -5.50351e-007" unit_id="101059"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2525 825 1.49012e-006" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base" name_id="off_prop_officehigh_filebox_short_base_001" position="2525 825 1.49012e-006" rotation="0 0 0 -1" unit_id="101060"/>
+			<unit_data _prev_pos="2525 825 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_base" name_id="window_box" position="2525 825 0" rotation="-0 0 -0 -1" unit_id="101060"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2554.2 832.912 36.7452" _prev_rot="0.00496103 -0.0421158 -0.00593283 -0.999083" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_lid" name_id="off_prop_officehigh_filebox_short_lid_001" position="2545.35 833.129 1.0319" rotation="0.00110239 -0.345704 -0.00322655 -0.938337" unit_id="101061"/>
+			<unit_data _prev_pos="2545.35 833.129 1.032" _prev_rot="0.00110547 -0.345706 -0.00323104 -0.938337" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/off_prop_officehigh_filebox/off_prop_officehigh_filebox_short_lid" name_id="window_box" position="2545.35 833.129 1.032" rotation="0.00110547 -0.345706 -0.00323104 -0.938337" unit_id="101061"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="2450 875 1.49012e-006" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/box/prop_filebox_01" name_id="prop_filebox_01_003" position="2400 925 0" rotation="0 0 0 -1" unit_id="101062"/>
@@ -9097,6 +9097,18 @@
 				<lights>
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="200" multiplier="@ID18ceffa252d5a43d@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="4150 75 2000" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_short/editable_text_short" name_id="cheat_detection_label003" position="4150 75 2000" rotation="0 0 -0.707107 -0.707107" unit_id="102700">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="diffuse_vc_decal" text="Achievements" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
 			</unit_data>
 		</table>
 	</statics>

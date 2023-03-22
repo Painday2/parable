@@ -184,6 +184,20 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<level ai_group_type="america" id="pain_parable_vr" max_bags="54">
+		<packages>
+			<value_node value="packages/vr_menu"/>
+			<value_node value="packages/load_level"/>
+			<value_node value="packages/start_menu"/>
+			<value_node value="packages/load_default"/>
+			<value_node value="packages/vr_base"/>
+		</packages>
+		<script_data_mods directory="scriptdata">
+			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
+				<options merge_mode="add" mode="add"/>
+			</mod>
+		</script_data_mods>
+	</level>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
@@ -197,6 +211,24 @@
 		<packages/>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
+	<Achievements banner="guis/textures/p_spain_banner" icon="guis/textures/p_spain_icon" id="parable_pain_achievements">
+		<achievement icon="guis/textures/p_spain_rein" id="p_parable_true" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement icon="guis/textures/p_spain_rein" id="p_parable_all_endings" rank="4" reward_amount="25" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_mandrill" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_coward" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_broom" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_adventure" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_museum" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_modding" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_career" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_modding" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_game" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_zen" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_baby" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_choices" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_oob" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_insanity" rank="1" reward_amount="1000" reward_type="xp"/>
+	</Achievements>
 	<narrative contact="custom" id="parable" icon="guis/textures/mods/icons/The Pain Parable">
 		<chain>
 			<table level_id="pain_parable" type="d" type_id="heist_type_assault"/>

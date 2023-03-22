@@ -64,7 +64,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-425 300 1002.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="save" type="boolean" value="true"/>
+					<entry key="save" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="value" type="string" value="hallway"/>
 				</entry>
@@ -109,7 +109,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-325 300 1002.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="save" type="boolean" value="true"/>
+					<entry key="save" type="boolean" value="false"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="value" type="string" value="boss"/>
 				</entry>
