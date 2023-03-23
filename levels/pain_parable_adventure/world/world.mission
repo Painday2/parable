@@ -1426,6 +1426,10 @@
 							<entry key="delay" type="number" value="35"/>
 							<entry key="id" type="number" value="100050"/>
 						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="35"/>
+							<entry key="id" type="number" value="100054"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="5316.83 26978.6 -19.848"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
@@ -1708,6 +1712,25 @@
 						<entry index="1" type="number" value="100688"/>
 						<entry index="2" type="number" value="100689"/>
 					</entry>
+				</entry>
+			</entry>
+			<entry index="55" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="ach_adv"/>
+				<entry key="id" type="number" value="100054"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="p_parable_adventure"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="parable_pain_achievements"/>
+					<entry key="position" type="vector3" value="5034.41 26550.6 0.00186484"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

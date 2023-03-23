@@ -27,6 +27,33 @@
 		</script_data_mods>
 		<sounds directory="assets/sound">
 			<sound id="mandrill_exit" path="mandrillscream.ogg" subtitle_id="mandrill_scream"/>
+			
+			
+			<sounds directory="vo">
+				<sound id=" parable_across_woodenplank" path="vo/parable_across_woodenplank.ogg" subtitle_id="parable_across_woodenplank"/>
+				<sound id=" parable_woodenplank" path="parable_woodenplank.ogg" subtitle_id="parable_woodenplank"/>
+				<sound id=" parable_babygame_start" path="parable_babygame_start.ogg" subtitle_id="parable_babygame_start"/>
+				<sound id=" parable_cheat" path="parable_cheat.ogg" subtitle_id="parable_cheat"/>
+				<sound id=" parable_cheat_mp" path="parable_cheat_mp.ogg" subtitle_id="parable_cheat_mp"/>
+				<sound id=" parable_cheat2" path="parable_cheat2.ogg" subtitle_id="parable_cheat2"/>
+				<sound id=" parable_choice" path="parable_choice.ogg" subtitle_id="parable_choice"/>
+				<sound id=" parable_coward" path="parable_coward.ogg" subtitle_id="parable_coward"/>
+				<sound id=" parable_insanity" path="parable_insanity.ogg" subtitle_id="parable_insanity"/>
+				<sound id=" parable_intro1" path="parable_intro1.ogg" subtitle_id="parable_intro1"/>
+				<sound id=" parable_intro2" path="parable_intro2.ogg" subtitle_id="parable_intro2"/>
+				<sound id=" parable_oob1" path="parable_oob1.ogg" subtitle_id="parable_oob1"/>
+				<sound id=" parable_oob2" path="parable_oob2.ogg" subtitle_id="parable_oob2"/>
+				<sound id=" parable_redblue_blue1" path="parable_redblue_blue1.ogg" subtitle_id="parable_redblue_blue1"/>
+				<sound id=" parable_redblue_blue2" path="parable_redblue_blue2.ogg" subtitle_id="parable_redblue_blue2"/>
+				<sound id=" parable_redblue_blue3" path="parable_redblue_blue3.ogg" subtitle_id="parable_redblue_blue3"/>
+				<sound id=" parable_redblue_door1" path="parable_redblue_door1.ogg" subtitle_id="parable_redblue_door1"/>
+				<sound id=" parable_redblue_red1" path="parable_redblue_red1.ogg" subtitle_id="parable_redblue_red1"/>
+				<sound id=" parable_righ1" path="parable_righ1.ogg" subtitle_id="parable_righ1"/>
+				<sound id=" parable_right2" path="parable_right2.ogg" subtitle_id="parable_right2"/>
+				<sound id=" parable_right3" path="parable_right3.ogg" subtitle_id="parable_right3"/>
+				<sound id=" parable_stuck" path="parable_stuck.ogg" subtitle_id="parable_stuck"/>
+			</sounds>	
+			
 		</sounds>
 	</level>
 	<level ai_group_type="america" id="pain_parable_cheat_room" max_bags="54" team_ai_off="true">
@@ -212,22 +239,22 @@
 		<script_data_mods directory="scriptdata"/>
 	</instance>
 	<Achievements banner="guis/textures/p_spain_banner" icon="guis/textures/p_spain_icon" id="parable_pain_achievements">
-		<achievement icon="guis/textures/p_spain_rein" id="p_parable_true" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement icon="guis/textures/p_spain_rein" id="p_parable_all_endings" rank="4" reward_amount="25" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_mandrill" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_coward" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_broom" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_adventure" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_museum" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_modding" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_career" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_modding" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_game" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_zen" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_baby" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_choices" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_oob" rank="1" reward_amount="1000" reward_type="xp"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_insanity" rank="1" reward_amount="1000" reward_type="xp"/>
+		<achievement icon="guis/textures/p_spain_rein" id="p_parable_true" rank="1"/>
+		<achievement icon="guis/textures/p_spain_rein" id="p_parable_all_endings" rank="4"/>
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_mandrill" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_coward" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_broom" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_adventure" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_museum" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_career" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_modding" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_game" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_zen" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_baby" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_choices" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_oob" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_insanity" rank="1" />
+		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_stuck" rank="1" />
 	</Achievements>
 	<narrative contact="custom" id="parable" icon="guis/textures/mods/icons/The Pain Parable">
 		<chain>

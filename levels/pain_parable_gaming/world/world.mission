@@ -724,6 +724,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100045"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100063"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-6900.19 21300.6 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
@@ -1442,6 +1446,10 @@
 							<entry key="delay" type="number" value="5"/>
 							<entry key="id" type="number" value="100056"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="5"/>
+							<entry key="id" type="number" value="100062"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3393.35 13658.5 19.3499"/>
 					<entry key="radius" type="number" value="250"/>
@@ -1626,6 +1634,44 @@
 						<entry index="3" type="number" value="100176"/>
 						<entry index="4" type="number" value="100172"/>
 					</entry>
+				</entry>
+			</entry>
+			<entry index="63" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="ach_zen"/>
+				<entry key="id" type="number" value="100062"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="p_parable_zen"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="parable_pain_achievements"/>
+					<entry key="position" type="vector3" value="3329.05 13719.4 -24.6501"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="64" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="ach_baby"/>
+				<entry key="id" type="number" value="100063"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="p_parable_baby"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="parable_pain_achievements"/>
+					<entry key="position" type="vector3" value="-6797.97 21301.6 0"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>

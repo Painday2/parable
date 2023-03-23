@@ -1,6 +1,7 @@
 <generic_scriptdata type="table">
 	<entry key="world" type="table">
 		<entry key="activate_on_parsed" type="boolean" value="true"/>
+		<entry key="continent" type="string" value="world"/>
 		<entry key="elements" type="table">
 			<entry index="1" type="table">
 				<entry key="class" type="string" value="ElementInstantLevelLoad"/>
@@ -115,6 +116,10 @@
 							<entry key="delay" type="number" value="15"/>
 							<entry key="id" type="number" value="100006"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="15"/>
+							<entry key="id" type="number" value="100007"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="13.4964 1362.64 100"/>
 					<entry key="radius" type="number" value="250"/>
@@ -146,8 +151,28 @@
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
+			<entry index="8" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="ach_gaming"/>
+				<entry key="id" type="number" value="100007"/>
+				<entry key="script" type="string" value="world"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="p_parable_game"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="parable_pain_achievements"/>
+					<entry key="position" type="vector3" value="-103.06 1154.2 0.000572205"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="instances" type="table">
 		</entry>
+		<entry key="name" type="string" value="world"/>
 	</entry>
 </generic_scriptdata>

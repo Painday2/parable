@@ -1375,6 +1375,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100050"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100096"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="1025 -7093.46 -2551.86"/>
 					<entry key="radius" type="number" value="250"/>
@@ -3125,6 +3129,25 @@
 					<entry key="position" type="vector3" value="1750 8650 14.006"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="show_instigator" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="97" type="table">
+				<entry key="class" type="string" value="ElementBLCustomAchievement"/>
+				<entry key="editor_name" type="string" value="ach_musuem"/>
+				<entry key="id" type="number" value="100096"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="achievement_id" type="string" value="p_parable_museum"/>
+					<entry key="amount_increase" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="package_id" type="string" value="parable_pain_achievements"/>
+					<entry key="position" type="vector3" value="1052.36 -6938.19 -2619.84"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
