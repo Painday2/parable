@@ -9151,7 +9151,7 @@ to development a month before the release date.
 			<unit_data _prev_pos="1725 9625 14.006" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable_interaction" name="units/pd2_dlc_des/props/des_interactable_joystick_laser_panel/des_interactable_joystick_laser_panel" name_id="des_interactable_joystick_laser_panel_on" position="1725 9625 14.006" rotation="0 0 1 4.37114e-008" unit_id="102355"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1729 9623 108.63" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chew/props/editable_text_futura/editable_text_futura" name_id="editable_text_futura_010" position="1729 9623 108.63" rotation="-0 0 -0 -1" unit_id="102356">
+			<unit_data _prev_pos="1729 9623 108.63" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chew/props/editable_text_futura/editable_text_futura" name_id="editable_text_futura_010" position="1729 9623 108.63" rotation="0 0 0 -1" unit_id="102356">
 				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_futura" font_color="1 0 0" font_size="0.964184" render_template="diffuse_vc_decal" text="OFF" vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
