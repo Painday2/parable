@@ -1,4 +1,5 @@
 <table directory="assets">
+	<movie path="movies/art_ending"/>
 	<add from_db="true" path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01" type="unit">
 		<effect load="true" path="units/pd2_dlc_uno/architecture/effects/uno_light_beam_dust"/>
 		<material_config path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01"/>
@@ -208,8 +209,23 @@
 		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
-		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
-		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
 		<material_config path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_born/props/bor_prop_neonlight/bor_prop_neonlight_overkillmc" type="unit">
+		<material_config path="units/pd2_dlc_born/props/bor_prop_neonlight/bor_prop_neonlight_tavern"/>
+		<object path="units/pd2_dlc_born/props/bor_prop_neonlight/bor_prop_neonlight_overkillmc"/>
+		<unit path="units/pd2_dlc_born/props/bor_prop_neonlight/bor_prop_neonlight_overkillmc"/>
+	</add>
+	<add from_db="true" path="units/world/props/sign_overkill_soda/sign_overkill_coke" type="unit">
+		<material_config path="units/world/props/sign_overkill_soda/sign_overkill_coke"/>
+		<object path="units/world/props/sign_overkill_soda/sign_overkill_coke"/>
+		<unit path="units/world/props/sign_overkill_soda/sign_overkill_coke"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_overkillerpiece" type="unit">
+		<material_config path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_overkillerpiece"/>
+		<object path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_overkillerpiece"/>
+		<unit path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_overkillerpiece"/>
 	</add>
 </table>

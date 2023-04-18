@@ -12,5 +12,11 @@
 			<sound action="'play'" event="'huge_lance_generator_on'" source="'snd_generator'"/>
 			<sound action="'play'" event="'huge_lance_motor_on'" source="'snd_engine'"/>
 		</sequence>
+		<sequence editable_state="true" triggable="true" name=" 'stop_sound' ">
+			<sound action="'stop'" event="'huge_lance_generator_on'" source="'snd_generator'"/>
+			<sound action="'stop'" event="'huge_lance_motor_on'" source="'snd_engine'"/>
+			<sound action="'stop'" event="'huge_lance_generator_jam'" source="'snd_generator'"/>
+			<sound action="'stop'" event="'huge_lance_motor_jam'" source="'snd_engine'"/>
+		</sequence>
 	</unit>
 </table>

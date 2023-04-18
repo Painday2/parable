@@ -144,4 +144,9 @@
 	<add from_db="true" path="effects/particles/explosions/grenade_explosion_confetti" type="effect">
 		<effect load="true" path="effects/particles/explosions/grenade_explosion_confetti"/>
 	</add>
+	<add from_db="true" path="units/test/jocke/plane_black_temp" type="unit">
+		<unit path="units/test/jocke/plane_black_temp"/>
+		<object path="units/test/jocke/plane_black_temp"/>
+		<material_config path="units/test/jocke/plane_black_temp"/>
+	</add>
 </table>

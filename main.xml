@@ -7,6 +7,7 @@
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
+			<class file="ElementPlayVideo.lua"/>
 		</classes>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -27,20 +28,15 @@
 		</script_data_mods>
 		<sounds directory="assets/sound" dont_store_float="true">
 			<sound id="mandrill_exit" path="mandrillscream.ogg" subtitle_id="mandrill_scream"/>
-			
-
 			<sounds directory="vo">
 				<sound id="parable_across_woodenplank" path="parable_across_woodenplank.ogg" subtitle_id="parable_across_woodenplank"/>
+				<sound id="parable_across_woodenplank_backwards" path="parable_across_woodenplank_backwards.ogg" subtitle_id="parable_across_woodenplank_backwards"/>
 				<sound id="parable_woodenplank" path="parable_woodenplank.ogg" subtitle_id="parable_woodenplank"/>
-				<sound id="parable_babygame_start" path="parable_babygame_start.ogg" subtitle_id="parable_babygame_start"/>
-				<sound id="parable_cheat" path="parable_cheat.ogg" subtitle_id="parable_cheat"/>
-				<sound id="parable_cheat_mp" path="parable_cheat_mp.ogg" subtitle_id="parable_cheat_mp"/>
-				<sound id="parable_cheat2" path="parable_cheat2.ogg" subtitle_id="parable_cheat2"/>
-				<sound id="parable_choice" path="parable_choice.ogg" subtitle_id="parable_choice"/>
-				<sound id="parable_coward" path="parable_coward.ogg" subtitle_id="parable_coward"/>
-				<sound id="parable_insanity" path="parable_insanity.ogg" subtitle_id="parable_insanity"/>
-				<sound id="parable_intro1" path="parable_intro1.ogg" subtitle_id="parable_intro1"/>
+				<sound id="parable_intro3" path="parable_intro3.ogg" subtitle_id="parable_intro3"/>
 				<sound id="parable_intro2" path="parable_intro2.ogg" subtitle_id="parable_intro2"/>
+				<sound id="parable_intro1" path="parable_intro1.ogg" subtitle_id="parable_intro1"/>
+				<sound id="parable_coward" path="parable_coward.ogg" subtitle_id="parable_coward"/>
+				<sound id="parable_crazy1" path="parable_crazy1.ogg" subtitle_id="parable_crazy1"/>
 				<sound id="parable_oob1" path="parable_oob1.ogg" subtitle_id="parable_oob1"/>
 				<sound id="parable_oob2" path="parable_oob2.ogg" subtitle_id="parable_oob2"/>
 				<sound id="parable_redblue_blue1" path="parable_redblue_blue1.ogg" subtitle_id="parable_redblue_blue1"/>
@@ -51,6 +47,7 @@
 				<sound id="parable_right1" path="parable_right1.ogg" subtitle_id="parable_right1"/>
 				<sound id="parable_right2" path="parable_right2.ogg" subtitle_id="parable_right2"/>
 				<sound id="parable_right3" path="parable_right3.ogg" subtitle_id="parable_right3"/>
+				<sound id="parable_left" path="parable_left.ogg" subtitle_id="parable_left"/>
 				<sound id="parable_stuck" path="parable_stuck.ogg" subtitle_id="parable_stuck"/>
 			</sounds>
 		</sounds>
@@ -69,6 +66,11 @@
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 		</hooks>
+		<sounds directory="assets/sound/vo/cheat" dont_store_float="true">
+			<sound id="parable_cheat" path="parable_cheat.ogg" subtitle_id="parable_cheat"/>
+			<sound id="parable_cheat2" path="parable_cheat2.ogg" subtitle_id="parable_cheat2"/>
+			<sound id="parable_cheat_mp" path="parable_cheat_mp.ogg" subtitle_id="parable_cheat_mp"/>
+		</sounds>
 		<outro_event/>
 		<packages/>
 		<script_data_mods directory="scriptdata">
@@ -81,7 +83,22 @@
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
+			<class file="ElementPlayVideo.lua"/>
 		</classes>
+		<packages>
+			<value_node value="package_parable"/>
+		</packages>
+		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
+			<sound id="parable_babygame_start" path="parable_babygame_start.ogg" subtitle_id="parable_babygame_start"/>
+			<sound id="parable_babygame_1" path="parable_babygame_1.ogg" subtitle_id="parable_babygame_1"/>
+			<sound id="parable_babygame_2" path="parable_babygame_2.ogg" subtitle_id="parable_babygame_2"/>
+			<sound id="parable_babygame_3" path="parable_babygame_3.ogg" subtitle_id="parable_babygame_3"/>
+			<sound id="parable_babygame_4" path="parable_babygame_4.ogg" subtitle_id="parable_babygame_4"/>
+			<sound id="parable_babygame_5" path="parable_babygame_5.ogg" subtitle_id="parable_babygame_5"/>
+			<sound id="parable_babygame_6" path="parable_babygame_6.ogg" subtitle_id="parable_babygame_6"/>
+			<sound id="parable_babygame_7" path="parable_babygame_7.ogg" subtitle_id="parable_babygame_7"/>
+			<sound id="parable_babygame_fail" path="parable_babygame_fail.ogg" subtitle_id="parable_babygame_fail"/>
+		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
@@ -102,6 +119,13 @@
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
+		<sounds directory="assets/sound/vo/lair" dont_store_float="true">
+			<sound id="parable_lair_boss" path="parable_lair_boss.ogg" subtitle_id="parable_lair_boss"/>
+			<sound id="parable_escape1" path="parable_escape1.ogg" subtitle_id="parable_escape_1"/>
+			<sound id="parable_escape2" path="parable_escape2.ogg" subtitle_id="parable_escape_2"/>
+			<sound id="parable_escape3" path="parable_escape3.ogg" subtitle_id="parable_escape_3"/>
+			<sound id="parable_escape4" path="parable_escape4.ogg" subtitle_id="parable_escape_4"/>
+		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
