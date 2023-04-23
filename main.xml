@@ -250,7 +250,7 @@
 	</instance>
 	<Achievements banner="guis/textures/p_spain_banner" icon="guis/textures/p_spain_icon" id="parable_pain_achievements">
 		<achievement icon="guis/textures/p_spain_rein" id="p_parable_true" rank="1"/>
-		<achievement icon="guis/textures/p_spain_rein" id="p_parable_all_endings" rank="4"/>
+		<achievement icon="guis/textures/p_spain_rein" id="p_parable_mws" rank="1"/>
 		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_mandrill" rank="1" />
 		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_coward" rank="1" />
 		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_broom" rank="1" />

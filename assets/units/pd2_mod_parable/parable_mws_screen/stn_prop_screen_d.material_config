@@ -1,0 +1,16 @@
+<materials version="3" group="stn_prop_screen_material_group">
+    <material name="mat_screen_il" render_template="generic:DIFFUSE_TEXTURE:SELF_ILLUMINATION" version="2">
+        <diffuse_texture file="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_d_df"/>
+        <self_illumination_texture file="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_d_df"/>
+        <variable value="sun" type="scalar" name="il_multiplier"/>
+    </material>
+    <material name="mat_screen" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_d_df"/>
+    </material>
+	<material name="mat_screen_dmg" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/props/stn_prop_screen/stn_prop_screen_dmg_df"/>
+	</material>
+    <material name="mat_screen_off" render_template="generic:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/glass/glass_clear_vehicle_dark_b_df"/>
+    </material>
+</materials>

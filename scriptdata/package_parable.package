@@ -198,4 +198,34 @@
 		<texture path="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset"/>
 		<cooked_physics path="units/pd2_mod_parable/parable_starvr_headset/parable_starvr_headset"/>
 	</add>
+	<add>
+		<unit_mat_seq path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_a"/>
+		<cooked_physics path="units/pd2_mod_parable/parable_mws_screen/parable_starvr_headset"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_a"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_a_df"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_b"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_b_df"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_c"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_c_df"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_d"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_d_df"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_e"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_e_df"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_f"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_f_df"/>
+		<material_config path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_g"/>
+		<texture path="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_g_df"/>
+	</add>
+	<add> <!--alien cat https://modworkshop.net/mod/41861-->
+		<model path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<texture path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_df"/>
+		<texture path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_nm"/>
+	</add>
+	<add> <!--enhanced joy https://modworkshop.net/mod/36822-->
+		<model path="units/pd2_dlc_joy/characters/npc_criminals_joy_1/npc_criminal_joy_1"/>
+		<model path="units/pd2_dlc_joy/characters/npc_criminals_joy_1/npc_criminal_joy_1_menu"/>
+		<texture path="units/pd2_dlc_joy/characters/npc_criminals_joy_1/npc_criminal_joy_1_suite_df"/>
+		<texture path="units/pd2_dlc_joy/characters/npc_criminals_joy_1/npc_criminal_joy_1_suite_nm"/>
+		<texture path="units/pd2_dlc_joy/characters/npc_criminals_joy_1/material_trim_df"/>
+	</add>
 </table>

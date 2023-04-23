@@ -1,0 +1,61 @@
+<table>
+	<unit>
+		<variables>
+			<var_is_broken value="0"/>
+		</variables>
+		<filter name="'screen_not_broken'">
+			<check value="vars.var_is_broken == 0"/>
+		</filter>
+		<sequence editable_state="true" name="'state_screen_off'" triggable="true">
+			<object enabled="false" filter="'screen_not_broken'" name="'g_screen'"/>
+			<object enabled="false" filter="'screen_not_broken'" name="'g_screen_dmg'"/>
+			<object enabled="true" filter="'screen_not_broken'" name="'g_screen_off'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_screen_on'" triggable="true">
+			<object enabled="true" filter="'screen_not_broken'" name="'g_screen'"/>
+			<object enabled="false" filter="'screen_not_broken'" name="'g_screen_dmg'"/>
+			<object enabled="false" filter="'screen_not_broken'" name="'g_screen_off'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_hide'" triggable="true">
+			<body enabled="false" name="'monitor_body'"/>
+			<object enabled="false" name="'g_screen'"/>
+			<object enabled="false" name="'g_screen_dmg'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_vis_show'" triggable="true">
+			<body enabled="true" name="'monitor_body'"/>
+			<object enabled="true" name="'g_screen'"/>
+			<object enabled="false" name="'g_screen_dmg'"/>
+		</sequence>
+		<sequence editable_state="false" name="'kill_monitor'" once="true" triggable="false">
+			<object enabled="false" name="'g_screen'"/>
+			<object enabled="true" name="'g_screen_dmg'"/>
+			<set_variables var_is_broken="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_a'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_a'"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_b'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_b'"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_c'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_c'"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_d'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_d'"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_e'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_e'"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_f'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_f'"/>
+		</sequence>
+		<sequence editable_state="true" name="'use_screen_g'" triggable="true">
+			<material_config name="'units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_g'"/>
+		</sequence>
+		<body name="'monitor_body'">
+			<endurance bullet="1" explosion="1" lock="1" melee="0.5">
+				<run_sequence name="'kill_monitor'"/>
+			</endurance>
+		</body>
+	</unit>
+</table>

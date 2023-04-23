@@ -3639,4 +3639,14 @@
 		<object path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
 		<unit path="units/pd2_dlc_fish/editable_text_system/editable_text_system"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement_big_pillar_01" type="unit">
+		<material_config path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement"/>
+		<object path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement_big_pillar_01"/>
+		<unit path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement_big_pillar_01"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision_4m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_collision_4m"/>
+		<object path="units/dev_tools/level_tools/dev_collision_4m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
 </table>

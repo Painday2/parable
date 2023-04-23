@@ -8609,9 +8609,6 @@ to development a month before the release date.
 			</unit_data>
 		</table>
 		<table>
-			<unit_data _prev_pos="-975 4700 654" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/stn_prop_screen/stn_prop_screen_a" name_id="stn_prop_screen_a_001" position="-975 4700 654" rotation="0 0 0.707107 -0.707107" unit_id="102189"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-850 4375 654" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_chill/props/chl_prop_gym_jacket_gameconsole/chl_prop_gym_jacket_gameconsole" name_id="chl_prop_gym_jacket_gameconsole_001" position="-850 4375 654" rotation="0 0 -0.707107 -0.707107" unit_id="102190"/>
 		</table>
 		<table>
@@ -9207,6 +9204,48 @@ to development a month before the release date.
 					<table clipping_values="10000 -10000 0" color="1 1 1" enabled="true" falloff_exponent="1" far_range="1675" multiplier="@ID8badd0cc6ca7cc05@" name="lo_omni" near_range="80" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-975 4700 654" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_vis_show" name="units/pd2_mod_parable/parable_mws_screen/stn_prop_screen_a" name_id="stn_prop_screen_a_mws_screen" position="-975 4700 654" rotation="0 0 0.707107 -0.707107" unit_id="102189"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-583 4544 686" _prev_rot="-0 0 -0 -1" continent="world" local_pos="17 19 32" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" name_id="des_interactable_button_laser_panel_wording_a" position="-583 4594 686" rotation="-0 0 -0 -1" unit_id="102345"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600 4525 654" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/props/mus_prop_hallway_railing/mus_prop_hallway_rail_pillar_extended" name_id="mus_prop_hallway_rail_pillar_extended_wording_a" position="-600 4575 654" rotation="-0 0 -0 -1" unit_id="102358"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-625 4450 829" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="-25 -75 175" local_rot="0.5 0.5 0.5 0.5" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_wording_a" position="-625 4500 829" rotation="0.5 0.5 0.5 0.5" unit_id="102359">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="diffuse_vc_decal" text="WORDING A" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-600 4775 654" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_indiana/props/mus_prop_hallway_railing/mus_prop_hallway_rail_pillar_extended" name_id="mus_prop_hallway_rail_pillar_extended_wording_b" position="-600 4775 654" rotation="-0 0 -0 -1" unit_id="102360"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-583 4794 686" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interaction" name="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel" name_id="des_interactable_button_laser_panel_wording_b" position="-583 4794 686" rotation="-0 0 -0 -1" unit_id="102361"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-625 4700 829" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_wording_b" position="-625 4700 829" rotation="0.5 0.5 0.5 0.5" unit_id="102362">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="diffuse_vc_decal" text="WORDING B" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 3050 654" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" name_id="dev_collision_4x3m_001" only_visible_in_editor="true" position="-525 3097 654" rotation="0 0 0.707107 -0.707107" unit_id="102363"/>
 		</table>
 	</statics>
 	<values>
