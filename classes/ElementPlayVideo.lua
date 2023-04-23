@@ -19,7 +19,7 @@ function ElementPlayVideo:on_executed(instigator)
 	end
 
 	if instigator == managers.player:player_unit() then
-		self:_play_movie(self._values.movie, self._values.width, self._values.height)
+		self:_play_movie(self._values.movie, self._values.width, self._values.height, self._values.duration)
 	end
 
 	ElementPlayVideo.super.on_executed(self, instigator)
@@ -43,7 +43,7 @@ function ElementPlayVideo:_init_panel()
 end
 
 
-function ElementPlayVideo:_play_movie(movie, width, height)
+function ElementPlayVideo:_play_movie(movie, width, height, duration)
 	if not self._full_workspace then
 		self:init()
 	end
@@ -55,6 +55,7 @@ function ElementPlayVideo:_play_movie(movie, width, height)
     local res = RenderSettings.resolution
 	width = tonumber(width) or 1280
 	height = tonumber(height) or 720
+	duration = tonumber(duration) or 8
 	local src_width = width
 	local src_height = height
 	local dest_width, dest_height = nil
@@ -78,6 +79,9 @@ function ElementPlayVideo:_play_movie(movie, width, height)
     })
 
     self._played_video = true
+
+    wait(duration)
+    self._played_video = false
 end
 
 if BLE then
@@ -93,6 +97,7 @@ if BLE then
 			self:PathCtrl("movie", "movie", nil, nil, {help = "The movie's path, if it is not showing in the list, it is not loaded properly."})
 			self:NumberCtrl("width", {floats = 0, help = "The movie's width, Defaults to 1280"})
 			self:NumberCtrl("height", {floats = 0, help = "The movie's height, Defaults to 720"})
+			self:NumberCtrl("duration", {floats = 0, help = "The movie's height, Defaults to 8 seconds"})
 		end
 
 
