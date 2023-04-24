@@ -1,6 +1,8 @@
 {
+	"contract_pain": "Pain",
+
 	"heist_parable_name" : "The Pain Parable",
-	"heist_parable_brief" : "This is the story of a man named Stanley\nRichard worked for a game company in a big building where he was Employee #427\nEmployee #427's job was simple: he sat at his desk in Room 427 and he pushed buttons on a keyboard\nOrders came to him through a monitor on his desk telling him what buttons to push, how long to push them, and in what order\nThis is what Employee #427 did every day of every month of every year, and although others may have considered it soul rending\nRichard relished every moment that the orders came in, as though he had been made exactly for this job\nAnd Richard was happy",
+	"heist_parable_brief" : "This is the story of a man named Richard\nRichard worked for a game company in a big building where he was Employee #427\nEmployee #427's job was simple: he sat at his desk in Room 427 and he pushed buttons on a keyboard\nOrders came to him through a monitor on his desk telling him what buttons to push, how long to push them, and in what order\nThis is what Employee #427 did every day of every month of every year, and although others may have considered it soul rending\nRichard relished every moment that the orders came in, as though he had been made exactly for this job\nAnd Richard was happy",
 	"heist_pain_parable_name" : "The Pain Parable",
 	"heist_pain_parable_brief" : "This is the story of a man named Stanley\nRichard worked for a game company in a big building where he was Employee #427\nEmployee #427's job was simple: he sat at his desk in Room 427 and he pushed buttons on a keyboard\nOrders came to him through a monitor on his desk telling him what buttons to push, how long to push them, and in what order\nThis is what Employee #427 did every day of every month of every year, and although others may have considered it soul rending\nRichard relished every moment that the orders came in, as though he had been made exactly for this job\nAnd Richard was happy",
 
@@ -62,7 +64,7 @@
 	"parable_coward" : "His story begins by closing the door to his office and cowering in fear. Poor old Rickie. He couldn't bear the weight of lifting himself off of his chair into the unknown. What if he had to make a choice? What would he do then? Waitin was the best, and safest option. Maybe then something will come up on the screen telling him what to do. He waited, minutes, hours, days, even weeks. He waited so long he couldn't remember anything but the inside of his own office. But he held out, waiting till new orders came in. Poor old Rickie.",
 	"parable_cheat" : "Richard, this is me being serious. In fact, this is my serious basement, for serious people, Inside my serious house. The reason why I brought you here is because you tried to Activate Free Flight and ran the risk of breaking the entire map. Honestly, I'm quite appalled you TRIED to break and disrespect my work....for this, I am subjecting you to the most severe punishment I can think of. Sitting here In silence for 30 seconds. Starting now.",
 	"parable_cheat2" : "Wha, really? You Tried to cheat again? Are you kidding? Okay for that you are getting my MOST MORE SEVERE PUNISHMENT. Thats right Richard, 60 seconds in silence.",
-	"parable_cheat_mp" : "Richard...I see you brought friends. While normally I would be very proud and happy for you to try and show your friends your interests, this isn't the time. This is a SINGLEPLAYER MAP. Im sorry you didn't get the memo everybody, so from here on out, this map is CLOSED. You will have to quit to the menu to start again. Thank you for Playing The Pain Parable™.",
+	"parable_cheat_mp" : "Richard...I see you brought friends. While normally I would be very proud and happy for you to try and show your friends your interests, this isn't the time. This is a SINGLEPLAYER MAP. Im sorry you didn't get the memo everybody, so from here on out, this map is CLOSED. You will have to quit to the menu to start again. Thank you for Playing The Pain Parableï¿½.",
 	"parable_oob1" : "Come on, you've just started the map! All you did was walk out the door, and you already broke everything. Wait. I know! It's another one of those 'speedrun strats'. I guess you feel like you deserve an award don't you? Fine.",
 	"parable_oob2" : "YOU WIN! Yeeeeaaah! Congratulations! You've won, you did it, and you're the absolute best. *pause* Okay Moving on.",
 	"parable_left" : "Feeling a wave of disbelief, Richard decided to go to his boss's office hoping he might find an answer there.",
@@ -127,7 +129,7 @@
 "parable_escape4" : "Goodbye, dick.",
 "parable_museum1" : "What was the Narrator hoping to accomplish by locking the player into inescapable death?",
 "parable_museum2" : "Is it intentionally bad level design? I believe the answer lies within the ancestry of the map.",
-"parable_museum3" : "'The concept was to combine all of the worst objectives into on heist.'... Huh.",
+"parable_museum3" : "'The concept was to combine all of the worst objectives into one heist.'... Huh.",
 "parable_museum4" : "8 days to completion... That is particularly worrying.",
 "parable_museum5" : "50 minutes of hacking computers? That does it, these maps are terribly designed!",
 "parable_museum6" : "BOFA what? God, this fucking sucks! I hate it!",

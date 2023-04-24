@@ -4416,8 +4416,10 @@ to be added in future updates.
 		</table>
 		<table>
 			<unit_data _prev_pos="-12300 53 -84.658" _prev_rot="-3.09086e-008 0.707107 0.707107 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_050" position="-12300 53 -84.658" rotation="-3.09086e-008 0.707107 0.707107 -3.09086e-008" unit_id="100987">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The Pain Parable has &lt;X> voicelines.
-Insert more voiceline funnies here further near release
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The Pain Parable has 131 voicelines, and a script of nearly 5000 words.
+Writing was obviously inspired by the original game,
+with our own painful twist.
+Some lines are ad-libbed, and some are over a minute long.
 " vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
@@ -4487,7 +4489,9 @@ with the help of Pain crew newcomer Oreztov.
 		</table>
 		<table>
 			<unit_data _prev_pos="-12250 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_053" position="-12250 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="100995">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="a" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The serious room can be entered by cheating.
+Do not, under any circumstances, use
+Free Flight Camera to cheat on this map." vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -4547,7 +4551,10 @@ to development a month before the release date.
 		</table>
 		<table>
 			<unit_data _prev_pos="-13150 1149 40.342" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_056" position="-13150 1149 40.342" rotation="-0.707107 0 0 -0.707107" unit_id="101002">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="a" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The Pain Parable includes 8 seperate levels,
+which you can access through the main starting level.
+The main office was redesigned many times,
+in order to have good timings for voicelines." vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -4589,7 +4596,9 @@ to development a month before the release date.
 		</table>
 		<table>
 			<unit_data _prev_pos="-12250 1149 -84.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_057" position="-12250 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="101011">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="b" vertical="center" word_wrap="false" wrap="false">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The Pain Parable contains multiple cutscenes, both
+rendered in game and external videos.
+It is a prequel to all other Pain maps." vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
@@ -4606,8 +4615,11 @@ to development a month before the release date.
 			<unit_data _prev_pos="-5075 575 -200" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="175 725 -594" local_rot="0 0 0 1" name="units/pd2_indiana/architecture/int/mus_int_room_a_door" name_id="mus_int_room_a_door_006" position="-13275 575 -200" rotation="0 0 -0.707107 -0.707107" unit_id="101013"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-13150 1149 -59.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_058" position="-13150 1149 -59.658" rotation="-0.707107 0 0 -0.707107" unit_id="101014">
-				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="b" vertical="center" word_wrap="false" wrap="false">
+			<unit_data _prev_pos="-13150 1149 -59.658" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_058" position="-13150 1149 -84.658" rotation="-0.707107 0 0 -0.707107" unit_id="101014">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="0 0 0" font_size="1.46" render_template="diffuse_vc_decal" text="The most dedicated painsters got early access to the map,
+with some even making contributions and appearing in the map.
+Become a painster today!
+Join the Discord server." vertical="center" word_wrap="false" wrap="false">
 					<shape>
 						<value_node value="0"/>
 						<value_node value="0"/>
