@@ -161,7 +161,7 @@
 				<entry key="height" type="number" value="1000"/>
 				<entry key="name" type="string" value="none"/>
 				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="2600 -19725 -250"/>
+				<entry key="position" type="vector3" value="2825 -19725 -250"/>
 				<entry key="prio" type="number" value="100"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="transition_time" type="number" value="0.1"/>

@@ -113,12 +113,8 @@
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="15"/>
-							<entry key="id" type="number" value="100006"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="15"/>
-							<entry key="id" type="number" value="100007"/>
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="100008"/>
 						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="13.4964 1362.64 100"/>
@@ -168,6 +164,36 @@
 					<entry key="position" type="vector3" value="-103.06 1154.2 0.000572205"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="9" type="table">
+				<entry key="class" type="string" value="ElementDialogue"/>
+				<entry key="editor_name" type="string" value="dia_heist3_1"/>
+				<entry key="id" type="number" value="100008"/>
+				<entry key="script" type="string" value="world"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="can_not_be_muted" type="boolean" value="false"/>
+					<entry key="dialogue" type="string" value="parable_heist3_1"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_executed_when_done" type="boolean" value="false"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100007"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100006"/>
+						</entry>
+					</entry>
+					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
+					<entry key="position" type="vector3" value="-108.98 963.202 0.000572205"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+					<entry key="use_position" type="boolean" value="false"/>
 				</entry>
 			</entry>
 		</entry>

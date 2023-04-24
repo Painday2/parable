@@ -1,4 +1,5 @@
 <table directory="assets">
+	<movie path="movies/parable_prison"/>
 	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1_2m_a" type="unit">
 		<material_config path="units/payday2/architecture/lux/lux"/>
 		<object path="units/payday2/architecture/lux/lux_int_wall1_2m_a"/>
@@ -3645,8 +3646,36 @@
 		<unit path="units/pd2_dlc_arena/architecture/are_int_basement/are_int_basement_big_pillar_01"/>
 	</add>
 	<add from_db="true" path="units/dev_tools/level_tools/dev_collision_4m" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_collision_4m"/>
-		<object path="units/dev_tools/level_tools/dev_collision_4m"/>
 		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision_4m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision_4m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m"/>
+		<unit path="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" type="unit">
+		<material_config path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+		<object path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+		<sequence_manager path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer" type="unit">
+		<material_config path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+		<object path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+		<sequence_manager path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+		<unit path="units/pd2_dlc_help/props/hlp_interactable_wheel_timer/hlp_interactable_wheel_timer"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01" type="unit">
+		<material_config path="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01"/>
+		<object path="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01"/>
+		<unit path="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
+		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<object path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<material_config path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<sequence_manager path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
 	</add>
 </table>

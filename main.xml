@@ -1,7 +1,43 @@
 <table min_lib_ver="4.4" name="The Pain Parable">
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/The Pain Parable"/>
+		<texture load="true" path="ach/parable_stuck"/>
+		<texture load="true" path="ach/parable_insanity"/>
+		<texture load="true" path="ach/parable_oob"/>
+		<texture load="true" path="ach/parable_choices"/>
+		<texture load="true" path="ach/parable_baby"/>
+		<texture load="true" path="ach/parable_zen"/>
+		<texture load="true" path="ach/parable_game"/>
+		<texture load="true" path="ach/parable_modding"/>
+		<texture load="true" path="ach/parable_career"/>
+		<texture load="true" path="ach/parable_museum"/>
+		<texture load="true" path="ach/parable_adventure"/>
+		<texture load="true" path="ach/parable_broom"/>
+		<texture load="true" path="ach/parable_coward"/>
+		<texture load="true" path="ach/parable_mandrill"/>
+		<texture load="true" path="ach/parable_mws"/>
+		<texture load="true" path="ach/parable_true"/>
+		<texture load="true" path="ach/parable_zen"/>
+		<texture load="true" path="ach/parable_icon"/>
 	</AddFiles>
+	<Achievements icon="ach/parable_icon" id="parable_pain_achievements">
+		<achievement icon="ach/parable_true" id="p_parable_true" rank="2"/>
+		<achievement hidden_achievement="true" icon="ach/parable_mws" id="p_parable_mws" rank="1"/>
+		<achievement hidden_achievement="true" icon="ach/parable_mandrill" id="p_parable_mandrill" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_coward" id="p_parable_coward" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_broom" id="p_parable_broom" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_adventure" id="p_parable_adventure" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_museum" id="p_parable_museum" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_career" id="p_parable_career" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_modding" id="p_parable_modding" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_game" id="p_parable_game" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_zen" id="p_parable_zen" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_baby" id="p_parable_baby" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_choices" id="p_parable_choices" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_oob" id="p_parable_oob" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_insanity" id="p_parable_insanity" rank="1" />
+		<achievement hidden_achievement="true" icon="ach/parable_stuck" id="p_parable_stuck" rank="1" />
+	</Achievements>
 	<level ai_group_type="america" briefing_dialog="" id="pain_parable" intro_event="" max_bags="54" team_ai_off="true">
 		<assets/>
 		<classes directory="classes">
@@ -32,11 +68,52 @@
 				<sound id="parable_across_woodenplank" path="parable_across_woodenplank.ogg" subtitle_id="parable_across_woodenplank"/>
 				<sound id="parable_across_woodenplank_backwards" path="parable_across_woodenplank_backwards.ogg" subtitle_id="parable_across_woodenplank_backwards"/>
 				<sound id="parable_woodenplank" path="parable_woodenplank.ogg" subtitle_id="parable_woodenplank"/>
+				<sound id="parable_adv_garage_start" path="parable_adv_garage_start.ogg" subtitle_id="parable_adv_garage_start"/>
+				<sound id="parable_adv_garage_2" path="parable_adv_garage_2.ogg" subtitle_id="parable_adv_garage_2"/>
+				<sound id="parable_adv_garage_3" path="parable_adv_garage_3.ogg" subtitle_id="parable_adv_garage_3"/>
+				<sound id="parable_adv_garage_4" path="parable_adv_garage_4.ogg" subtitle_id="parable_adv_garage_4"/>
+				<sound id="parable_adv_garage_5" path="parable_adv_garage_5.ogg" subtitle_id="parable_adv_garage_5"/>
+				<sound id="parable_boss_office" path="parable_boss_office.ogg" subtitle_id="parable_boss_office"/>
+				<sound id="parable_boss_secret_door" path="parable_boss_secret_door.ogg" subtitle_id="parable_boss_secret_door"/>
+				<sound id="parable_broomcloset1" path="parable_broomcloset1.ogg" subtitle_id="parable_broomcloset1"/>
+				<sound id="parable_broomcloset2" path="parable_broomcloset2.ogg" subtitle_id="parable_broomcloset2"/>
+				<sound id="parable_broomcloset3" path="parable_broomcloset3.ogg" subtitle_id="parable_broomcloset3"/>
+				<sound id="parable_broomcloset4" path="parable_broomcloset4.ogg" subtitle_id="parable_broomcloset4"/>
+				<sound id="parable_broomcloset5" path="parable_broomcloset5.ogg" subtitle_id="parable_broomcloset5"/>
+				<sound id="parable_broomcloset6" path="parable_broomcloset6.ogg" subtitle_id="parable_broomcloset6"/>
+				<sound id="parable_broomcloset7" path="parable_broomcloset7.ogg" subtitle_id="parable_broomcloset7"/>
+				<sound id="parable_broomcloset8" path="parable_broomcloset8.ogg" subtitle_id="parable_broomcloset8"/>
+				<sound id="parable_broomcloset9" path="parable_broomcloset9.ogg" subtitle_id="parable_broomcloset9"/>
+				<sound id="parable_broomcloset10" path="parable_broomcloset10.ogg" subtitle_id="parable_broomcloset10"/>
+				<sound id="parable_broomcloset11" path="parable_broomcloset11.ogg" subtitle_id="parable_broomcloset11"/>
+				<sound id="parable_broomcloset12" path="parable_broomcloset12.ogg" subtitle_id="parable_broomcloset12"/>
+				<sound id="parable_cancelproject1" path="parable_cancelproject1.ogg" subtitle_id="parable_cancelproject1"/>
+				<sound id="parable_cancelproject2" path="parable_cancelproject2.ogg" subtitle_id="parable_cancelproject2"/>
+				<sound id="parable_cancelproject3" path="parable_cancelproject3.ogg" subtitle_id="parable_cancelproject3"/>
+				<sound id="parable_career1" path="parable_career1.ogg" subtitle_id="parable_career1"/>
+				<sound id="parable_career2" path="parable_career2.ogg" subtitle_id="parable_career2"/>
+				<sound id="parable_career3" path="parable_career3.ogg" subtitle_id="parable_career3"/>
+				<sound id="parable_career4" path="parable_career4.ogg" subtitle_id="parable_career4"/>
+				<sound id="parable_career5" path="parable_career5.ogg" subtitle_id="parable_career5"/>
+				<sound id="parable_career6" path="parable_career6.ogg" subtitle_id="parable_career6"/>
+				<sound id="parable_career7" path="parable_career7.ogg" subtitle_id="parable_career7"/>
+				<sound id="parable_choices_choices1" path="parable_choices_choices1.ogg" subtitle_id="parable_choices_choices1"/>
+				<sound id="parable_choices_choices2" path="parable_choices_choices2.ogg" subtitle_id="parable_choices_choices2"/>
+				<sound id="parable_choices_choices3" path="parable_choices_choices3.ogg" subtitle_id="parable_choices_choices3"/>
+				<sound id="parable_choices_choices4" path="parable_choices_choices4.ogg" subtitle_id="parable_choices_choices4"/>
+				<sound id="parable_choices_start" path="parable_choices_start.ogg" subtitle_id="parable_choices_start"/>
+				<sound id="parable_coward" path="parable_coward.ogg" subtitle_id="parable_coward"/>
+				<sound id="parable_crazy1" path="parable_crazy1.ogg" subtitle_id="parable_crazy1"/>
 				<sound id="parable_intro3" path="parable_intro3.ogg" subtitle_id="parable_intro3"/>
 				<sound id="parable_intro2" path="parable_intro2.ogg" subtitle_id="parable_intro2"/>
 				<sound id="parable_intro1" path="parable_intro1.ogg" subtitle_id="parable_intro1"/>
-				<sound id="parable_coward" path="parable_coward.ogg" subtitle_id="parable_coward"/>
-				<sound id="parable_crazy1" path="parable_crazy1.ogg" subtitle_id="parable_crazy1"/>
+				<sound id="parable_left" path="parable_left.ogg" subtitle_id="parable_left"/>
+				<sound id="parable_modding" path="parable_modding.ogg" subtitle_id="parable_modding"/>
+				<sound id="parable_modding_end" path="parable_modding_end.ogg" subtitle_id="parable_modding_end"/>
+				<sound id="parable_newproject1" path="parable_newproject1.ogg" subtitle_id="parable_newproject1"/>
+				<sound id="parable_newproject2" path="parable_newproject2.ogg" subtitle_id="parable_newproject2"/>
+				<sound id="parable_newproject3" path="parable_newproject3.ogg" subtitle_id="parable_newproject3"/>
+				<sound id="parable_off_choice" path="parable_off_choice.ogg" subtitle_id="parable_off_choice"/>
 				<sound id="parable_oob1" path="parable_oob1.ogg" subtitle_id="parable_oob1"/>
 				<sound id="parable_oob2" path="parable_oob2.ogg" subtitle_id="parable_oob2"/>
 				<sound id="parable_redblue_blue1" path="parable_redblue_blue1.ogg" subtitle_id="parable_redblue_blue1"/>
@@ -47,7 +124,6 @@
 				<sound id="parable_right1" path="parable_right1.ogg" subtitle_id="parable_right1"/>
 				<sound id="parable_right2" path="parable_right2.ogg" subtitle_id="parable_right2"/>
 				<sound id="parable_right3" path="parable_right3.ogg" subtitle_id="parable_right3"/>
-				<sound id="parable_left" path="parable_left.ogg" subtitle_id="parable_left"/>
 				<sound id="parable_stuck" path="parable_stuck.ogg" subtitle_id="parable_stuck"/>
 			</sounds>
 		</sounds>
@@ -85,9 +161,6 @@
 			<class file="ElementInstantLevelLoad.lua"/>
 			<class file="ElementPlayVideo.lua"/>
 		</classes>
-		<packages>
-			<value_node value="package_parable"/>
-		</packages>
 		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
 			<sound id="parable_babygame_start" path="parable_babygame_start.ogg" subtitle_id="parable_babygame_start"/>
 			<sound id="parable_babygame_1" path="parable_babygame_1.ogg" subtitle_id="parable_babygame_1"/>
@@ -98,6 +171,19 @@
 			<sound id="parable_babygame_6" path="parable_babygame_6.ogg" subtitle_id="parable_babygame_6"/>
 			<sound id="parable_babygame_7" path="parable_babygame_7.ogg" subtitle_id="parable_babygame_7"/>
 			<sound id="parable_babygame_fail" path="parable_babygame_fail.ogg" subtitle_id="parable_babygame_fail"/>
+			<sound id="parable_goback1" path="parable_goback1.ogg" subtitle_id="parable_goback1"/>
+			<sound id="parable_goback2" path="parable_goback2.ogg" subtitle_id="parable_goback2"/>
+			<sound id="parable_land1" path="parable_land1.ogg" subtitle_id="parable_land1"/>
+			<sound id="parable_leave1" path="parable_leave1.ogg" subtitle_id="parable_leave1"/>
+			<sound id="parable_leave2" path="parable_leave2.ogg" subtitle_id="parable_leave2"/>
+			<sound id="parable_leave3" path="parable_leave3.ogg" subtitle_id="parable_leave3"/>
+			<sound id="parable_leave4" path="parable_leave4.ogg" subtitle_id="parable_leave4"/>
+			<sound id="parable_leave5" path="parable_leave5.ogg" subtitle_id="parable_leave5"/>
+			<sound id="parable_stairs_dead" path="parable_stairs_dead.ogg" subtitle_id="parable_stairs_dead"/>
+			<sound id="parable_stairs2_1" path="parable_stairs2_1.ogg" subtitle_id="parable_stairs2_1"/>
+			<sound id="parable_stairs3_1" path="parable_stairs3_1.ogg" subtitle_id="parable_stairs3_1"/>
+			<sound id="parable_stairs3_2" path="parable_stairs3_2.ogg" subtitle_id="parable_stairs3_2"/>
+			<sound id="parable_zen" path="parable_zen.ogg" subtitle_id="parable_zen"/>
 		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -118,6 +204,7 @@
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
+			<class file="ElementPlayVideo.lua"/>
 		</classes>
 		<sounds directory="assets/sound/vo/lair" dont_store_float="true">
 			<sound id="parable_lair_boss" path="parable_lair_boss.ogg" subtitle_id="parable_lair_boss"/>
@@ -125,6 +212,38 @@
 			<sound id="parable_escape2" path="parable_escape2.ogg" subtitle_id="parable_escape_2"/>
 			<sound id="parable_escape3" path="parable_escape3.ogg" subtitle_id="parable_escape_3"/>
 			<sound id="parable_escape4" path="parable_escape4.ogg" subtitle_id="parable_escape_4"/>
+			<sound id="parable_facility1" path="parable_facility1.ogg" subtitle_id="parable_facility1"/>
+			<sound id="parable_facility2" path="parable_facility2.ogg" subtitle_id="parable_facility2"/>
+			<sound id="parable_facility3" path="parable_facility3.ogg" subtitle_id="parable_facility3"/>
+			<sound id="parable_facility4" path="parable_facility4.ogg" subtitle_id="parable_facility4"/>
+			<sound id="parable_facility5" path="parable_facility5.ogg" subtitle_id="parable_facility5"/>
+			<sound id="parable_jail" path="parable_jail.ogg" subtitle_id="parable_jail"/>
+			<sound id="parable_lair_boss" path="parable_lair_boss.ogg" subtitle_id="parable_lair_boss"/>
+			<sound id="parable_lair_hallway1" path="parable_lair_hallway1.ogg" subtitle_id="parable_lair_hallway1"/>
+			<sound id="parable_lair_hallway2" path="parable_lair_hallway2.ogg" subtitle_id="parable_lair_hallway2"/>
+			<sound id="parable_museum1" path="parable_museum1.ogg" subtitle_id="parable_museum1"/>
+			<sound id="parable_museum2" path="parable_museum2.ogg" subtitle_id="parable_museum2"/>
+			<sound id="parable_museum3" path="parable_museum3.ogg" subtitle_id="parable_museum3"/>
+			<sound id="parable_museum4" path="parable_museum4.ogg" subtitle_id="parable_museum4"/>
+			<sound id="parable_museum5" path="parable_museum5.ogg" subtitle_id="parable_museum5"/>
+			<sound id="parable_museum6" path="parable_museum6.ogg" subtitle_id="parable_museum6"/>
+			<sound id="parable_museum7" path="parable_museum7.ogg" subtitle_id="parable_museum7"/>
+			<sound id="parable_museum8" path="parable_museum8.ogg" subtitle_id="parable_museum8"/>
+			<sound id="parable_museum9" path="parable_museum9.ogg" subtitle_id="parable_museum9"/>
+			<sound id="parable_mws_a" path="parable_mws_a.ogg" subtitle_id="parable_mws_a"/>
+			<sound id="parable_mws_b" path="parable_mws_b.ogg" subtitle_id="parable_mws_b"/>
+			<sound id="parable_mws1" path="parable_mws1.ogg" subtitle_id="parable_mws1"/>
+			<sound id="parable_mws2" path="parable_mws2.ogg" subtitle_id="parable_mws2"/>
+			<sound id="parable_mws3" path="parable_mws3.ogg" subtitle_id="parable_mws3"/>
+			<sound id="parable_mws4" path="parable_mws4.ogg" subtitle_id="parable_mws4"/>
+			<sound id="parable_mws5" path="parable_mws5.ogg" subtitle_id="parable_mws5"/>
+			<sound id="parable_mws6" path="parable_mws6.ogg" subtitle_id="parable_mws6"/>
+			<sound id="parable_off" path="parable_off.ogg" subtitle_id="parable_off"/>
+			<sound id="parable_on" path="parable_on.ogg" subtitle_id="parable_on"/>
+			<sound id="parable_raid1" path="parable_raid1.ogg" subtitle_id="parable_raid1"/>
+			<sound id="parable_raid2" path="parable_raid2.ogg" subtitle_id="parable_raid2"/>
+			<sound id="parable_raid3" path="parable_raid3.ogg" subtitle_id="parable_raid3"/>
+			<sound id="parable_spoilers" path="parable_spoilers.ogg" subtitle_id="parable_spoilers"/>
 		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -167,6 +286,13 @@
 			<value_node value="levels/narratives/dentist/mia/stage1/world_sounds"/>
 			<value_node value="levels/narratives/classics/glace/world"/>
 		</packages>
+		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
+			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1"/>
+			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2"/>
+			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1"/>
+			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2"/>
+			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1"/>
+		</sounds>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
@@ -187,6 +313,13 @@
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 		</hooks>
 		<packages/>
+		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
+			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1"/>
+			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2"/>
+			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1"/>
+			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2"/>
+			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1"/>
+		</sounds>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
@@ -198,6 +331,13 @@
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
+		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
+			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1"/>
+			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2"/>
+			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1"/>
+			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2"/>
+			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1"/>
+		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
@@ -229,6 +369,13 @@
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 		</hooks>
+		<sounds directory="assets/sound/vo/adventure" dont_store_float="true">
+			<sound id="parable_advline_death" path="parable_advline_death.ogg" subtitle_id="parable_advline_death"/>
+			<sound id="parable_advline_see_line" path="parable_advline_see_line.ogg" subtitle_id="parable_advline_see_line"/>
+			<sound id="parable_advline_see_start" path="parable_advline_see_start.ogg" subtitle_id="parable_advline_see_start"/>
+			<sound id="parable_advline_start" path="parable_advline_start.ogg" subtitle_id="parable_advline_start"/>
+			<sound id="parable_advline_stop" path="parable_advline_stop.ogg" subtitle_id="parable_advline_stop"/>
+		</sounds>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
 				<options merge_mode="add" mode="add"/>
@@ -243,30 +390,14 @@
 		<add file="levels/inst_pain_drill/add.xml"/>
 		<include directory="levels/inst_pain_drill">
 			<file file="world/world.continent" type="custom_xml"/>
+			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
 		</include>
 		<packages/>
 		<script_data_mods directory="scriptdata"/>
 	</instance>
-	<Achievements banner="guis/textures/p_spain_banner" icon="guis/textures/p_spain_icon" id="parable_pain_achievements">
-		<achievement icon="guis/textures/p_spain_rein" id="p_parable_true" rank="1"/>
-		<achievement icon="guis/textures/p_spain_rein" id="p_parable_mws" rank="1"/>
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_mandrill" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_coward" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_broom" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_adventure" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_museum" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_career" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_modding" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_game" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_zen" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_baby" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_choices" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_oob" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_insanity" rank="1" />
-		<achievement  icon="guis/textures/p_spain_rein" id="p_parable_stuck" rank="1" />
-	</Achievements>
-	<narrative contact="custom" id="parable" icon="guis/textures/mods/icons/The Pain Parable">
+	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="Pain" name_id="contract_pain" package="packages/contact_bain"/>
+	<narrative contact="Pain" id="parable" icon="guis/textures/mods/icons/The Pain Parable">
 		<chain>
 			<table level_id="pain_parable" type="d" type_id="heist_type_assault"/>
 		</chain>

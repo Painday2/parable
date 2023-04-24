@@ -70,7 +70,7 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
-				<entry key="depth" type="number" value="4094"/>
+				<entry key="depth" type="number" value="4594"/>
 				<entry key="environment" type="string" value="units/pd2_dlc_uno/environments/pd2_env_uno_dark"/>
 				<entry key="filter_list" type="table">
 					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
@@ -103,7 +103,7 @@
 				<entry key="height" type="number" value="1019"/>
 				<entry key="name" type="string" value="dark environment area"/>
 				<entry key="permanent" type="boolean" value="false"/>
-				<entry key="position" type="vector3" value="-1050 -1400 -125"/>
+				<entry key="position" type="vector3" value="-100 -1400 -125"/>
 				<entry key="prio" type="number" value="100"/>
 				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 				<entry key="transition_time" type="number" value="0.1"/>

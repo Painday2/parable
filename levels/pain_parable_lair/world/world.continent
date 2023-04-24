@@ -9247,6 +9247,45 @@ to development a month before the release date.
 		<table>
 			<unit_data _prev_pos="-525 3050 654" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_4x3m" name_id="dev_collision_4x3m_001" only_visible_in_editor="true" position="-525 3097 654" rotation="0 0 0.707107 -0.707107" unit_id="102363"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="1544.25 11210.5 329.256" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="red_on_black" name="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" name_id="COUNTDOWN" position="1544.25 11210.5 329.256" rotation="-0 0 -0 -1" unit_id="102364"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1200 11175 498.413" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_dlc_fish/editable_text_system/editable_text_system" name_id="countdown" position="1200 11200 498.413" rotation="-0.707107 0 0 -0.707107" unit_id="102365">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_system" font_color="1 1 1" font_size="1.3" render_template="diffuse_vc_decal" text="POLICE ASSAULT IN" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1753.09 9526.77 439.006" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="red_light" only_visible_in_editor="true" position="1753.09 9526.77 439.006" rotation="-0 0 -0 -1" unit_id="102366">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0 0" enabled="true" falloff_exponent="1" far_range="20000" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="1" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1703.09 6701.77 339.006" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="red_light001" only_visible_in_editor="true" position="1703.09 6701.77 339.006" rotation="-0 0 -0 -1" unit_id="102367">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0 0" enabled="true" falloff_exponent="1" far_range="20000" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="1" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1703.09 3601.77 339.006" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/light_omni/light_omni" name_id="red_light002" only_visible_in_editor="true" position="1703.09 3601.77 339.006" rotation="-0 0 -0 -1" unit_id="102368">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0 0" enabled="true" falloff_exponent="1" far_range="20000" multiplier="@IDccbbe27c7fdc0fd9@" name="lo_omni" near_range="1" spot_angle_end="1" spot_angle_start="1"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1850 1286.42 -5.743" _prev_rot="0.0261769 0 0 -0.999657" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/street/plywood_fence/plywood_03x02m" name_id="plywood_countdown" position="1850 2085.32 -47.6117" rotation="0.0261769 0 0 -0.999657" unit_id="102369"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
