@@ -1368,6 +1368,10 @@
 							<entry key="delay" type="number" value="7.5"/>
 							<entry key="id" type="number" value="100128"/>
 						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100068"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="3330.99 23832.8 61.6204"/>
 					<entry key="radius" type="number" value="250"/>
@@ -1741,6 +1745,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100060"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100068"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-7255.58 21647.9 175"/>
 					<entry key="radius" type="number" value="250"/>
@@ -1786,7 +1794,7 @@
 				<entry key="values" type="table">
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
-					<entry key="execute_on_startup" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="music_event" type="string" value="stop_all_music"/>
 					<entry key="on_executed" type="table">
 					</entry>

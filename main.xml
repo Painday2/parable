@@ -52,6 +52,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<outro_event/>
 		<packages>
@@ -141,6 +142,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<sounds directory="assets/sound/vo/cheat" dont_store_float="true">
 			<sound id="parable_cheat" path="parable_cheat.ogg" subtitle_id="parable_cheat"/>
@@ -192,6 +194,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<packages/>
 		<script_data_mods directory="scriptdata">
@@ -252,6 +255,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 			<hooks directory="slide_player_state">
 				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
 				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
@@ -279,6 +283,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<packages>
 			<value_node value="packages/narr_election2"/>
@@ -311,6 +316,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<packages/>
 		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
@@ -345,6 +351,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<packages/>
 		<script_data_mods directory="scriptdata">
@@ -353,7 +360,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_adventure" max_bags="54">
+	<level ai_group_type="america" id="pain_parable_adventure" max_bags="54" team_ai_off="true">
 		<packages>
 			<value_node value="package_parable"/>
 		</packages>
@@ -368,6 +375,7 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
+			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<sounds directory="assets/sound/vo/adventure" dont_store_float="true">
 			<sound id="parable_advline_death" path="parable_advline_death.ogg" subtitle_id="parable_advline_death"/>
@@ -402,13 +410,13 @@
 			<table level_id="pain_parable" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
-			<value_node value="4000"/>
-			<value_node value="8000"/>
-			<value_node value="20000"/>
-			<value_node value="40000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
-			<value_node value="100000"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
 		</contract_cost>
 		<crimenet_callouts>
 			<value_node value="nothing"/>
@@ -427,31 +435,31 @@
 			<value_node value="3"/>
 		</experience_mul>
 		<max_mission_xp>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
-			<value_node value="8000"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
 		</max_mission_xp>
 		<min_mission_xp>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
-			<value_node value="2000"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
 		</min_mission_xp>
 		<payout>
-			<value_node value="6000"/>
-			<value_node value="12000"/>
-			<value_node value="30000"/>
-			<value_node value="50000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
-			<value_node value="60000"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
+			<value_node value="0"/>
 		</payout>
 	</narrative>
 </table>
