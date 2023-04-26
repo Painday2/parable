@@ -70,7 +70,7 @@
 	"parable_left" : "Feeling a wave of disbelief, Richard decided to go to his boss's office hoping he might find an answer there.",
 	
 	"parable_coward_a" : "His story begins by closing the door to his office and cowering in fear. Poor old Rickie.",
-	"parable_coward_b" : "He couldn't bear the weight of lifting himself off of his chair into the unknown. What if he had to make a choice? What would he do then?
+	"parable_coward_b" : "He couldn't bear the weight of lifting himself off of his chair into the unknown. What if he had to make a choice? What would he do then?",
 	"parable_coward_c" : "Waitin was the best, and safest option. Maybe then something will come up on the screen telling him what to do.", 
 	"parable_coward_d" : "He waited, minutes, hours, days, even weeks. He waited so long he couldn't remember anything but the inside of his own office.",
 	"parable_coward_e" : "But he held out, waiting till new orders came in. Poor old Rickie.",
@@ -86,7 +86,7 @@
 	"parable_cheat_mp_c" : "This is a SINGLEPLAYER MAP. Im sorry you didn't get the memo everybody,",
 	"parable_cheat_mp_d" : "so from here on out, this map is CLOSED. You will have to quit to the menu to start again. Thank you for Playing The Pain Parable",
 	
-	"parable_oob1_a" : "Come on, you've just started the map! All you did was walk out the door, and you already broke everything?"
+	"parable_oob1_a" : "Come on, you've just started the map! All you did was walk out the door, and you already broke everything?",
 	"parable_oob1_b" : "Oh wait. I know! It's another one of those 'speedrun strats'. I guess you feel like you deserve an award don't you? Fine.",
 	"parable_oob2" : "YOU WIN!  Yeeeeaaah! Congratulations! You won, you did it, and you're the absolute best. Okay Moving on.",
 	
