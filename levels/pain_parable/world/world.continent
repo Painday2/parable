@@ -9555,6 +9555,18 @@ CANCELLED" vertical="center" word_wrap="false" wrap="false">
 		<table>
 			<unit_data _prev_pos="5725 -3 1.49012e-006" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/world/props/office/whiteboard/whiteboard_03" name_id="whiteboard_03_001" position="5700 -3 1.49012e-006" rotation="0 0 1 4.37114e-008" unit_id="102807"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="7975 2525 -450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m" name_id="dev_collision_4x32m_001" only_visible_in_editor="true" position="7975 2525 -450" rotation="0 0 0 -1" unit_id="100845"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7975 2925 -450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m" name_id="dev_collision_4x32m_002" only_visible_in_editor="true" position="7975 2925 -450" rotation="0 0 0 -1" unit_id="102808"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7975 2925 -450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m" name_id="dev_collision_4x32m_003" only_visible_in_editor="true" position="7975 2075 -450" rotation="0 0 0 -1" unit_id="102809"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="7975 2525 -450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -400 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_collision/dev_collision_4x32m" name_id="dev_collision_4x32m_004" only_visible_in_editor="true" position="7975 1675 -450" rotation="0 0 0 -1" unit_id="102810"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

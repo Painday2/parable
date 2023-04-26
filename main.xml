@@ -137,6 +137,9 @@
 				</sound>
 				<sound id="parable_intro3" path="parable_intro3.ogg" subtitle_id="parable_intro3"/>
 				<sound id="parable_intro2" path="parable_intro2.ogg" subtitle_id="parable_intro2"/>
+				<sound id="parable_intro1_1" path="parable_intro1_1.ogg" subtitle_id="parable_intro1"/>
+				<sound id="parable_intro1_2" path="parable_intro1_2.ogg" subtitle_id="parable_intro1"/>
+				<sound id="parable_intro1_3" path="parable_intro1_3.ogg" subtitle_id="parable_intro1"/>
 				<random id="parable_intro1">
 					<sound id="parable_intro1_1" subtitle_id="parable_intro1"/>
 					<sound id="parable_intro1_2" subtitle_id="parable_intro1"/>
@@ -177,8 +180,8 @@
 				<sound id="parable_right1" path="parable_right1.ogg" subtitle_id="parable_right1"/>
 				<sound id="parable_right2" path="parable_right2.ogg" subtitle_id="parable_right2">
 					<markers>
-						<marker label="parable_right1_a" position="0.00"/>
-						<marker label="parable_right1_b" position="8.12"/>
+						<marker label="parable_right2_a" position="0.00"/>
+						<marker label="parable_right2_b" position="8.12"/>
 					</markers>
 				</sound>
 				<sound id="parable_right3" path="parable_right3.ogg" subtitle_id="parable_right3"/>

@@ -54,7 +54,7 @@
 	"p_parable_insanity_name" : "Insanity Ending",
 	"p_parable_insanity_desc" : "",
 	"p_parable_insanity_objective" : "You learnt the true horrors of the office.",
-	"p_parable_stuck_name" : "stuck Ending",
+	"p_parable_stuck_name" : "Stuck Ending",
 	"p_parable_stuck_desc" : "",
 	"p_parable_stuck_objective" : "Hahahahahahah you got stuck HAHAHAHAHHAHAHAHA",
 
@@ -164,7 +164,7 @@
 	
 	"parable_woodenplank" : "Hey! Come back inside right now!",
 	"parable_across_woodenplank_a" : "Richard. You Really did a good one there. You think you're so smart going across the plank, defying my orders all smugly instead of going back to where the story was.",
-	"parable_across_woodenplank_b" : "Oh Richard. Richard richard richard. Can't you see? Can't you see, there are no choices here but my own Richard. This is my story.",
+	"parable_across_woodenplank_b" : "Oh Richard. Richard, Richard, Richard. Can't you see? Can't you see, there are no choices here but my own Richard. This is my story.",
 	"parable_crazy1_a" : "You see? We're back in the office. I choose where the story goes, not you.", 
 	"parable_crazy1_b" : "Did you ever think of what happened to your coworkers? Why when you look out windows, you see nothing?", 
 	"parable_crazy1_c" : "That's because I made it that way. I've forced you to live the same day, over and over", 
