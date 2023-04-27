@@ -9470,7 +9470,7 @@
 					<entry key="movie" type="string" value="movies/parable_choices"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
-							<entry key="delay" type="number" value="90"/>
+							<entry key="delay" type="number" value="63"/>
 							<entry key="id" type="number" value="100366"/>
 						</entry>
 						<entry index="2" type="table">
@@ -9478,7 +9478,7 @@
 							<entry key="id" type="number" value="100384"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="delay" type="number" value="90"/>
+							<entry key="delay" type="number" value="63"/>
 							<entry key="id" type="number" value="100385"/>
 						</entry>
 					</entry>
