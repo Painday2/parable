@@ -11384,9 +11384,6 @@
 			<unit_data continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" name_id="gen_prop_plywood_v2_033" position="-1350.08 8393.03 2.46864" rotation="-0.00632997 0.688329 0.725347 -0.00600698" unit_id="103689"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="600 5997 465" _prev_rot="0.707107 0 0 -0.707107" _visibility_counter="0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_dlc_jolly/equipment/gen_interactable_saw/gen_interactable_saw" name_id="gen_interactable_saw_001_manager_01" position="600 5997 505" rotation="0.707107 0 0 -0.707107" unit_id="104808"/>
-		</table>
-		<table>
 			<unit_data _prev_pos="-1390 2000 86.5" _prev_rot="0 0 1 -4.37114e-008" _visibility_counter="0" continent="world" disable_shadows="true" local_pos="0 -130 86" local_rot="-0 0 -1 4.37114e-008" mesh_variation="disable_interaction" name="units/pd2_dlc_dark/pickups/drk_prop_thermal_paste/drk_prop_thermal_paste" name_id="drk_prop_thermal_paste_001_tp2_p2" position="-1390 2000 86" rotation="0 0 1 -4.37114e-008" unit_id="104797"/>
 		</table>
 		<table>
@@ -11412,9 +11409,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-243.07 3207.76 414" _prev_rot="-0.491198 0.50865 0.50865 -0.491198" _visibility_counter="1" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_plywood/gen_prop_plywood_v2" name_id="gen_prop_plywood_v2_039" position="-243.07 3207.76 414" rotation="-0.491198 0.50865 0.50865 -0.491198" unit_id="105325"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="1370 6740 0" _prev_rot="0 0 0.707107 -0.707107" _visibility_counter="0" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/str_prop_street_electric_box/str_prop_street_electric_box_hackable" name_id="str_prop_street_electric_box_hackable_009_ele_08" position="1370 6740 0" rotation="0 0 0.707107 -0.707107" unit_id="107097"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-420 8100 0" _prev_rot="0 0 1 4.37114e-008" _visibility_counter="0" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/payday2/props/str_prop_street_electric_box/str_prop_street_electric_box_hackable" name_id="str_prop_street_electric_box_hackable_012_ele_05" position="-420 8100 0" rotation="0 0 1 -4.37114e-008" unit_id="107103"/>
@@ -15706,9 +15700,6 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-3610 330 940" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_shadows="true" local_pos="0 -1200 0" local_rot="0 0 0 1" name="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" name_id="mkp_int_floor_4x4m_a_050" position="-3620 330 940" rotation="0 0 -0.707107 -0.707107" unit_id="113449"/>
-		</table>
-		<table>
-			<unit_data _prev_pos="1375 6765 90" _prev_rot="0 0 0 -1" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bollard/mcm_prop_garden_bollard_b" name_id="mcm_prop_garden_bollard_b_085_ele_08" position="1375 6760 90" rotation="-0 0 -0 -1" unit_id="113467"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-405 8095 90" _prev_rot="0 0 0 -1" continent="world" disable_shadows="true" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mcmansion/props/mcm_prop_garden_bollard/mcm_prop_garden_bollard_b" name_id="mcm_prop_garden_bollard_b_086_ele_05" position="-400 8095 90" rotation="-0 0 -0 -1" unit_id="113468"/>

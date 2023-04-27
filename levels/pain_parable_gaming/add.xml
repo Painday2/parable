@@ -1,5 +1,4 @@
 <table directory="assets">
-	<movie path="movies/art_ending"/>
 	<add from_db="true" path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01" type="unit">
 		<effect load="true" path="units/pd2_dlc_uno/architecture/effects/uno_light_beam_dust"/>
 		<material_config path="units/pd2_dlc_uno/architecture/light_rays/uno_lightray_01"/>
@@ -228,4 +227,10 @@
 		<object path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_overkillerpiece"/>
 		<unit path="units/pd2_dlc1/props/str_prop_alley_graffiti/str_prop_decal_graffitti_overkillerpiece"/>
 	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+		<object path="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_8x3m"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
+	<movie path="movies/art_ending"/>
 </table>

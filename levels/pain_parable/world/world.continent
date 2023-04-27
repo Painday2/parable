@@ -969,9 +969,9 @@
 			<unit_data _prev_pos="6368.79 823.994 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="18.79 98.994 0" local_rot="0 0 0 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator_doors" name_id="tag_int_elevator_doors_001" position="6368.79 823.994 0" rotation="-0 0 -0 -1" unit_id="100513"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="6373 831 0" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="true" local_pos="-402 506 1600" local_rot="0 0 -4.37114e-008 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator" name_id="tag_int_elevator_001" position="6373 831 0" rotation="-0 0 -0 -1" unit_id="100514">
+			<unit_data _prev_pos="6373 831 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="doors_open" name="units/pd2_dlc_tag/architecture/tag_int/tag_int_elevator/tag_int_elevator" name_id="tag_int_elevator_001" position="6373 831 0" rotation="-0 0 -0 -1" unit_id="100514">
 				<lights>
-					<table clipping_values="10000 -10000 0" color="0.921569 0.67451 0.737255" enabled="true" falloff_exponent="4" far_range="300" multiplier="@ID8badd0cc6ca7cc05@" name="ls_light" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
+					<table clipping_values="10000 -10000 0" color="0.921569 0.67451 0.737255" enabled="true" falloff_exponent="4" far_range="300" multiplier="neonsign" name="ls_light" near_range="0" spot_angle_end="1" spot_angle_start="1"/>
 				</lights>
 			</unit_data>
 		</table>
