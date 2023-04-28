@@ -76,10 +76,36 @@
 				<sound id="parable_across_woodenplank_backwards" path="parable_across_woodenplank_backwards.ogg" subtitle_id="parable_across_woodenplank_backwards"/>
 				<sound id="parable_woodenplank" path="parable_woodenplank.ogg" subtitle_id="parable_woodenplank"/>
 				<sound id="parable_adv_garage_start" path="parable_adv_garage_start.ogg" subtitle_id="parable_adv_garage_start"/>
-				<sound id="parable_adv_garage_2" path="parable_adv_garage_2.ogg" subtitle_id="parable_adv_garage_2"/>
-				<sound id="parable_adv_garage_3" path="parable_adv_garage_3.ogg" subtitle_id="parable_adv_garage_3"/>
-				<sound id="parable_adv_garage_4" path="parable_adv_garage_4.ogg" subtitle_id="parable_adv_garage_4"/>
-				<sound id="parable_adv_garage_5" path="parable_adv_garage_5.ogg" subtitle_id="parable_adv_garage_5"/>
+					<markers>
+						<marker label="parable_adv_garage_start_a" position="0.00"/>
+						<marker label="parable_adv_garage_start_b" position="8.74"/>
+					</markers>
+				</sound>
+				<sound id="parable_adv_garage_2" path="parable_adv_garage_2.ogg" subtitle_id="parable_adv_garage_2">
+					<markers>
+						<marker label="parable_adv_garage_2_a" position="0.00"/>
+						<marker label="parable_adv_garage_2_b" position="5.476"/>
+					</markers>
+				</sound>
+				<sound id="parable_adv_garage_3" path="parable_adv_garage_3.ogg" subtitle_id="parable_adv_garage_3">
+				<markers>
+					<marker label="parable_adv_garage_3_a" position="0.00"/>
+					<marker label="parable_adv_garage_3_b" position="6.91"/>
+				</markers>
+				</sound>
+				<sound id="parable_adv_garage_4" path="parable_adv_garage_4.ogg" subtitle_id="parable_adv_garage_4">
+					<markers>
+						<marker label="parable_adv_garage_4_a" position="0.00"/>
+						<marker label="parable_adv_garage_4_b" position="5.29"/>
+						<marker label="parable_adv_garage_4_c" position="12.29"/>
+					</markers>
+				</sound>
+				<sound id="parable_adv_garage_5" path="parable_adv_garage_5.ogg" subtitle_id="parable_adv_garage_5">
+					<markers>
+						<marker label="parable_adv_garage_4_a" position="0.00"/>
+						<marker label="parable_adv_garage_4_b" position="7.357"/>
+					</markers>
+				</sound>
 				<sound id="parable_boss_office" path="parable_boss_office.ogg" subtitle_id="parable_boss_office"/>
 				<sound id="parable_boss_secret_door" path="parable_boss_secret_door.ogg" subtitle_id="parable_boss_secret_door"/>
 				<sound id="parable_broomcloset1" path="parable_broomcloset1.ogg" subtitle_id="parable_broomcloset1"/>
