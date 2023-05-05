@@ -115,6 +115,100 @@
 					<entry index="3" type="number" value="1"/>
 					<entry index="4" type="number" value="1"/>
 				</entry>
+				<entry key="depth" type="number" value="1000"/>
+				<entry key="environment" type="string" value=".map/environments/parable_advline_hallway"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="1000"/>
+				<entry key="name" type="string" value="parable_advline_hallway"/>
+				<entry key="permanent" type="boolean" value="true"/>
+				<entry key="position" type="vector3" value="6100 -875 -222.046"/>
+				<entry key="prio" type="number" value="5"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="1000"/>
+			</entry>
+			<entry index="2" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
+				<entry key="depth" type="number" value="1000"/>
+				<entry key="environment" type="string" value=".map/environments/default_parable"/>
+				<entry key="filter_list" type="table">
+					<entry index="1" type="string" value="cee9c44e4f1ef6e2"/>
+					<entry index="2" type="string" value="644be78b2651c798"/>
+					<entry index="3" type="string" value="c25af559c7e1d69c"/>
+					<entry index="4" type="string" value="ac403b8f792138ad"/>
+					<entry index="5" type="string" value="457904ce74fa1005"/>
+					<entry index="6" type="string" value="20458ffc6d388c0f"/>
+					<entry index="7" type="string" value="cd0d63956c019dc0"/>
+					<entry index="8" type="string" value="6fcd51beb559e85c"/>
+					<entry index="9" type="string" value="d3c16b0bb77370d4"/>
+					<entry index="10" type="string" value="35325076eb5a2684"/>
+					<entry index="11" type="string" value="cfd999417e8eb72d"/>
+					<entry index="12" type="string" value="c6b3fa02d5ee12b1"/>
+					<entry index="13" type="string" value="c45e91f4a9d72822"/>
+					<entry index="14" type="string" value="48b53ca3bf280008"/>
+					<entry index="15" type="string" value="e36a12365a151b14"/>
+					<entry index="16" type="string" value="6174ec93d0eeeacd"/>
+					<entry index="17" type="string" value="79632d2b8dab1c23"/>
+					<entry index="18" type="string" value="36ab89d313fd9a9b"/>
+					<entry index="19" type="string" value="b5663c81d7db7310"/>
+					<entry index="20" type="string" value="13d7817215360151"/>
+					<entry index="21" type="string" value="76078014daa529c8"/>
+					<entry index="22" type="string" value="fb725a62e7857072"/>
+					<entry index="23" type="string" value="312d3f85560b8f82"/>
+					<entry index="24" type="string" value="002c8c522e139b16"/>
+					<entry index="25" type="string" value="72c5ffc46ab06e53"/>
+					<entry index="26" type="string" value="fb96a0addd59b018"/>
+				</entry>
+				<entry key="height" type="number" value="1000"/>
+				<entry key="name" type="string" value="default_parable"/>
+				<entry key="permanent" type="boolean" value="true"/>
+				<entry key="position" type="vector3" value="5950 2650 0"/>
+				<entry key="prio" type="number" value="10"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="transition_time" type="number" value="1"/>
+				<entry key="type" type="string" value="box"/>
+				<entry key="width" type="number" value="1000"/>
+			</entry>
+			<entry index="3" type="table">
+				<entry key="bezier_curve" type="table">
+					<entry index="1" type="number" value="0"/>
+					<entry index="2" type="number" value="0"/>
+					<entry index="3" type="number" value="1"/>
+					<entry index="4" type="number" value="1"/>
+				</entry>
 				<entry key="depth" type="number" value="1500"/>
 				<entry key="environment" type="string" value=".map/environments/dark_parable"/>
 				<entry key="filter_list" type="table">
@@ -165,7 +259,7 @@
 				<entry key="type" type="string" value="box"/>
 				<entry key="width" type="number" value="1500"/>
 			</entry>
-			<entry index="2" type="table">
+			<entry index="4" type="table">
 				<entry key="bezier_curve" type="table">
 					<entry index="1" type="number" value="0"/>
 					<entry index="2" type="number" value="0"/>
@@ -215,7 +309,7 @@
 		</entry>
 		<entry key="environment_values" type="table">
 			<entry key="color_grading" type="string" value="color_payday"/>
-			<entry key="environment" type="string" value="environments/pd2_env_mid_day/pd2_env_mid_day"/>
+			<entry key="environment" type="string" value=".map/environments/default_parable"/>
 			<entry key="sky_rot" type="number" value="53"/>
 		</entry>
 		<entry key="wind" type="table">

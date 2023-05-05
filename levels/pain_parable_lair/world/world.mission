@@ -534,14 +534,6 @@
 					<entry key="instigator_name" type="string" value=""/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100029"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="delay" type="number" value="5"/>
-							<entry key="id" type="number" value="100030"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="-1550 600 -200"/>
 					<entry key="radius" type="number" value="250"/>
@@ -1357,7 +1349,7 @@
 						</entry>
 					</entry>
 					<entry key="override_timer" type="number" value="-1"/>
-					<entry key="position" type="vector3" value="-15424 599 -56.598"/>
+					<entry key="position" type="vector3" value="-15433 599 -56.598"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="tweak_data_id" type="string" value="invisible_parable"/>
@@ -4238,7 +4230,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="1533.44 9551.83 14.006"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="timer" type="number" value="45"/>
+					<entry key="timer" type="number" value="60"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -4474,6 +4466,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100029"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="43.6464 4.0452 1002.5"/>
@@ -4497,6 +4493,10 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100030"/>
+						</entry>
 					</entry>
 					<entry key="play_on_player_instigator_only" type="boolean" value="false"/>
 					<entry key="position" type="vector3" value="43.6464 54.0452 1002.5"/>

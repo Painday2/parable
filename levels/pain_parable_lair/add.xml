@@ -1,5 +1,4 @@
 <table directory="assets">
-	<movie path="movies/parable_prison"/>
 	<add from_db="true" path="units/payday2/architecture/lux/lux_int_wall1_2m_a" type="unit">
 		<material_config path="units/payday2/architecture/lux/lux"/>
 		<object path="units/payday2/architecture/lux/lux_int_wall1_2m_a"/>
@@ -3673,9 +3672,22 @@
 		<unit path="units/pd2_dlc_nmh/props/nmh_prop_digitalwalltimer01/nmh_prop_digitalwalltimer01"/>
 	</add>
 	<add from_db="true" path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer" type="unit">
-		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
-		<object path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
 		<material_config path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<object path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
 		<sequence_manager path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
+		<unit path="units/pd2_indiana/props/gen_prop_security_timer/gen_prop_security_timer"/>
 	</add>
+	<add from_db="true" path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline" type="unit">
+		<material_config path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<object path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<sequence_manager path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+		<unit path="units/pd2_dlc_fish/props/lxy_int_prop_button/lxy_int_prop_button_outline"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_jaguar_button" type="unit">
+		<unit path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_jaguar_button"/>
+		<object path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_jaguar_button"/>
+		<material_config path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons"/>
+		<sequence_manager path="units/pd2_dlc_fex/equipment/fex_interactable_mayan_door/buttons/fex_interactable_buttons"/>
+	</add>
+	<movie path="movies/parable_prison"/>
 </table>

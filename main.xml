@@ -1,5 +1,5 @@
 <table min_lib_ver="4.4" name="The Pain Parable">
-	<AssetUpdates id="Painday2/parable" provider="github" release="true" version="beta"/>
+	<AssetUpdates id="Painday2/parable" provider="github" release="true" version="1.0"/>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/textures/mods/icons/The Pain Parable"/>
 		<texture load="true" path="ach/parable_stuck"/>

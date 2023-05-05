@@ -8797,9 +8797,35 @@
 		<unit path="units/world/props/diamond_heist/glass_shatter_decal/glass_shatter_decal"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04" type="unit">
-		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
-		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
 		<material_config path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+		<object path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+		<unit path="units/pd2_dlc_dinner/brushes/din_blood/din_blood_04"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a_manhole" type="unit">
+		<material_config path="units/payday2/architecture/str/str_ext_ground_asphalt"/>
+		<object path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a_manhole"/>
+		<sequence_manager path="units/payday2/architecture/str/str_ext_road"/>
+		<unit path="units/payday2/architecture/str/str_ext_asphalt_4x4m_a_manhole"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2" type="unit">
+		<material_config path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt"/>
+		<object path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
+		<unit path="units/pd2_dlc_cro/str_ext_asphalt/str_ext_asphalt_2x2"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_2x2m_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int_a"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_2x2m_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_2x2m_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_beam_ceiling_2m" type="unit">
+		<material_config path="units/payday2/architecture/ind/ind"/>
+		<object path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_beam_ceiling_2m"/>
+		<unit path="units/payday2/architecture/ind/ind_ext_outdoor_stairs/ind_ext_outdoor_beam_ceiling_2m"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/hcm/hcm_int_ceiling_2m_trim_light_a" type="unit">
+		<material_config path="units/payday2/architecture/hcm/hcm_int"/>
+		<object path="units/payday2/architecture/hcm/hcm_int_ceiling_2m_trim_light_a"/>
+		<unit path="units/payday2/architecture/hcm/hcm_int_ceiling_2m_trim_light_a"/>
 	</add>
 	<material_config path="units/pain_floor/pain_floor" unload="true"/>
 	<sequence_manager path="units/payday2/equipment/gen_interactable_door_reinforced/gen_interactable_door_reinforced" unload="true"/>

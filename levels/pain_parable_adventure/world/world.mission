@@ -255,8 +255,8 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="11295.2 -3396.95 3.72529e-007"/>
-					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="position" type="vector3" value="11146.3 -4993.52 0"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
 					<entry key="target" type="table">
 						<entry index="1" type="number" value="100010"/>
 					</entry>
@@ -274,7 +274,7 @@
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="6869.2 -3348.95 0"/>
+					<entry key="position" type="vector3" value="8470.48 -3493.25 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
@@ -785,7 +785,7 @@
 					<entry key="trigger_on" type="string" value="on_enter"/>
 					<entry key="trigger_times" type="number" value="1"/>
 					<entry key="use_disabled_shapes" type="boolean" value="false"/>
-					<entry key="width" type="number" value="500"/>
+					<entry key="width" type="number" value="934"/>
 				</entry>
 			</entry>
 			<entry index="28" type="table">
@@ -962,28 +962,34 @@
 						<entry index="75" type="number" value="100897"/>
 						<entry index="76" type="number" value="100898"/>
 						<entry index="77" type="number" value="100899"/>
-						<entry index="78" type="number" value="100846"/>
-						<entry index="79" type="number" value="100847"/>
-						<entry index="80" type="number" value="100849"/>
-						<entry index="81" type="number" value="100850"/>
-						<entry index="82" type="number" value="100852"/>
-						<entry index="83" type="number" value="100853"/>
-						<entry index="84" type="number" value="100856"/>
-						<entry index="85" type="number" value="100916"/>
-						<entry index="86" type="number" value="100912"/>
-						<entry index="87" type="number" value="100913"/>
-						<entry index="88" type="number" value="100914"/>
-						<entry index="89" type="number" value="100915"/>
-						<entry index="90" type="number" value="100917"/>
-						<entry index="91" type="number" value="100918"/>
-						<entry index="92" type="number" value="100919"/>
-						<entry index="93" type="number" value="100920"/>
-						<entry index="94" type="number" value="100921"/>
-						<entry index="95" type="number" value="100922"/>
-						<entry index="96" type="number" value="100936"/>
-						<entry index="97" type="number" value="100935"/>
-						<entry index="98" type="number" value="101086"/>
-						<entry index="99" type="number" value="101130"/>
+						<entry index="78" type="number" value="100847"/>
+						<entry index="79" type="number" value="100849"/>
+						<entry index="80" type="number" value="100850"/>
+						<entry index="81" type="number" value="100852"/>
+						<entry index="82" type="number" value="100853"/>
+						<entry index="83" type="number" value="100856"/>
+						<entry index="84" type="number" value="100916"/>
+						<entry index="85" type="number" value="100912"/>
+						<entry index="86" type="number" value="100913"/>
+						<entry index="87" type="number" value="100914"/>
+						<entry index="88" type="number" value="100915"/>
+						<entry index="89" type="number" value="100917"/>
+						<entry index="90" type="number" value="100918"/>
+						<entry index="91" type="number" value="100919"/>
+						<entry index="92" type="number" value="100920"/>
+						<entry index="93" type="number" value="100921"/>
+						<entry index="94" type="number" value="100922"/>
+						<entry index="95" type="number" value="100936"/>
+						<entry index="96" type="number" value="100935"/>
+						<entry index="97" type="number" value="101086"/>
+						<entry index="98" type="number" value="101130"/>
+						<entry index="99" type="number" value="101144"/>
+						<entry index="100" type="number" value="101140"/>
+						<entry index="101" type="number" value="101137"/>
+						<entry index="102" type="number" value="101159"/>
+						<entry index="103" type="number" value="101160"/>
+						<entry index="104" type="number" value="101161"/>
+						<entry index="105" type="number" value="101162"/>
 					</entry>
 				</entry>
 			</entry>
@@ -1292,26 +1298,32 @@
 						<entry index="11" type="number" value="100897"/>
 						<entry index="12" type="number" value="100898"/>
 						<entry index="13" type="number" value="100899"/>
-						<entry index="14" type="number" value="100846"/>
-						<entry index="15" type="number" value="100847"/>
-						<entry index="16" type="number" value="100849"/>
-						<entry index="17" type="number" value="100850"/>
-						<entry index="18" type="number" value="100852"/>
-						<entry index="19" type="number" value="100853"/>
-						<entry index="20" type="number" value="100856"/>
-						<entry index="21" type="number" value="100916"/>
-						<entry index="22" type="number" value="100912"/>
-						<entry index="23" type="number" value="100913"/>
-						<entry index="24" type="number" value="100914"/>
-						<entry index="25" type="number" value="100915"/>
-						<entry index="26" type="number" value="100917"/>
-						<entry index="27" type="number" value="100918"/>
-						<entry index="28" type="number" value="100919"/>
-						<entry index="29" type="number" value="100920"/>
-						<entry index="30" type="number" value="100921"/>
-						<entry index="31" type="number" value="100922"/>
-						<entry index="32" type="number" value="101086"/>
-						<entry index="33" type="number" value="101130"/>
+						<entry index="14" type="number" value="100847"/>
+						<entry index="15" type="number" value="100849"/>
+						<entry index="16" type="number" value="100850"/>
+						<entry index="17" type="number" value="100852"/>
+						<entry index="18" type="number" value="100853"/>
+						<entry index="19" type="number" value="100856"/>
+						<entry index="20" type="number" value="100916"/>
+						<entry index="21" type="number" value="100912"/>
+						<entry index="22" type="number" value="100913"/>
+						<entry index="23" type="number" value="100914"/>
+						<entry index="24" type="number" value="100915"/>
+						<entry index="25" type="number" value="100917"/>
+						<entry index="26" type="number" value="100918"/>
+						<entry index="27" type="number" value="100919"/>
+						<entry index="28" type="number" value="100920"/>
+						<entry index="29" type="number" value="100921"/>
+						<entry index="30" type="number" value="100922"/>
+						<entry index="31" type="number" value="101086"/>
+						<entry index="32" type="number" value="101130"/>
+						<entry index="33" type="number" value="101144"/>
+						<entry index="34" type="number" value="101140"/>
+						<entry index="35" type="number" value="101137"/>
+						<entry index="36" type="number" value="101159"/>
+						<entry index="37" type="number" value="101160"/>
+						<entry index="38" type="number" value="101161"/>
+						<entry index="39" type="number" value="101162"/>
 					</entry>
 				</entry>
 			</entry>
@@ -1916,6 +1928,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100059"/>
 						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100069"/>
+						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="6243.95 2832.6 100"/>
 					<entry key="radius" type="number" value="250"/>
@@ -1942,6 +1958,7 @@
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_executed_when_done" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_quit_current" type="boolean" value="true"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
@@ -2094,6 +2111,37 @@
 					<entry key="position" type="vector3" value="4399.14 -248.719 2002.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="state" type="boolean" value="false"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="70" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_close_right"/>
+				<entry key="id" type="number" value="100069"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="6525 2750 1.49012e-006"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100075"/>
+							<entry key="notify_unit_sequence" type="string" value="state_door_close"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100075"/>
+							<entry key="notify_unit_sequence" type="string" value="deactivate_door"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

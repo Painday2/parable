@@ -1,5 +1,10 @@
 <table directory="assets">
 	<add>
+		<movie force="true" path="movies/contact_bain1"/>
+		<movie force="true" path="movies/contact_bain2"/>
+		<movie force="true" path="movies/contact_bain3"/>
+	</add>
+	<add>
 		<material_config force="true" path="units/payday2/architecture/lux/lux"/>
 		<texture force="true" path="units/pd2_dlc_des/props/des_prop_crane_terminal/des_prop_crane_terminal_screen_df"/>
 		<unit force="true" path="units/pd2_dlc_des/props/des_interactable_button_laser_panel/des_interactable_button_laser_panel"/>
