@@ -8,11 +8,11 @@
 		<others>
 			<param key="sky_texture" value=""/>
 			<param key="global_world_overlay_mask_texture" value=""/>
-			<param key="underlay" value="core/environments/skies/default/default"/>
+			<param key="underlay" value="core/environments/skies/sky_2000_twilight_mad/sky_2000_twilight_mad"/>
 			<param key="sun_ray_color_scale" value="5.2238807678223"/>
 			<param key="global_world_overlay_texture" value=""/>
 			<param key="sun_ray_color" value="0 0 0"/>
-			<param key="global_texture" value="environments/cubemaps/cubemap_midday_hcm"/>
+			<param key="global_texture" value="units/payday2/cubemaps/cubemap_zero_df"/>
 		</others>
 		<post_effect>
 			<deferred>
@@ -25,13 +25,13 @@
 						<param key="fog_far_low_color" value="0.80392163991928 0.89411771297455 1"/>
 						<param key="ambient_falloff_scale" value="0"/>
 						<param key="sky_bottom_color_scale" value="0"/>
-						<param key="ambient_color_scale" value="0.057405281811953"/>
+						<param key="ambient_color_scale" value="0.11644473671913"/>
 						<param key="ambient_color" value="0.30588236451149 0.30588236451149 0.30588236451149"/>
 						<param key="fog_max_range" value="0"/>
 						<param key="bloom_threshold" value="0.55000001192093"/>
 						<param key="sky_top_color_scale" value="0"/>
 						<param key="sky_top_color" value="0.8666667342186 0.94901967048645 1"/>
-						<param key="fog_min_range" value="1578.6452636719"/>
+						<param key="fog_min_range" value="5000"/>
 						<param key="fog_max_density" value="1"/>
 					</apply_ambient>
 				</deferred_lighting>
@@ -49,9 +49,9 @@
 				</shadow_rendering>
 			</shadow_processor>
 			<fog_processor>
-				<fog>
-				</fog>
 			</fog_processor>
+			<hdr_post_processor>
+			</hdr_post_processor>
 			<bloom_combine_post_processor>
 				<bloom_combine>
 					<bloom_lense>
@@ -61,10 +61,6 @@
 					</bloom_lense>
 				</bloom_combine>
 			</bloom_combine_post_processor>
-			<hdr_post_processor>
-				<default>
-				</default>
-			</hdr_post_processor>
 		</post_effect>
 		<underlay_effect>
 			<sky>

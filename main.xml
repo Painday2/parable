@@ -39,7 +39,7 @@
 		<achievement hidden_achievement="true" icon="ach/parable_insanity" id="p_parable_insanity" rank="1" />
 		<achievement hidden_achievement="true" icon="ach/parable_stuck" id="p_parable_stuck" rank="1" />
 	</Achievements>
-	<level ai_group_type="america" briefing_dialog="" id="pain_parable" intro_event="" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" briefing_dialog="" id="pain_parable" intro_event="" max_bags="54" team_ai_off="true" music="no_music">
 		<assets/>
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
@@ -75,7 +75,7 @@
 				</sound>
 				<sound id="parable_across_woodenplank_backwards" path="parable_across_woodenplank_backwards.ogg" subtitle_id="parable_across_woodenplank_backwards"/>
 				<sound id="parable_woodenplank" path="parable_woodenplank.ogg" subtitle_id="parable_woodenplank"/>
-				<sound id="parable_adv_garage_start" path="parable_adv_garage_start.ogg" subtitle_id="parable_adv_garage_start"/>
+				<sound id="parable_adv_garage_start" path="parable_adv_garage_start.ogg" subtitle_id="parable_adv_garage_start">
 					<markers>
 						<marker label="parable_adv_garage_start_a" position="0.00"/>
 						<marker label="parable_adv_garage_start_b" position="8.74"/>
@@ -102,12 +102,22 @@
 				</sound>
 				<sound id="parable_adv_garage_5" path="parable_adv_garage_5.ogg" subtitle_id="parable_adv_garage_5">
 					<markers>
-						<marker label="parable_adv_garage_4_a" position="0.00"/>
-						<marker label="parable_adv_garage_4_b" position="7.357"/>
+						<marker label="parable_adv_garage_5_a" position="0.00"/>
+						<marker label="parable_adv_garage_5_b" position="7.357"/>
 					</markers>
 				</sound>
-				<sound id="parable_boss_office" path="parable_boss_office.ogg" subtitle_id="parable_boss_office"/>
-				<sound id="parable_boss_secret_door" path="parable_boss_secret_door.ogg" subtitle_id="parable_boss_secret_door"/>
+				<sound id="parable_boss_office" path="parable_boss_office.ogg" subtitle_id="parable_boss_office">
+					<markers>
+						<marker label="parable_boss_office_a" position="0.00"/>
+						<marker label="parable_boss_office_b" position="9.8"/>
+					</markers>
+				</sound>
+				<sound id="parable_boss_secret_door" path="parable_boss_secret_door.ogg" subtitle_id="parable_boss_secret_door">
+					<markers>
+						<marker label="parable_boss_secret_door_a" position="0.00"/>
+						<marker label="parable_boss_secret_door_b" position="10"/>
+					</markers>
+				</sound>
 				<sound id="parable_broomcloset1" path="parable_broomcloset1.ogg" subtitle_id="parable_broomcloset1"/>
 				<sound id="parable_broomcloset2" path="parable_broomcloset2.ogg" subtitle_id="parable_broomcloset2"/>
 				<sound id="parable_broomcloset3" path="parable_broomcloset3.ogg" subtitle_id="parable_broomcloset3"/>
@@ -131,10 +141,33 @@
 				<sound id="parable_career6" path="parable_career6.ogg" subtitle_id="parable_career6"/>
 				<sound id="parable_career7" path="parable_career7.ogg" subtitle_id="parable_career7"/>
 				<sound id="parable_choices_choices1" path="parable_choices_choices1.ogg" subtitle_id="parable_choices_choices1"/>
-				<sound id="parable_choices_choices2" path="parable_choices_choices2.ogg" subtitle_id="parable_choices_choices2"/>
-				<sound id="parable_choices_choices3" path="parable_choices_choices3.ogg" subtitle_id="parable_choices_choices3"/>
-				<sound id="parable_choices_choices4" path="parable_choices_choices4.ogg" subtitle_id="parable_choices_choices4"/>
-				<sound id="parable_choices_start" path="parable_choices_start.ogg" subtitle_id="parable_choices_start"/>
+				<sound id="parable_choices_choices2" path="parable_choices_choices2.ogg" subtitle_id="parable_choices_choices2">
+					<markers>
+						<marker label="parable_choices_choices2_a" position="0.00"/>
+						<marker label="parable_choices_choices2_b" position="12.7"/>
+					</markers>
+				</sound>
+				<sound id="parable_choices_choices3" path="parable_choices_choices3.ogg" subtitle_id="parable_choices_choices3">
+					<markers>
+						<marker label="parable_choices_choices3_a" position="0.00"/>
+						<marker label="parable_choices_choices3_b" position="11.3"/>
+					</markers>
+				</sound>
+				<sound id="parable_choices_choices4" path="parable_choices_choices4.ogg" subtitle_id="parable_choices_choices4">
+					<markers>
+						<marker label="parable_choices_choices4_a" position="0.00"/>
+						<marker label="parable_choices_choices4_b" position="9.1"/>
+						<marker label="parable_choices_choices4_c" position="18.3"/>
+						<marker label="parable_choices_choices4_d" position="26.8"/>
+						<marker label="parable_choices_choices4_e" position="36.4"/>
+					</markers>
+				</sound>
+				<sound id="parable_choices_start" path="parable_choices_start.ogg" subtitle_id="parable_choices_start">
+					<markers>
+						<marker label="parable_choices_start_a" position="0.00"/>
+						<marker label="parable_choices_start_b" position="10.3"/>
+					</markers>
+				</sound>
 				<sound id="parable_coward" path="parable_coward.ogg" subtitle_id="parable_coward">
 					<markers>
 						<marker label="parable_coward_a" position="0.00"/>
@@ -280,7 +313,7 @@
 					<marker label="parable_babygame_start_a" position="0.00"/>
 					<marker label="parable_babygame_start_b" position="8.92"/>
 					<marker label="parable_babygame_start_c" position="17.14"/>
-					<marker label="parable_babygame_start_c" position="24.82"/>
+					<marker label="parable_babygame_start_d" position="24.82"/>
 				</markers>
 			</sound>
 			<sound id="parable_babygame_1" path="parable_babygame_1.ogg" subtitle_id="parable_babygame_1"/>
@@ -345,10 +378,32 @@
 			<sound id="parable_leave4" path="parable_leave4.ogg" subtitle_id="parable_leave4"/>
 			<sound id="parable_leave5" path="parable_leave5.ogg" subtitle_id="parable_leave5"/>
 			<sound id="parable_stairs_dead" path="parable_stairs_dead.ogg" subtitle_id="parable_stairs_dead"/>
-			<sound id="parable_stairs2_1" path="parable_stairs2_1.ogg" subtitle_id="parable_stairs2_1"/>
-			<sound id="parable_stairs3_1" path="parable_stairs3_1.ogg" subtitle_id="parable_stairs3_1"/>
-			<sound id="parable_stairs3_2" path="parable_stairs3_2.ogg" subtitle_id="parable_stairs3_2"/>
-			<sound id="parable_zen" path="parable_zen.ogg" subtitle_id="parable_zen"/>
+			<sound id="parable_stairs2_1" path="parable_stairs2_1.ogg" subtitle_id="parable_stairs2_1">
+				<markers>
+					<marker label="parable_stairs2_1_a" position="0.00"/>
+					<marker label="parable_stairs2_1_b" position="7.4"/>
+				</markers>
+			</sound>
+			<sound id="parable_stairs3_1" path="parable_stairs3_1.ogg" subtitle_id="parable_stairs3_1">
+				<markers>
+					<marker label="parable_stairs3_1_a" position="0.00"/>
+					<marker label="parable_stairs3_1_b" position="7.1"/>
+				</markers>
+			</sound>
+			<sound id="parable_stairs3_2" path="parable_stairs3_2.ogg" subtitle_id="parable_stairs3_2">
+				<markers>
+					<marker label="parable_stairs3_2_a" position="0.00"/>
+					<marker label="parable_stairs3_2_b" position="7.3"/>
+				</markers>
+			</sound>
+			<sound id="parable_zen" path="parable_zen.ogg" subtitle_id="parable_zen">
+				<markers>
+					<marker label="parable_zen_a" position="0.00"/>
+					<marker label="parable_zen_b" position="9.3"/>
+					<marker label="parable_zen_c" position="18.5"/>
+					<marker label="parable_zen_d" position="27"/>
+				</markers>
+			</sound>
 		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -374,18 +429,37 @@
 		</classes>
 		<sounds directory="assets/sound/vo/lair" dont_store_float="true">
 			<sound id="parable_lair_boss" path="parable_lair_boss.ogg" subtitle_id="parable_lair_boss"/>
-			<sound id="parable_escape1" path="parable_escape1.ogg" subtitle_id="parable_escape_1"/>
-			<sound id="parable_escape2" path="parable_escape2.ogg" subtitle_id="parable_escape_2"/>
-			<sound id="parable_escape3" path="parable_escape3.ogg" subtitle_id="parable_escape_3"/>
-			<sound id="parable_escape4" path="parable_escape4.ogg" subtitle_id="parable_escape_4"/>
+			<sound id="parable_escape1" path="parable_escape1.ogg" subtitle_id="parable_escape1"/>
+			<sound id="parable_escape2" path="parable_escape2.ogg" subtitle_id="parable_escape2"/>
+			<sound id="parable_escape3" path="parable_escape3.ogg" subtitle_id="parable_escape3"/>
+			<sound id="parable_escape4" path="parable_escape4.ogg" subtitle_id="parable_escape4"/>
 			<sound id="parable_facility1" path="parable_facility1.ogg" subtitle_id="parable_facility1"/>
-			<sound id="parable_facility2" path="parable_facility2.ogg" subtitle_id="parable_facility2"/>
+			<sound id="parable_facility2" path="parable_facility2.ogg" subtitle_id="parable_facility2">
+				<markers>
+					<marker label="parable_facility2_a" position="0.00"/>
+					<marker label="parable_facility2_b" position="9"/>
+				</markers>
+			</sound>
 			<sound id="parable_facility3" path="parable_facility3.ogg" subtitle_id="parable_facility3"/>
-			<sound id="parable_facility4" path="parable_facility4.ogg" subtitle_id="parable_facility4"/>
+			<sound id="parable_facility4" path="parable_facility4.ogg" subtitle_id="parable_facility4">
+				<markers>
+					<marker label="parable_facility4_a" position="0.00"/>
+					<marker label="parable_facility4_b" position="5.2"/>
+				</markers>
+			</sound>
 			<sound id="parable_facility5" path="parable_facility5.ogg" subtitle_id="parable_facility5"/>
-			<sound id="parable_jail" path="parable_jail.ogg" subtitle_id="parable_jail"/>
-			<sound id="parable_lair_boss" path="parable_lair_boss.ogg" subtitle_id="parable_lair_boss"/>
-			<sound id="parable_lair_hallway1" path="parable_lair_hallway1.ogg" subtitle_id="parable_lair_hallway1"/>
+			<sound id="parable_jail" path="parable_jail.ogg" subtitle_id="parable_jail">
+				<markers>
+					<marker label="parable_jail_a" position="0.00"/>
+					<marker label="parable_jail_b" position="7"/>
+				</markers>
+			</sound>
+			<sound id="parable_lair_hallway1" path="parable_lair_hallway1.ogg" subtitle_id="parable_lair_hallway1">
+				<markers>
+					<marker label="parable_lair_hallway1_a" position="0.00"/>
+					<marker label="parable_lair_hallway1_b" position="8.2"/>
+				</markers>
+			</sound>
 			<sound id="parable_lair_hallway2" path="parable_lair_hallway2.ogg" subtitle_id="parable_lair_hallway2"/>
 			<sound id="parable_museum1" path="parable_museum1.ogg" subtitle_id="parable_museum1"/>
 			<sound id="parable_museum2" path="parable_museum2.ogg" subtitle_id="parable_museum2"/>
@@ -394,7 +468,12 @@
 			<sound id="parable_museum5" path="parable_museum5.ogg" subtitle_id="parable_museum5"/>
 			<sound id="parable_museum6" path="parable_museum6.ogg" subtitle_id="parable_museum6"/>
 			<sound id="parable_museum7" path="parable_museum7.ogg" subtitle_id="parable_museum7"/>
-			<sound id="parable_museum8" path="parable_museum8.ogg" subtitle_id="parable_museum8"/>
+			<sound id="parable_museum8" path="parable_museum8.ogg" subtitle_id="parable_museum8">
+				<markers>
+					<marker label="parable_museum8_a" position="0.00"/>
+					<marker label="parable_museum8_b" position="8.3"/>
+				</markers>
+			</sound>
 			<sound id="parable_museum9" path="parable_museum9.ogg" subtitle_id="parable_museum9"/>
 			<sound id="parable_mws_a" path="parable_mws_a.ogg" subtitle_id="parable_mws_a"/>
 			<sound id="parable_mws_b" path="parable_mws_b.ogg" subtitle_id="parable_mws_b"/>
@@ -402,14 +481,46 @@
 			<sound id="parable_mws2" path="parable_mws2.ogg" subtitle_id="parable_mws2"/>
 			<sound id="parable_mws3" path="parable_mws3.ogg" subtitle_id="parable_mws3"/>
 			<sound id="parable_mws4" path="parable_mws4.ogg" subtitle_id="parable_mws4"/>
-			<sound id="parable_mws5" path="parable_mws5.ogg" subtitle_id="parable_mws5"/>
-			<sound id="parable_mws6" path="parable_mws6.ogg" subtitle_id="parable_mws6"/>
-			<sound id="parable_off" path="parable_off.ogg" subtitle_id="parable_off"/>
+			<sound id="parable_mws5" path="parable_mws5.ogg" subtitle_id="parable_mws5">
+				<markers>
+					<marker label="parable_mws5_a" position="0.00"/>
+					<marker label="parable_mws5_b" position="10"/>
+				</markers>
+			</sound>
+			<sound id="parable_mws6" path="parable_mws6.ogg" subtitle_id="parable_mws6">
+				<markers>
+					<marker label="parable_mws6_a" position="0.00"/>
+					<marker label="parable_mws6_b" position="9.3"/>
+				</markers>
+			</sound>
+			<sound id="parable_off" path="parable_off.ogg" subtitle_id="parable_off">
+				<markers>
+					<marker label="parable_off_a" position="0.00"/>
+					<marker label="parable_off_b" position="7"/>
+				</markers>
+			</sound>
 			<sound id="parable_on" path="parable_on.ogg" subtitle_id="parable_on"/>
 			<sound id="parable_raid1" path="parable_raid1.ogg" subtitle_id="parable_raid1"/>
-			<sound id="parable_raid2" path="parable_raid2.ogg" subtitle_id="parable_raid2"/>
+			<sound id="parable_raid2" path="parable_raid2.ogg" subtitle_id="parable_raid2">
+				<markers>
+					<marker label="parable_raid2_a" position="0.00"/>
+					<marker label="parable_raid2_b" position="9.5"/>
+					<marker label="parable_raid2_c" position="18.5"/>
+					<marker label="parable_raid2_d" position="27.1"/>
+					<marker label="int_invisible" position="39"/>
+					<marker label="parable_raid2_e" position="43.5"/>
+					<marker label="parable_raid2_f" position="52"/>
+					<marker label="parable_raid2_g" position="61.2"/>
+					<marker label="parable_raid2_h" position="69.5"/>
+				</markers>
+			</sound>
 			<sound id="parable_raid3" path="parable_raid3.ogg" subtitle_id="parable_raid3"/>
-			<sound id="parable_spoilers" path="parable_spoilers.ogg" subtitle_id="parable_spoilers"/>
+			<sound id="parable_spoilers" path="parable_spoilers.ogg" subtitle_id="parable_spoilers">
+				<markers>
+					<marker label="parable_spoilers_a" position="0.00"/>
+					<marker label="parable_spoilers_b" position="9"/>
+				</markers>
+			</sound>
 		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -455,11 +566,21 @@
 			<value_node value="levels/narratives/classics/glace/world"/>
 		</packages>
 		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
-			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1"/>
-			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2"/>
-			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1"/>
-			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2"/>
-			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1"/>
+			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1">
+				<markers>
+					<marker label="parable_heist1_1_a" position="0.00"/>
+					<marker label="parable_heist1_1_b" position="9.3"/>
+					<marker label="parable_heist1_1_c" position="18.8"/>
+				</markers>
+			</sound>
+			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2">
+				<markers>
+					<marker label="parable_heist1_2_a" position="0.00"/>
+					<marker label="parable_heist1_2_b" position="9"/>
+					<marker label="parable_heist1_2_c" position="19.6"/>
+					<marker label="parable_heist1_2_d" position="28"/>
+				</markers>
+			</sound>
 		</sounds>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -483,11 +604,23 @@
 		</hooks>
 		<packages/>
 		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
-			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1"/>
-			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2"/>
-			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1"/>
-			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2"/>
-			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1"/>
+			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1">
+				<markers>
+					<marker label="parable_heist2_1_a" position="0.00"/>
+					<marker label="parable_heist2_1_b" position="9.3"/>
+					<marker label="parable_heist2_1_c" position="17.7"/>
+				</markers>
+			</sound>
+			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2">
+				<markers>
+					<marker label="parable_heist2_2_a" position="0.00"/>
+					<marker label="parable_heist2_2_b" position="8.3"/>
+					<marker label="parable_heist2_2_c" position="17.6"/>
+					<marker label="parable_heist2_2_d" position="26.6"/>
+					<marker label="int_invisible" position="33.3"/>
+					<marker label="parable_heist2_2_e" position="35.5"/>
+				</markers>
+			</sound>
 		</sounds>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -501,11 +634,16 @@
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
 		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
-			<sound id="parable_heist1_1" path="parable_heist1_1.ogg" subtitle_id="parable_heist1_1"/>
-			<sound id="parable_heist1_2" path="parable_heist1_2.ogg" subtitle_id="parable_heist1_2"/>
-			<sound id="parable_heist2_1" path="parable_heist2_1.ogg" subtitle_id="parable_heist2_1"/>
-			<sound id="parable_heist2_2" path="parable_heist2_2.ogg" subtitle_id="parable_heist2_2"/>
-			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1"/>
+			<sound id="parable_heist3_1" path="parable_heist3_1.ogg" subtitle_id="parable_heist3_1">
+				<markers>
+					<marker label="parable_heist3_1_a" position="0.00"/>
+					<marker label="parable_heist3_1_b" position="10.2"/>
+					<marker label="parable_heist3_1_c" position="18"/>
+					<marker label="parable_heist3_1_d" position="27.8"/>
+					<marker label="parable_heist3_1_e" position="36.3"/>
+					<marker label="parable_heist3_1_f" position="45"/>
+				</markers>
+			</sound>
 		</sounds>
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
@@ -541,10 +679,39 @@
 			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
 		</hooks>
 		<sounds directory="assets/sound/vo/adventure" dont_store_float="true">
-			<sound id="parable_advline_death" path="parable_advline_death.ogg" subtitle_id="parable_advline_death"/>
-			<sound id="parable_advline_see_line" path="parable_advline_see_line.ogg" subtitle_id="parable_advline_see_line"/>
-			<sound id="parable_advline_see_start" path="parable_advline_see_start.ogg" subtitle_id="parable_advline_see_start"/>
-			<sound id="parable_advline_start" path="parable_advline_start.ogg" subtitle_id="parable_advline_start"/>
+			<sound id="parable_advline_death" path="parable_advline_death.ogg" subtitle_id="parable_advline_death">
+				<markers>
+					<marker label="parable_advline_death_a" position="0.00"/>
+					<marker label="parable_advline_death_b" position="9.7"/>
+					<marker label="parable_advline_death_c" position="17.2"/>
+					<marker label="parable_advline_death_d" position="27.5"/>
+					<marker label="parable_advline_death_e" position="37"/>
+					<marker label="parable_advline_death_f" position="45.1"/>
+					<marker label="parable_advline_death_g" position="54.6"/>
+				</markers>
+			</sound>
+			<sound id="parable_advline_see_line" path="parable_advline_see_line.ogg" subtitle_id="parable_advline_see_line">
+				<markers>
+					<marker label="parable_advline_see_line_a" position="0.00"/>
+					<marker label="parable_advline_see_line_b" position="8.9"/>
+				</markers>
+			</sound>
+			<sound id="parable_advline_see_start" path="parable_advline_see_start.ogg" subtitle_id="parable_advline_see_start">
+				<markers>
+					<marker label="parable_advline_see_start_a" position="0.00"/>
+					<marker label="parable_advline_see_start_b" position="10.6"/>
+					<marker label="parable_advline_see_start_c" position="19.3"/>
+					<marker label="parable_advline_see_start_d" position="28.6"/>
+					<marker label="parable_advline_see_start_e" position="36"/>
+				</markers>
+			</sound>
+			<sound id="parable_advline_start" path="parable_advline_start.ogg" subtitle_id="parable_advline_start">
+				<markers>
+					<marker label="parable_advline_start_a" position="0.00"/>
+					<marker label="parable_advline_start_b" position="9.3"/>
+					<marker label="parable_advline_start_c" position="16.7"/>
+				</markers>
+			</sound>
 			<sound id="parable_advline_stop" path="parable_advline_stop.ogg" subtitle_id="parable_advline_stop"/>
 		</sounds>
 		<script_data_mods directory="scriptdata">
