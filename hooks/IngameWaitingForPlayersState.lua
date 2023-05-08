@@ -1,5 +1,7 @@
 Hooks:PostHook(IngameWaitingForPlayersState, "at_enter", "ParableInstantReloadState", function(self)
 	if Global.instant_level_load then
+		managers.music:stop()
+
 		managers.hud._hud_mission_briefing:hide()
 		managers.menu_component:disable_mission_briefing_gui()
 		MenuManager.super.close_menu(managers.menu, "kit_menu")
