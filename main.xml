@@ -67,6 +67,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -298,6 +299,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -459,6 +461,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -592,6 +595,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -631,6 +635,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -690,6 +695,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -758,6 +764,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
@@ -798,6 +805,7 @@
 				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
 
 				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableDead.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>

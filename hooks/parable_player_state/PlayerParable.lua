@@ -3,6 +3,8 @@ PlayerParable = PlayerParable or class(PlayerCivilian)
 function PlayerParable:enter(state_data, enter_data)
 	PlayerParable.super.enter(self, state_data, enter_data)
 
+	self._state_data._health_effect_value = self._state_data._health_effect_value or 1
+
 	self._unit:inventory():hide_equipped_unit()
 end
 
@@ -27,6 +29,8 @@ function PlayerParable:_update_check_actions(t, dt)
 
 	self:_update_interaction_timers(t)
 
+	self:_check_fall(t, dt)
+
 	self:_update_foley(t, input)
 
 	local new_action = nil
@@ -40,4 +44,21 @@ function PlayerParable:_update_check_actions(t, dt)
 	self:_check_action_duck(t, input)
 	self:_check_action_run(t, input)
 	self:_check_action_use_item(t, input)
+end
+
+function PlayerParable:_check_fall(t, dt)
+	local fall_velocity = self._unit:mover():velocity().z
+	local fall_limit = -400
+
+	if fall_velocity < fall_limit and self._state_data.in_air and self._gnd_ray then
+		managers.rumble:play("hard_land")
+		self._ext_camera:play_shaker("player_fall_damage")
+
+		self._unit:sound():play("player_hit")
+		managers.environment_controller:hit_feedback_down()
+		managers.hud:on_hit_direction(Vector3(0, 0, -1), HUDHitDirection.DAMAGE_TYPES.HEALTH, 0)
+
+		self._state_data._health_effect_value = self._state_data._health_effect_value - 0.3
+		managers.environment_controller:set_health_effect_value(self._state_data._health_effect_value)
+	end
 end
