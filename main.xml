@@ -47,10 +47,13 @@
 			<class file="ElementPlayVideo.lua"/>
 		</classes>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -275,9 +278,13 @@
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
 		<hooks directory="hooks">
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -432,10 +439,13 @@
 			</sound>
 		</sounds>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -562,10 +572,13 @@
 			</sound>
 		</sounds>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -598,10 +611,13 @@
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -654,10 +670,13 @@
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -719,10 +738,13 @@
 			</sound>
 		</sounds>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
@@ -756,10 +778,13 @@
 			<class file="ElementInstantLevelLoad.lua"/>
 		</classes>
 		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
+			<hook file="GameSetup.lua" source_file="lib/setups/gamesetup"/>
+
+			<hook file="HUDBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
 			<hook file="IngameWaitingForPlayersState.lua" source_file="lib/states/ingamewaitingforplayers"/>
-			<hook file="HudBlackScreen.lua" source_file="lib/managers/hud/hudblackscreen"/>
+			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
+
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
 
