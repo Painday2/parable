@@ -271,7 +271,7 @@
 		</sounds>
 		
 	</level>
-	<level ai_group_type="america" id="pain_parable_cheat_room" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" id="pain_parable_cheat_room" max_bags="54" team_ai_off="true" music="no_music">
 		<assets/>
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
@@ -334,7 +334,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_gaming" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" id="pain_parable_gaming" max_bags="54" team_ai_off="true" music="no_music">
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
@@ -470,7 +470,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_lair" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" id="pain_parable_lair" max_bags="54" team_ai_off="true" music="no_music">
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
@@ -605,7 +605,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_heist_ending1" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" id="pain_parable_heist_ending1" max_bags="54" team_ai_off="true" music="no_music">
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
@@ -664,7 +664,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_heist_ending2" max_bags="54">
+	<level ai_group_type="america" id="pain_parable_heist_ending2" max_bags="54" music="no_music">
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
@@ -720,7 +720,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_heist_ending3" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" id="pain_parable_heist_ending3" max_bags="54" team_ai_off="true" music="no_music">
 		<classes directory="classes">
 			<class file="ElementCheaterDetection.lua"/>
 			<class file="ElementInstantLevelLoad.lua"/>
@@ -769,7 +769,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<level ai_group_type="america" id="pain_parable_adventure" max_bags="54" team_ai_off="true">
+	<level ai_group_type="america" id="pain_parable_adventure" max_bags="54" team_ai_off="true" music="no_music">
 		<packages>
 			<value_node value="package_parable"/>
 		</packages>
