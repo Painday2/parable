@@ -14,10 +14,12 @@ function ElementPlayVideo:on_executed(instigator)
 	end
 
 	if instigator == managers.player:player_unit() then
-		self:play_movie(self._values.movie)
-	end
+		self._last_instigator = instigator
 
-	ElementPlayVideo.super.on_executed(self, instigator)
+		self:play_movie(self._values.movie)
+
+		ElementPlayVideo.super.on_executed(self, instigator, nil, true)
+	end
 end
 
 function ElementPlayVideo:on_script_activated()
@@ -175,6 +177,8 @@ function ElementPlayVideo:stop_movie()
 
 	if self._video and alive(self._video) then
 		self._video_panel:remove(self._video)
+
+		ElementPlayVideo.super._trigger_execute_on_executed(self, self._last_instigator)
 	end
 end
 
