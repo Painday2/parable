@@ -12,7 +12,7 @@ function PlayerParable:exit(state_data, new_state_name)
 	state_data._last_state_velocity = self._last_velocity_xy
 end
 
-function PlayerCivilian:_update_check_actions(t, dt)
+function PlayerParable:_update_check_actions(t, dt)
 	local input = self:_get_input(t, dt)
 	self._stick_move = self._controller:get_input_axis("move")
 
