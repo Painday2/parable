@@ -1,0 +1,5 @@
+Hooks:PostHook(PlayerMovement, "_setup_states", "PlayerParable_setup_states", function(self)
+	self._states["parable"] = PlayerParable:new(self._unit)
+	self._states["parable_fall"] = PlayerParableFall:new(self._unit)
+	self._states["parable_slide"] = PlayerParableSlide:new(self._unit)
+end)

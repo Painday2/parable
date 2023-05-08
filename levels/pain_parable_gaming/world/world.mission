@@ -455,7 +455,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="3341.8 23950.2 11.6204"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -1308,7 +1308,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-7247 21766 0"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

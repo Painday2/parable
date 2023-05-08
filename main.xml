@@ -53,7 +53,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<outro_event/>
 		<packages>
@@ -267,7 +280,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<sounds directory="assets/sound/vo/cheat" dont_store_float="true">
 			<sound id="parable_cheat" path="parable_cheat.ogg" subtitle_id="parable_cheat">
@@ -412,7 +438,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<packages/>
 		<script_data_mods directory="scriptdata">
@@ -529,11 +568,19 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
-			<hooks directory="slide_player_state">
-				<hook file="playerslide.lua" source_file="lib/units/beings/player/states/playerstandard"/>
-				<hook file="playermovement.lua" source_file="lib/units/beings/player/playermovement"/>
-				<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
 			</hooks>
 		</hooks>
 		<packages>
@@ -557,7 +604,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<packages>
 			<value_node value="packages/narr_election2"/>
@@ -600,7 +660,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<packages/>
 		<sounds directory="assets/sound/vo/gaming" dont_store_float="true">
@@ -652,7 +725,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<packages/>
 		<script_data_mods directory="scriptdata">
@@ -676,7 +762,20 @@
 			<hook file="MenuManager.lua" source_file="lib/managers/menumanager"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LightLoadingScreenGuiScript"/>
 			<hook file="ParableLoadingScreenGuiScript.lua" source_file="lib/utils/LevelLoadingScreenGuiScript"/>
-			<hook file="HudManager.lua" source_file="lib/managers/hudmanager"/>
+
+			<hooks directory="parable_player_state">
+				<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
+				<hook file="IngameParable.lua" source_file="lib/states/ingamestandard"/>
+
+				<hook file="InteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+
+				<hook file="PlayerManager.lua" source_file="lib/managers/playermanager"/>
+				<hook file="PlayerMovement.lua" source_file="lib/units/beings/player/playermovement"/>
+
+				<hook file="PlayerParable.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableFall.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+				<hook file="PlayerParableSlide.lua" source_file="lib/units/beings/player/states/playercivilian"/>
+			</hooks>
 		</hooks>
 		<sounds directory="assets/sound/vo/adventure" dont_store_float="true">
 			<sound id="parable_advline_death" path="parable_advline_death.ogg" subtitle_id="parable_advline_death">

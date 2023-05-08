@@ -1,60 +1,24 @@
-Hooks:PostHook(PlayerStandard, "exit", "PlayerStandardToSlideExit", function(self, state_data, new_state_name)
-	state_data._last_state_velocity = self._last_velocity_xy
-end)
+PlayerParableSlide = PlayerParableSlide or class(PlayerParableFall)
 
-PlayerSlide = PlayerSlide or class(PlayerStandard)
+function PlayerParableSlide:_update_foley(t, input) end
 
-function PlayerSlide:enter(state_data, enter_data)
-	PlayerSlide.super.enter(self, state_data, enter_data)
+function PlayerParableSlide:_update_running_timers(t) end
+function PlayerParableSlide:_update_zipline_timers(t, dt) end
 
-	if state_data._last_state_velocity then
-		self._last_velocity_xy = state_data._last_state_velocity
-	end
+function PlayerParableSlide:_check_action_jump(t, input) end
+function PlayerParableSlide:_check_action_run(t, input) end
+function PlayerParableSlide:_check_action_ladder(t, input) end
 
-	self._state_data.ducking = true
+function PlayerParableSlide:_check_action_deploy_bipod(t, input) end
 
-	self:_stance_entered()
-	self:_update_crosshair_offset()
-
-	local velocity = self._unit:mover():velocity()
-
-	self._unit:kill_mover()
-	self:_activate_mover(PlayerStandard.MOVER_DUCK, velocity)
-	self._ext_network:send("action_change_pose", 2, self._unit:position())
-	self:_upd_attention()
-
-	self._camera_unit:base():set_limits(40, 20)
-end
-
-function PlayerSlide:exit(state_data, new_state_name)
-	local exit_data = PlayerSlide.super.exit(self, state_data, new_state_name)
-
-	self._state_data.previous_state = "slide"
-
-	self._camera_unit:base():remove_limits()
-
-	return exit_data
-end
-
-function PlayerSlide:_update_foley(t, input) end
-
-function PlayerSlide:_update_running_timers(t) end
-function PlayerSlide:_update_zipline_timers(t, dt) end
-
-function PlayerSlide:_check_action_jump(t, input) end
-function PlayerSlide:_check_action_run(t, input) end
-function PlayerSlide:_check_action_ladder(t, input) end
-
-function PlayerSlide:_check_action_deploy_bipod(t, input) end
-
-function PlayerSlide:_check_action_duck(t, input) end
+function PlayerParableSlide:_check_action_duck(t, input) end
 
 local tmp_ground_from_vec = Vector3()
 local tmp_ground_to_vec = Vector3()
 local up_offset_vec = math.UP * 30
 local down_offset_vec = math.UP * -40
 
-function PlayerSlide:_update_ground_ray()
+function PlayerParableSlide:_update_ground_ray()
 	local hips_pos = tmp_ground_from_vec
 	local down_pos = tmp_ground_to_vec
 
@@ -71,10 +35,7 @@ local mvec_pos_new = Vector3()
 local mvec_achieved_velocity = Vector3()
 local mvec_almost_final_velocity = Vector3()
 
-function PlayerSlide:_update_movement(t, dt)
-	self._target_headbob = self._target_headbob or 0
-	self._headbob = self._headbob or 0
-
+function PlayerParableSlide:_update_movement(t, dt)
 	local pos_new = nil
 	local almost_final_velocity = nil
 
@@ -84,16 +45,6 @@ function PlayerSlide:_update_movement(t, dt)
 
 		almost_final_velocity = mvec_almost_final_velocity
 		mvector3.set_zero(almost_final_velocity)
-
-		if self._move_dir then
-			local WALK_SPEED_MAX = self:_get_max_walk_speed(t)
-
-			mvector3.set(almost_final_velocity, self._move_dir)
-			mvector3.normalize(almost_final_velocity)
-
-			local wanted_walk_speed = WALK_SPEED_MAX * math.min(1, self._move_dir:length())
-			mvector3.multiply(almost_final_velocity, wanted_walk_speed)
-		end
 
 		local forward = self._gnd_ray.normal
 		local angle = mvector3.angle(math.UP, forward)
@@ -121,8 +72,6 @@ function PlayerSlide:_update_movement(t, dt)
 		end
 
 		mvector3.add(pos_new, achieved_velocity)
-
-		self._target_headbob = 0.00007 * wanted_slide_speed
 	elseif not mvector3.is_zero(self._last_velocity_xy) then
 		pos_new = mvec_pos_new
 		mvector3.set_zero(pos_new)
@@ -131,8 +80,6 @@ function PlayerSlide:_update_movement(t, dt)
 		local achieved_velocity = math.step(self._last_velocity_xy, Vector3(), decceleration * dt)
 
 		mvector3.set(pos_new, achieved_velocity)
-
-		self._target_headbob = 0
 	end
 
 	local ground_z = self:_chk_floor_moving_pos()
@@ -205,16 +152,4 @@ function PlayerSlide:_update_movement(t, dt)
 
 	local cur_pos = pos_new or self._pos
 	self:_update_network_position(t, dt, cur_pos, pos_new)
-
-	if self._headbob ~= self._target_headbob then
-		local ratio = 4
-
-		if weapon_tweak_data and weapon_tweak_data.headbob and weapon_tweak_data.headbob.speed_ratio then
-			ratio = weapon_tweak_data.headbob.speed_ratio
-		end
-
-		self._headbob = math.step(self._headbob, self._target_headbob, dt / ratio)
-
-		self._ext_camera:set_shaker_parameter("headbob", "amplitude", self._headbob)
-	end
 end

@@ -41,7 +41,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-771 3596 657.081"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -86,7 +86,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="2325 1100 3.08076"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -408,7 +408,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="950 -6674.83 -2859.56"/>
 					<entry key="rotation" type="quaternion" value="8.96177e-009 -3.81842e-008 -2.38419e-007 -1"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
@@ -626,7 +626,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="1000 -950 -47.5"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="state" type="string" value="slide"/>
+					<entry key="state" type="string" value="parable_slide"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
@@ -1393,7 +1393,7 @@
 					<entry key="position" type="vector3" value="1025 -1500 -91.9552"/>
 					<entry key="refill" type="boolean" value="false"/>
 					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
-					<entry key="state" type="string" value="slide"/>
+					<entry key="state" type="string" value="parable_slide"/>
 					<entry key="sustain" type="number" value="0.5"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>

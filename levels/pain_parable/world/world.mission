@@ -16,7 +16,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="2500 475 1.49012e-006"/>
 					<entry key="rotation" type="quaternion" value="0 0 0.707107 -0.707107"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -2318,7 +2318,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="6850 7175 1614"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="state" type="string" value="jerry1"/>
+					<entry key="state" type="string" value="parable_fall"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_instigator" type="boolean" value="false"/>
 				</entry>
@@ -7505,7 +7505,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-4725 -12150 2.50049"/>
 					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
-					<entry key="state" type="string" value="civilian"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>

@@ -37,7 +37,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="6866.42 -2447.94 -746.73"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="state" type="string" value="mask_off"/>
+					<entry key="state" type="string" value="parable"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
