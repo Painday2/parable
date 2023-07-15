@@ -2581,4 +2581,19 @@
 		<object path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x4m_b"/>
 		<unit path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile1_4x4m_b"/>
 	</add>
+	<add from_db="true" path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni/light_omni"/>
+		<unit path="core/units/light_omni/light_omni"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/collision/dev_collision_1m/dev_collision_1m" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="units/dev_tools/level_tools/collision/dev_collision_1m/dev_collision_1m"/>
+		<unit path="units/dev_tools/level_tools/collision/dev_collision_1m/dev_collision_1m"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<unit path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long"/>
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long"/>
+	</add>
 </table>
