@@ -2033,7 +2033,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3352.69 22804.4 14.1204"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
-					<entry key="time" type="number" value="900"/>
+					<entry key="time" type="number" value="6300"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -2058,7 +2058,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3402.69 22804.4 14.1204"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="time" type="number" value="1800"/>
+					<entry key="time" type="number" value="5400"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -2083,7 +2083,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3452.69 22804.4 14.1204"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="time" type="number" value="2700"/>
+					<entry key="time" type="number" value="4500"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -2108,7 +2108,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3552.69 22804.4 14.1204"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="time" type="number" value="4500"/>
+					<entry key="time" type="number" value="2700"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
@@ -2133,7 +2133,7 @@
 					</entry>
 					<entry key="position" type="vector3" value="-3602.69 22804.4 14.1204"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-					<entry key="time" type="number" value="5400"/>
+					<entry key="time" type="number" value="1800"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
